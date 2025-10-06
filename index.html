@@ -54,6 +54,30 @@
       color: white;
       box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);
     }
+.lesson-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+
+.subject {
+  font-weight: 700;
+  color: #1976D2;
+  font-size: 13px;
+}
+
+.teacher {
+  font-weight: 500;
+  color: #E91E63;
+  font-size: 11px;
+}
+
+.room {
+  font-weight: 500;
+  color: #4CAF50;
+  font-size: 11px;
+}
 
     /* --- Sezione di ricerca aggiornata --- */
     .search-section {
@@ -227,8 +251,34 @@
         html += `<tr><td>${ora + 1}</td>`;
         for (let giorno = 0; giorno < giorni.length; giorno++) {
           const idx = giorno * 6 + ora;
-          const cell = result[idx] || "";
-          html += `<td>${cell ? `<span class="lesson-info">${cell}</span>` : ""}</td>`;
+const cell = result[idx] || "";
+
+if (cell) {
+  // Dividi il contenuto in righe
+  const lines = cell.split('<br>');
+  let formattedCell = '<div class="lesson-info">';
+  
+  lines.forEach((line, index) => {
+    const trimmed = line.trim();
+    if (trimmed) {
+      if (index === 0) {
+        // Prima riga = Materia (blu)
+        formattedCell += `<span class="subject">${trimmed}</span>`;
+      } else if (index === 1) {
+        // Seconda riga = Docente (rosa/rosso)
+        formattedCell += `<span class="teacher">${trimmed}</span>`;
+      } else if (index === 2) {
+        // Terza riga = Aula (verde)
+        formattedCell += `<span class="room">${trimmed}</span>`;
+      }
+    }
+  });
+  
+  formattedCell += '</div>';
+  html += `<td>${formattedCell}</td>`;
+} else {
+  html += `<td></td>`;
+}
         }
         html += `</tr>`;
       }
