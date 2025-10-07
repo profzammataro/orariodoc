@@ -222,28 +222,56 @@
     }
 
     // 🎨 Funzione per parsare e colorare il contenuto della cella
-    function formatCell(cellText) {
+    function formatCell(cellText, mode) {
       if (!cellText || cellText.trim() === "") return "";
 
       // Gestisci il newline (\n) che hai in alcuni dati
       cellText = cellText.replace(/\\n/g, ' ');
 
-      // Regex per estrarre: MATERIA (DOCENTE) (AULA)
-      // Formato: "MATEMATICA (GIAMMEI) (114)"
-      const match = cellText.match(/^(.+?)\s*\(([^)]+)\)\s*\(([^)]+)\)\s*$/);
+      // Gestisci "Disp." (disponibilità)
+      if (cellText.toLowerCase().includes("disp")) {
+        return `<div class="lesson-info"><span style="color: #999; font-style: italic;">${cellText}</span></div>`;
+      }
 
-      if (match) {
-        const subject = match[1].trim();
-        const teacher = match[2].trim();
-        const room = match[3].trim();
+      if (mode === "class") {
+        // FORMATO CLASSI: "MATERIA (DOCENTE) (AULA)"
+        const match = cellText.match(/^(.+?)\s*\(([^)]+)\)\s*\(([^)]+)\)\s*$/);
+        
+        if (match) {
+          const subject = match[1].trim();
+          const teacher = match[2].trim();
+          const room = match[3].trim();
 
-        return `
-          <div class="lesson-info">
-            <span class="subject">${subject}</span>
-            <span class="teacher">${teacher}</span>
-            <span class="room">${room}</span>
-          </div>
-        `;
+          return `
+            <div class="lesson-info">
+              <span class="subject">${subject}</span>
+              <span class="teacher">${teacher}</span>
+              <span class="room">${room}</span>
+            </div>
+          `;
+        }
+      } else if (mode === "teacher") {
+        // FORMATO DOCENTI: "CLASSE (AULA)" oppure solo "CLASSE"
+        const match = cellText.match(/^(.+?)\s*\(([^)]+)\)\s*$/);
+        
+        if (match) {
+          const classInfo = match[1].trim();
+          const room = match[2].trim();
+
+          return `
+            <div class="lesson-info">
+              <span class="subject">${classInfo}</span>
+              <span class="room">${room}</span>
+            </div>
+          `;
+        } else {
+          // Solo classe senza aula (es. "5A")
+          return `
+            <div class="lesson-info">
+              <span class="subject">${cellText.trim()}</span>
+            </div>
+          `;
+        }
       }
 
       // Se il formato non corrisponde, mostra il testo originale
@@ -281,8 +309,8 @@
           const idx = giorno * 6 + ora;
           const cell = result[idx] || "";
           
-          // 🎨 Usa la funzione di formattazione
-          const formattedCell = formatCell(cell);
+          // 🎨 Usa la funzione di formattazione con la modalità corrente
+          const formattedCell = formatCell(cell, currentMode);
           html += `<td>${formattedCell}</td>`;
         }
         html += `</tr>`;
