@@ -109,7 +109,7 @@
       color: white;
       border-radius: 15px;
     }
-    .schedule-table {
+   .schedule-table {
       width: 100%;
       border-collapse: collapse;
       background: white;
@@ -120,24 +120,43 @@
     .schedule-table th {
       background: linear-gradient(135deg, #2196F3, #21CBF3);
       color: white;
-      padding: 15px 10px;
+      padding: 18px 10px;
       text-align: center;
+      font-size: 15px;
+      font-weight: 600;
     }
     .schedule-table td {
-      border: 1px solid #f0f0f0;
+      border: 1px solid #e8f4f8;
       text-align: center;
-      padding: 10px;
-      font-size: 12px;
+      padding: 14px 8px;
+      font-size: 13px;
       vertical-align: middle;
+      background: white;
+    }
+    
+    .schedule-table th:first-child {
+      background: linear-gradient(135deg, #FF6B9D, #FFA07A);
+    }
+    
+    .schedule-table td:first-child {
+      background: linear-gradient(135deg, #FF6B9D, #FFA07A);
+      color: white;
+      font-weight: 600;
+      font-size: 14px;
     }
     
     /* 🎨 STILI PER I COLORI */
     .lesson-info {
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #E3F2FD, #F0F7FF);
+      line-height: 1.6;
+      min-height: 45px;
       display: flex;
       flex-direction: column;
-      gap: 4px;
-      align-items: center;
-      line-height: 1.4;
+      justify-content: center;
+      gap: 3px;
     }
 
     .subject {
@@ -153,9 +172,14 @@
     }
 
     .room {
-      font-weight: 500;
+      font-weight: 600;
       color: #4CAF50;
       font-size: 11px;
+    }
+    
+    .empty-slot {
+      color: #bbb;
+      font-style: italic;
     }
   </style>
 </head>
