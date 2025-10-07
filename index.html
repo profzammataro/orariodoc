@@ -101,6 +101,14 @@
     .search-btn:hover { transform: scale(1.05); }
 
     .schedule-container { display: none; padding: 30px; }
+    .table-wrapper {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .schedule-table {
+      min-width: 700px;
+    }
     .info-box {
       text-align: center;
       margin-bottom: 30px;
@@ -323,7 +331,7 @@
       infoBox.innerHTML = `<h2>${key}</h2><p>${currentMode === "teacher" ? "Orario del docente" : "Orario della classe"}</p>`;
 
       const giorni = ["Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì"];
-      let html = `<table class="schedule-table"><thead><tr><th>Ora</th>`;
+      let html = `<div class="table-wrapper"><table class="schedule-table"><thead><tr><th>Ora</th>`;
       giorni.forEach(g => html += `<th>${g}</th>`);
       html += `</tr></thead><tbody>`;
 
@@ -340,7 +348,7 @@
         html += `</tr>`;
       }
 
-      html += `</tbody></table>`;
+      html += `</tbody></table></div>`;
       scheduleContent.innerHTML = html;
       container.style.display = "block";
     }
@@ -351,7 +359,7 @@
         document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         currentMode = btn.dataset.mode;
-        document.getElementById('searchInput').placeholder =
+        document.getElementById('searchInput').placeholder
           currentMode === "teacher" ? "Inserisci il cognome del docente..." : "Inserisci la classe (es. 3A)...";
         updateSuggestions();
       });
