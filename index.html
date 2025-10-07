@@ -55,7 +55,6 @@
       box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);
     }
 
-    /* --- Sezione di ricerca aggiornata --- */
     .search-section {
       text-align: center;
       background: rgba(247, 249, 252, 0.8);
@@ -129,14 +128,16 @@
       text-align: center;
       padding: 10px;
       font-size: 12px;
+      vertical-align: middle;
     }
     
-    /* 🎨 NUOVI STILI PER I COLORI */
+    /* 🎨 STILI PER I COLORI */
     .lesson-info {
       display: flex;
       flex-direction: column;
       gap: 4px;
       align-items: center;
+      line-height: 1.4;
     }
 
     .subject {
@@ -220,6 +221,35 @@
         .join('');
     }
 
+    // 🎨 Funzione per parsare e colorare il contenuto della cella
+    function formatCell(cellText) {
+      if (!cellText || cellText.trim() === "") return "";
+
+      // Gestisci il newline (\n) che hai in alcuni dati
+      cellText = cellText.replace(/\\n/g, ' ');
+
+      // Regex per estrarre: MATERIA (DOCENTE) (AULA)
+      // Formato: "MATEMATICA (GIAMMEI) (114)"
+      const match = cellText.match(/^(.+?)\s*\(([^)]+)\)\s*\(([^)]+)\)\s*$/);
+
+      if (match) {
+        const subject = match[1].trim();
+        const teacher = match[2].trim();
+        const room = match[3].trim();
+
+        return `
+          <div class="lesson-info">
+            <span class="subject">${subject}</span>
+            <span class="teacher">${teacher}</span>
+            <span class="room">${room}</span>
+          </div>
+        `;
+      }
+
+      // Se il formato non corrisponde, mostra il testo originale
+      return `<div class="lesson-info"><span>${cellText}</span></div>`;
+    }
+
     // 🔹 Ricerca e mostra orario
     function searchSchedule(name) {
       const data = currentMode === "teacher" ? teachersData : classesData;
@@ -246,38 +276,14 @@
       html += `</tr></thead><tbody>`;
 
       for (let ora = 0; ora < 6; ora++) {
-        html += `<tr><td>${ora + 1}</td>`;
+        html += `<tr><td><strong>${ora + 1}</strong></td>`;
         for (let giorno = 0; giorno < giorni.length; giorno++) {
           const idx = giorno * 6 + ora;
           const cell = result[idx] || "";
-
-          // 🎨 NUOVA LOGICA PER I COLORI
-          if (cell) {
-            // Dividi il contenuto in righe
-            const lines = cell.split('<br>');
-            let formattedCell = '<div class="lesson-info">';
-            
-            lines.forEach((line, index) => {
-              const trimmed = line.trim();
-              if (trimmed) {
-                if (index === 0) {
-                  // Prima riga = Materia (blu)
-                  formattedCell += `<span class="subject">${trimmed}</span>`;
-                } else if (index === 1) {
-                  // Seconda riga = Docente (rosa/rosso)
-                  formattedCell += `<span class="teacher">${trimmed}</span>`;
-                } else if (index === 2) {
-                  // Terza riga = Aula (verde)
-                  formattedCell += `<span class="room">${trimmed}</span>`;
-                }
-              }
-            });
-            
-            formattedCell += '</div>';
-            html += `<td>${formattedCell}</td>`;
-          } else {
-            html += `<td></td>`;
-          }
+          
+          // 🎨 Usa la funzione di formattazione
+          const formattedCell = formatCell(cell);
+          html += `<td>${formattedCell}</td>`;
         }
         html += `</tr>`;
       }
