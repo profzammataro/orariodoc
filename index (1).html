@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orario Docenti e Classi</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    }
+    .header {
+      background: linear-gradient(135deg, #2196F3, #21CBF3);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    .mode-selector {
+      text-align: center;
+      background: rgba(247, 249, 252, 0.8);
+      padding: 20px;
+      border-bottom: 2px solid #e1e8ed;
+    }
+    .mode-buttons {
+      display: inline-flex;
+      gap: 10px;
+      background: white;
+      padding: 5px;
+      border-radius: 50px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    .mode-btn {
+      padding: 12px 30px;
+      border: none;
+      border-radius: 50px;
+      background: transparent;
+      color: #666;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .mode-btn.active {
+      background: linear-gradient(135deg, #2196F3, #21CBF3);
+      color: white;
+      box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);
+    }
+
+    .search-section {
+      text-align: center;
+      background: rgba(247, 249, 252, 0.8);
+      padding: 30px;
+    }
+    .search-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .search-input {
+      flex: 1;
+      padding: 15px 20px;
+      border: 2px solid #e1e8ed;
+      border-radius: 50px;
+      font-size: 16px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+    .search-input:focus {
+      outline: none;
+      border-color: #2196F3;
+      box-shadow: 0 8px 25px rgba(33,150,243,0.2);
+    }
+    .search-btn {
+      background: linear-gradient(135deg, #2196F3, #21CBF3);
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      cursor: pointer;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 15px rgba(33,150,243,0.3);
+      transition: transform 0.2s ease;
+    }
+    .search-btn:hover { transform: scale(1.05); }
+
+    #suggestionsList {
+      position: absolute;
+      top: 110%;
+      left: 0;
+      right: 0;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      max-height: 200px;
+      overflow-y: auto;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      display: none;
+      z-index: 10;
+    }
+    #suggestionsList li {
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+    #suggestionsList li:hover {
+      background: #f0f7ff;
+    }
+
+    .schedule-container { display: none; padding: 30px; }
+    .table-wrapper {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .schedule-table {
+      min-width: 700px;
+    }
+    .info-box {
+      text-align: center;
+      margin-bottom: 30px;
+      padding: 20px;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      border-radius: 15px;
+    }
+   .schedule-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      border-radius: 15px;
+      overflow: hidden;
+    }
+    .schedule-table th {
+      background: linear-gradient(135deg, #2196F3, #21CBF3);
+      color: white;
+      padding: 18px 10px;
+      text-align: center;
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .schedule-table td {
+      border: 1px solid #e8f4f8;
+      text-align: center;
+      padding: 14px 8px;
+      font-size: 13px;
+      vertical-align: middle;
+      background: white;
+    }
+    
+    .schedule-table th:first-child {
+      background: linear-gradient(135deg, #FF6B9D, #FFA07A);
+    }
+    
+    .schedule-table td:first-child {
+      background: linear-gradient(135deg, #FF6B9D, #FFA07A);
+      color: white;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    
+    .lesson-info {
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #E3F2FD, #F0F7FF);
+      line-height: 1.6;
+      min-height: 45px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 3px;
+    }
+
+    .subject {
+      font-weight: 700;
+      color: #1976D2;
+      font-size: 13px;
+    }
+
+    .teacher {
+      font-weight: 700;
+      color: #E91E63;
+      font-size: 11px;
+    }
+
+    .room {
+      font-weight: 700;
+      color: #4CAF50;
+      font-size: 11px;
+    }
+    
+    .empty-slot {
+      color: #bbb;
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Orario Scolastico</h1>
+      <p>Visualizza l'orario settimanale per docenti o classi</p>
+    </div>
+
+    <div class="mode-selector">
+      <div class="mode-buttons">
+        <button class="mode-btn active" data-mode="teacher">👨‍🏫 Docenti</button>
+        <button class="mode-btn" data-mode="class">🎓 Classi</button>
+      </div>
+    </div>
+
+    <div class="search-section">
+      <div class="search-container">
+        <input type="text" id="searchInput" class="search-input" placeholder="Inserisci il cognome del docente...">
+        <button id="searchBtn" class="search-btn">🔍</button>
+        <ul id="suggestionsList"></ul>
+      </div>
+    </div>
+
+    <div id="scheduleContainer" class="schedule-container">
+      <div id="infoBox" class="info-box"></div>
+      <div id="scheduleContent"></div>
+    </div>
+  </div>
+
+  <script>
+    let teachersData = {};
+    let classesData = {};
+    let currentMode = "teacher";
+
+    async function loadData() {
+      try {
+        const ts = new Date().getTime();
+        const [tResp, cResp] = await Promise.all([
+          fetch(`doc_dict.json?nocache=${ts}`),
+          fetch(`class_dict.json?nocache=${ts}`)
+        ]);
+        teachersData = await tResp.json();
+        classesData = await cResp.json();
+        console.log("Dati caricati ✅");
+        updateSuggestions();
+      } catch (err) {
+        console.error("Errore nel caricamento:", err);
+        alert("Errore nel caricamento dei JSON (usa Live Server o http://localhost)");
+      }
+    }
+
+    function updateSuggestions() {
+      const data = currentMode === "teacher" ? teachersData : classesData;
+      const list = document.getElementById("suggestionsList");
+      list.innerHTML = "";
+
+      Object.keys(data)
+        .sort((a, b) => a.localeCompare(b))
+        .forEach(k => {
+          const li = document.createElement("li");
+          li.textContent = k;
+          li.addEventListener("click", () => {
+            document.getElementById("searchInput").value = k;
+            list.style.display = "none";
+            searchSchedule(k);
+          });
+          list.addEventListener("mouseover", () => li.style.background = "#f0f7ff");
+          li.addEventListener("mouseout", () => li.style.background = "transparent");
+          list.appendChild(li);
+        });
+    }
+
+    const input = document.getElementById("searchInput");
+    const suggestionsList = document.getElementById("suggestionsList");
+
+    input.addEventListener("input", () => {
+      const val = input.value.toLowerCase();
+      const items = suggestionsList.querySelectorAll("li");
+      let visibleCount = 0;
+
+      items.forEach(li => {
+        if (li.textContent.toLowerCase().includes(val)) {
+          li.style.display = "block";
+          visibleCount++;
+        } else {
+          li.style.display = "none";
+        }
+      });
+
+      suggestionsList.style.display = visibleCount > 0 ? "block" : "none";
+    });
+
+    document.addEventListener("click", e => {
+      if (!e.target.closest("#searchInput") && !e.target.closest("#suggestionsList")) {
+        suggestionsList.style.display = "none";
+      }
+    });
+
+    function formatCell(cellText, mode) {
+      if (!cellText || cellText.trim() === "") return "";
+
+      cellText = cellText.replace(/\\n/g, ' ');
+
+      if (cellText.toLowerCase().includes("disp")) {
+        return `<div class="lesson-info"><span style="color: #999; font-style: italic;">${cellText}</span></div>`;
+      }
+
+      if (mode === "class") {
+        const match = cellText.match(/^(.+?)\s*\(([^)]+)\)\s*\(([^)]+)\)\s*$/);
+        if (match) {
+          const subject = match[1].trim();
+          const teacher = match[2].trim();
+          const room = match[3].trim();
+          return `<div class="lesson-info">
+                    <span class="subject">${subject}</span>
+                    <span class="teacher">${teacher}</span>
+                    <span class="room">${room}</span>
+                  </div>`;
+        }
+      } else if (mode === "teacher") {
+        const match = cellText.match(/^(.+?)\s*\(([^)]+)\)\s*$/);
+        if (match) {
+          const classInfo = match[1].trim();
+          const room = match[2].trim();
+          return `<div class="lesson-info">
+                    <span class="subject">${classInfo}</span>
+                    <span class="room">${room}</span>
+                  </div>`;
+        } else {
+          return `<div class="lesson-info">
+                    <span class="subject">${cellText.trim()}</span>
+                  </div>`;
+        }
+      }
+
+      return `<div class="lesson-info"><span>${cellText}</span></div>`;
+    }
+
+    function searchSchedule(name) {
+      const data = currentMode === "teacher" ? teachersData : classesData;
+      const keys = Object.keys(data);
+      const key = keys.find(k => k.toLowerCase().includes(name.toLowerCase()));
+      const result = key ? data[key] : null;
+
+      const container = document.getElementById("scheduleContainer");
+      const infoBox = document.getElementById("infoBox");
+      const scheduleContent = document.getElementById("scheduleContent");
+
+      if (!result) {
+        infoBox.innerHTML = `<h2>Nessun risultato trovato</h2>`;
+        scheduleContent.innerHTML = "";
+        container.style.display = "block";
+        return;
+      }
+
+      infoBox.innerHTML = `<h2>${key}</h2><p>${currentMode === "teacher" ? "Orario del docente" : "Orario della classe"}</p>`;
+
+      const giorni = ["Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì"];
+      let html = `<div class="table-wrapper"><table class="schedule-table"><thead><tr><th>Ora</th>`;
+      giorni.forEach(g => html += `<th>${g}</th>`);
+      html += `</tr></thead><tbody>`;
+
+      for (let ora = 0; ora < 6; ora++) {
+        html += `<tr><td><strong>${ora + 1}</strong></td>`;
+        for (let giorno = 0; giorno < giorni.length; giorno++) {
+          const idx = giorno * 6 + ora;
+          const cell = result[idx] || "";
+          const formattedCell = formatCell(cell, currentMode);
+          html += `<td>${formattedCell}</td>`;
+        }
+        html += `</tr>`;
+      }
+
+      html += `</tbody></table></div>`;
+      scheduleContent.innerHTML = html;
+      container.style.display = "block";
+    }
+
+    document.querySelectorAll('.mode-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentMode = btn.dataset.mode;
+         // reset input e lista suggerimenti
+    const searchInput = document.getElementById('searchInput');
+    searchInput.value = "";          // ✅ cancella testo
+    const suggestionsList = document.getElementById('suggestionsList');
+    suggestionsList.style.display = "none"; // ✅ nasconde la lista
+    suggestionsList.innerHTML = "";        // ✅ svuota i suggerimenti
+
+    searchInput.placeholder = 
+      currentMode === "teacher" 
+        ? "Inserisci il cognome del docente..." 
+        : "Inserisci la classe (es. 3A)...";
+
+    const scheduleContainer = document.getElementById("scheduleContainer");
+  scheduleContainer.style.display = "none";
+  document.getElementById("scheduleContent").innerHTML = "";
+        updateSuggestions();
+      });
+    });
+
+    document.getElementById('searchBtn').addEventListener('click', () => {
+      const name = document.getElementById('searchInput').value.trim();
+      if (name) searchSchedule(name);
+    });
+
+    input.addEventListener('keypress', e => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        const name = e.target.value.trim();
+        if (name) searchSchedule(name);
+      }
+    });
+
+    loadData();
+  </script>
+</body>
+</html>
