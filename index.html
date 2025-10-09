@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Orario Docenti e Classi</title>
+  <title>Orario Docenti, Classi e Aule</title>
   <style>
+    /* --- STILI INVARIATI --- */
     body {
       font-family: 'Segoe UI', sans-serif;
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -126,14 +127,9 @@
     }
 
     .schedule-container { display: none; padding: 30px; }
-    .table-wrapper {
-      width: 100%;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-    }
-    .schedule-table {
-      min-width: 700px;
-    }
+    .table-wrapper { width: 100%; overflow-x: auto; }
+    .schedule-table { min-width: 700px; }
+
     .info-box {
       text-align: center;
       margin-bottom: 30px;
@@ -142,7 +138,7 @@
       color: white;
       border-radius: 15px;
     }
-   .schedule-table {
+    .schedule-table {
       width: 100%;
       border-collapse: collapse;
       background: white;
@@ -163,21 +159,17 @@
       text-align: center;
       padding: 14px 8px;
       font-size: 13px;
-      vertical-align: middle;
       background: white;
     }
-    
     .schedule-table th:first-child {
       background: linear-gradient(135deg, #FF6B9D, #FFA07A);
     }
-    
     .schedule-table td:first-child {
       background: linear-gradient(135deg, #FF6B9D, #FFA07A);
       color: white;
       font-weight: 600;
       font-size: 14px;
     }
-    
     .lesson-info {
       display: inline-block;
       padding: 8px 12px;
@@ -190,29 +182,9 @@
       justify-content: center;
       gap: 3px;
     }
-
-    .subject {
-      font-weight: 700;
-      color: #1976D2;
-      font-size: 13px;
-    }
-
-    .teacher {
-      font-weight: 700;
-      color: #E91E63;
-      font-size: 11px;
-    }
-
-    .room {
-      font-weight: 700;
-      color: #4CAF50;
-      font-size: 11px;
-    }
-    
-    .empty-slot {
-      color: #bbb;
-      font-style: italic;
-    }
+    .subject { font-weight: 700; color: #1976D2; font-size: 13px; }
+    .teacher { font-weight: 700; color: #E91E63; font-size: 11px; }
+    .room { font-weight: 700; color: #4CAF50; font-size: 11px; }
   </style>
 </head>
 
@@ -220,13 +192,14 @@
   <div class="container">
     <div class="header">
       <h1>Orario Scolastico</h1>
-      <p>Visualizza l'orario settimanale per docenti o classi</p>
+      <p>Visualizza l'orario settimanale per docenti, classi o aule</p>
     </div>
 
     <div class="mode-selector">
       <div class="mode-buttons">
         <button class="mode-btn active" data-mode="teacher">👨‍🏫 Docenti</button>
         <button class="mode-btn" data-mode="class">🎓 Classi</button>
+        <button class="mode-btn" data-mode="room">🏫 Aule</button> <!-- ✅ NUOVA MODALITÀ -->
       </div>
     </div>
 
@@ -247,17 +220,20 @@
   <script>
     let teachersData = {};
     let classesData = {};
+    let roomsData = {}; // ✅ NUOVO
     let currentMode = "teacher";
 
     async function loadData() {
       try {
         const ts = new Date().getTime();
-        const [tResp, cResp] = await Promise.all([
+        const [tResp, cResp, rResp] = await Promise.all([
           fetch(`doc_dict.json?nocache=${ts}`),
-          fetch(`class_dict.json?nocache=${ts}`)
+          fetch(`class_dict.json?nocache=${ts}`),
+          fetch(`aule_dict.json?nocache=${ts}`) // ✅ NUOVO FILE
         ]);
         teachersData = await tResp.json();
         classesData = await cResp.json();
+        roomsData = await rResp.json();
         console.log("Dati caricati ✅");
         updateSuggestions();
       } catch (err) {
@@ -267,7 +243,11 @@
     }
 
     function updateSuggestions() {
-      const data = currentMode === "teacher" ? teachersData : classesData;
+      let data;
+      if (currentMode === "teacher") data = teachersData;
+      else if (currentMode === "class") data = classesData;
+      else data = roomsData; // ✅ GESTIONE AULE
+
       const list = document.getElementById("suggestionsList");
       list.innerHTML = "";
 
@@ -281,8 +261,6 @@
             list.style.display = "none";
             searchSchedule(k);
           });
-          list.addEventListener("mouseover", () => li.style.background = "#f0f7ff");
-          li.addEventListener("mouseout", () => li.style.background = "transparent");
           list.appendChild(li);
         });
     }
@@ -315,7 +293,6 @@
 
     function formatCell(cellText, mode) {
       if (!cellText || cellText.trim() === "") return "";
-
       cellText = cellText.replace(/\\n/g, ' ');
 
       if (cellText.toLowerCase().includes("disp")) {
@@ -334,7 +311,8 @@
                     <span class="room">${room}</span>
                   </div>`;
         }
-      } else if (mode === "teacher") {
+      } 
+      else if (mode === "teacher") {
         const match = cellText.match(/^(.+?)\s*\(([^)]+)\)\s*$/);
         if (match) {
           const classInfo = match[1].trim();
@@ -344,17 +322,32 @@
                     <span class="room">${room}</span>
                   </div>`;
         } else {
+          return `<div class="lesson-info"><span class="subject">${cellText.trim()}</span></div>`;
+        }
+      } 
+      else if (mode === "room") { // ✅ FORMATTAZIONE PER LE AULE
+        const match = cellText.match(/^(.+?)\s*\(([^)]+)\)\s*\(([^)]+)\)\s*$/);
+        if (match) {
+          const subject = match[1].trim();
+          const teacher = match[2].trim();
+          const className = match[3].trim();
           return `<div class="lesson-info">
-                    <span class="subject">${cellText.trim()}</span>
+                    <span class="subject">${subject}</span>
+                    <span class="teacher">${teacher}</span>
+                    <span class="room">${className}</span>
                   </div>`;
         }
       }
 
-      return `<div class="lesson-info"><span>${cellText}</span></div>`;
+      return `<div class="lesson-info"><span class="subject">${cellText}</span></div>`;
     }
 
     function searchSchedule(name) {
-      const data = currentMode === "teacher" ? teachersData : classesData;
+      let data;
+      if (currentMode === "teacher") data = teachersData;
+      else if (currentMode === "class") data = classesData;
+      else data = roomsData; // ✅ NUOVO CASO
+
       const keys = Object.keys(data);
       const key = keys.find(k => k.toLowerCase().includes(name.toLowerCase()));
       const result = key ? data[key] : null;
@@ -370,15 +363,30 @@
         return;
       }
 
-      infoBox.innerHTML = `<h2>${key}</h2><p>${currentMode === "teacher" ? "Orario del docente" : "Orario della classe"}</p>`;
+      let label = "Orario del docente";
+      if (currentMode === "class") label = "Orario della classe";
+      if (currentMode === "room") label = "Orario dell’aula";
+
+      infoBox.innerHTML = `<h2>${key}</h2><p>${label}</p>`;
 
       const giorni = ["Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì"];
       let html = `<div class="table-wrapper"><table class="schedule-table"><thead><tr><th>Ora</th>`;
       giorni.forEach(g => html += `<th>${g}</th>`);
       html += `</tr></thead><tbody>`;
 
+        const orari = [
+          "8:10–9:10",
+          "9:10–10:10",
+          "10:10–11:00",
+          "11:20–12:10",
+          "12:10–13:05",
+          "13:05–14:00"
+        ];
+
+
       for (let ora = 0; ora < 6; ora++) {
-        html += `<tr><td><strong>${ora + 1}</strong></td>`;
+        // Stampa numero ora e orario corrispondente
+         html += `<tr><td><strong>${ora + 1}</strong><br><span style="font-size:14px; color:#555;">${orari[ora]}</span></td>`;
         for (let giorno = 0; giorno < giorni.length; giorno++) {
           const idx = giorno * 6 + ora;
           const cell = result[idx] || "";
@@ -398,21 +406,22 @@
         document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         currentMode = btn.dataset.mode;
-         // reset input e lista suggerimenti
-    const searchInput = document.getElementById('searchInput');
-    searchInput.value = "";          // ✅ cancella testo
-    const suggestionsList = document.getElementById('suggestionsList');
-    suggestionsList.style.display = "none"; // ✅ nasconde la lista
-    suggestionsList.innerHTML = "";        // ✅ svuota i suggerimenti
 
-    searchInput.placeholder = 
-      currentMode === "teacher" 
-        ? "Inserisci il cognome del docente..." 
-        : "Inserisci la classe (es. 3A)...";
+        const searchInput = document.getElementById('searchInput');
+        const suggestionsList = document.getElementById('suggestionsList');
+        const scheduleContainer = document.getElementById("scheduleContainer");
 
-    const scheduleContainer = document.getElementById("scheduleContainer");
-  scheduleContainer.style.display = "none";
-  document.getElementById("scheduleContent").innerHTML = "";
+        searchInput.value = "";
+        suggestionsList.style.display = "none";
+        suggestionsList.innerHTML = "";
+        scheduleContainer.style.display = "none";
+        document.getElementById("scheduleContent").innerHTML = "";
+
+        searchInput.placeholder = 
+          currentMode === "teacher" ? "Inserisci il cognome del docente..." :
+          currentMode === "class"   ? "Inserisci la classe (es. 3A)..." :
+                                      "Inserisci il nome dell’aula..."; // ✅ NUOVO PLACEHOLDER
+
         updateSuggestions();
       });
     });
