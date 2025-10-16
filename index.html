@@ -185,6 +185,39 @@
     .subject { font-weight: 700; color: #1976D2; font-size: 13px; }
     .teacher { font-weight: 700; color: #E91E63; font-size: 11px; }
     .room { font-weight: 700; color: #4CAF50; font-size: 11px; }
+    /* --- STILE PULSANTI "Trova" e "Trova Ora" --- */
+.find-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+.find-btn:focus {
+  outline: none;
+}
+.find-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+/* Variante verde */
+.find-btn.green {
+  background: linear-gradient(135deg, #4CAF50, #81C784);
+}
+
+/* Variante blu */
+.find-btn.blue {
+  background: linear-gradient(135deg, #2196F3, #21CBF3);
+}
+
   </style>
 </head>
 
@@ -209,6 +242,44 @@
         <button id="searchBtn" class="search-btn">🔍</button>
         <ul id="suggestionsList"></ul>
       </div>
+      <!-- 🏫 Sezione Trova Aula Vuota -->
+<div id="findFreeRoomSection" style="display:none; text-align:center; padding:25px; background:rgba(247, 249, 252, 0.8); border-top:2px solid #e1e8ed;">
+
+  <h3 style="margin-bottom:15px; color:#333;">🔍 Trova Aula Vuota</h3>
+
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:10px;">
+
+    <select id="daySelect" class="search-input" style="max-width:160px; border-radius:10px; padding:10px;">
+      <option value="">Giorno</option>
+      <option value="1">Lunedì</option>
+      <option value="2">Martedì</option>
+      <option value="3">Mercoledì</option>
+      <option value="4">Giovedì</option>
+      <option value="5">Venerdì</option>
+    </select>
+
+    <select id="hourSelect" class="search-input" style="max-width:160px; border-radius:10px; padding:10px;">
+      <option value="">Ora</option>
+      <option value="1">1ª Ora</option>
+      <option value="2">2ª Ora</option>
+      <option value="3">3ª Ora</option>
+      <option value="4">4ª Ora</option>
+      <option value="5">5ª Ora</option>
+      <option value="6">6ª Ora</option>
+    </select>
+
+<button id="searchFreeRoomBtn" type="button" class="find-btn green">
+      🔍 Trova
+    </button>
+
+<button id="findNowBtn" type="button" class="find-btn blue">
+      ⏰ Aule Vuote Ora
+    </button>
+  </div>
+
+  <div id="freeRoomsResult" style="margin-top:20px;"></div>
+</div>
+
     </div>
 
     <div id="scheduleContainer" class="schedule-container">
@@ -234,13 +305,153 @@
         teachersData = await tResp.json();
         classesData = await cResp.json();
         roomsData = await rResp.json();
+        console.log(roomsData);
         console.log("Dati caricati ✅");
         updateSuggestions();
+
       } catch (err) {
         console.error("Errore nel caricamento:", err);
         alert("Errore nel caricamento dei JSON (usa Live Server o http://localhost)");
       }
     }
+    function getCurrentSchoolSlotInfo(timestamp) {
+  const giorni = ["Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì"];
+  const orari = [
+    "8:10–9:10",
+    "9:10–10:10",
+    "10:10–11:00",
+    "11:20–12:10",
+    "12:10–13:05",
+    "13:05–14:00"
+  ];
+  const slots = [
+    [490, 550],  // 1ª ora
+    [550, 610],  // 2ª ora
+    [610, 660],  // 3ª ora
+    [680, 730],  // 4ª ora
+    [730, 785],  // 5ª ora
+    [785, 840]   // 6ª ora
+  ];
+
+  const d = new Date(timestamp);
+  const jsDay = d.getDay(); // 0 = Domenica, 1 = Lunedì, ..., 6 = Sabato
+
+  // ⚠️ Weekend -> errore
+  if (jsDay === 0 || jsDay === 6) {
+    throw new Error("Fuori range: oggi è weekend (Sabato o Domenica).");
+  }
+
+  const day = jsDay; // 1..5
+  const minutes = d.getHours() * 60 + d.getMinutes();
+
+  // ⚠️ Fuori orario scolastico
+  if (minutes < slots[0][0] || minutes >= slots[slots.length - 1][1]) {
+    throw new Error("Fuori range: orario al di fuori dell’orario scolastico (prima delle 8:10 o dopo le 14:00).");
+  }
+
+  let hour = null;
+  for (let i = 0; i < slots.length; i++) {
+    const [start, end] = slots[i];
+    if (minutes >= start && minutes < end) {
+      hour = i + 1; // 1..6
+      break;
+    }
+  }
+
+  if (!hour) {
+    throw new Error("Fuori range: non sei all’interno di una lezione (es. pausa tra le ore).");
+  }
+
+  // Calcola indice complessivo
+  const index = (day - 1) * 6 + hour;
+
+  // Crea stringa descrittiva
+  const label = `${giorni[day - 1]} - ${hour}ª ora (${orari[hour - 1]})`;
+
+  return {
+    index,  // numero intero (1..30)
+    day,    // giorno 1..5
+    hour,   // ora 1..6
+    label   // stringa descrittiva
+  };
+}
+
+/**
+ * Restituisce tutte le chiavi del dizionario (aule)
+ * che hanno una stringa vuota o "Disp" nella posizione i.
+ *
+ * @param {Object} data - Dizionario delle aule (come roomsData)
+ * @param {number} i - Indice (0-based)
+ * @returns {string[]} - Lista delle aule vuote a quell’indice
+ */
+function findEmptyRoomsAtIndex(data, i) {
+  if (typeof i !== "number" || i < 0) {
+    throw new Error("L'indice deve essere un numero intero non negativo.");
+  }
+
+  const result = [];
+
+  for (const [room, schedule] of Object.entries(data)) {
+    const cell = schedule[i];
+
+    // Consideriamo vuota se è stringa vuota, null, undefined o "disp" (case-insensitive)
+    if (!cell || cell.trim() === "" || cell.toLowerCase().includes("disp")) {
+      result.push(room);
+    }
+  }
+
+  return result;
+}
+
+try {
+  const slot = getCurrentSchoolSlotInfo(Date.now());
+  const freeRooms = findEmptyRoomsAtIndex(roomsData, slot.index - 1); // -1 se i tuoi array sono 0-based
+  console.log(`Aule libere ora (${slot.label}):`, freeRooms);
+} catch (err) {
+  console.error(err.message);
+}
+
+function getCurrentSchoolIndex(timestamp) {
+  const slots = [
+    [490, 550],  // 1ª ora: 8:10–9:10
+    [550, 610],  // 2ª ora: 9:10–10:10
+    [610, 660],  // 3ª ora: 10:10–11:00
+    [680, 730],  // 4ª ora: 11:20–12:10
+    [730, 785],  // 5ª ora: 12:10–13:05
+    [785, 840]   // 6ª ora: 13:05–14:00
+  ];
+
+  const d = new Date(timestamp);
+  const jsDay = d.getDay(); // 0 = Dom, 1 = Lun, ..., 6 = Sab
+
+  if (jsDay === 0 || jsDay === 6) {
+    throw new Error("Fuori range: oggi è weekend (Sabato/Domenica).");
+  }
+
+  const day = jsDay; // Lun=1 ... Ven=5
+  const minutes = d.getHours() * 60 + d.getMinutes();
+
+  if (minutes < slots[0][0] || minutes >= slots[slots.length - 1][1]) {
+    throw new Error("Fuori range: ora al di fuori dell'orario scolastico (prima delle 8:10 o dopo le 14:00).");
+  }
+
+  let hour = null;
+  for (let i = 0; i < slots.length; i++) {
+    const [start, end] = slots[i];
+    if (minutes >= start && minutes < end) {
+      hour = i + 1; // 1..6
+      break;
+    }
+  }
+
+  if (!hour) {
+    throw new Error("Fuori range: non sei all'interno di una lezione (es. pausa).");
+  }
+
+  // restituisco indice (1..30)
+  return (day - 1) * 6 + hour;
+}
+
 
     function updateSuggestions() {
       let data;
@@ -342,7 +553,39 @@
       return `<div class="lesson-info"><span class="subject">${cellText}</span></div>`;
     }
 
+    function setupSearchListeners() {
+  const input = document.getElementById('searchInput');
+  const searchBtn = document.getElementById('searchBtn');
+
+  // Rimuovi eventuali listener vecchi
+  searchBtn.replaceWith(searchBtn.cloneNode(true));
+  input.replaceWith(input.cloneNode(true));
+
+  // Ricollega gli elementi
+  const newInput = document.getElementById('searchInput');
+  const newSearchBtn = document.getElementById('searchBtn');
+
+  newSearchBtn.addEventListener('click', () => {
+     console.log("click")
+    const name = newInput.value.trim();
+    if (name) searchSchedule(name);
+  });
+
+  newInput.addEventListener('keypress', e => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      const name = e.target.value.trim();
+      if (name) searchSchedule(name);
+    }
+  });
+}
+
+    
     function searchSchedule(name) {
+      // 🧹 Pulisce la sezione Trova Aula Vuota se visibile
+const freeRoomsResult = document.getElementById("freeRoomsResult");
+if (freeRoomsResult) freeRoomsResult.innerHTML = "";
+
       let data;
       if (currentMode === "teacher") data = teachersData;
       else if (currentMode === "class") data = classesData;
@@ -423,10 +666,13 @@
                                       "Inserisci il nome dell’aula..."; // ✅ NUOVO PLACEHOLDER
 
         updateSuggestions();
+        
+
       });
     });
 
     document.getElementById('searchBtn').addEventListener('click', () => {
+      console.log(currentMode)
       const name = document.getElementById('searchInput').value.trim();
       if (name) searchSchedule(name);
     });
@@ -440,6 +686,90 @@
     });
 
     loadData();
+
+    // === 🏫 TROVA AULA VUOTA ===
+
+// Mostra la sezione solo in modalità "Aule"
+function toggleFindFreeRoomSection() {
+  document.getElementById("findFreeRoomSection").style.display = 
+    currentMode === "room" ? "block" : "none";
+}
+toggleFindFreeRoomSection();
+
+// Quando si cambia modalità, aggiorna visibilità
+document.querySelectorAll('.mode-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    toggleFindFreeRoomSection();
+  });
+});
+
+// Funzione per cercare aule vuote in base a giorno/ora scelti
+document.getElementById("searchFreeRoomBtn").addEventListener("click", () => {
+  event.preventDefault();
+  const day = parseInt(document.getElementById("daySelect").value);
+  const hour = parseInt(document.getElementById("hourSelect").value);
+  const resultBox = document.getElementById("freeRoomsResult");
+  resultBox.innerHTML = "";
+
+  if (!day || !hour) {
+    alert("Seleziona giorno e ora!");
+    return;
+  }
+
+  const index = (day - 1) * 6 + hour; // stesso calcolo del tuo orario
+  const freeRooms = findEmptyRoomsAtIndex(roomsData, index - 1);
+
+  if (freeRooms.length === 0) {
+    resultBox.innerHTML = `
+      <div class="info-box" style="background:linear-gradient(135deg,#FF6B9D,#FFA07A);">
+        <strong>Nessuna aula libera in questa fascia oraria.</strong>
+      </div>`;
+  } else {
+        document.getElementById("scheduleContainer").style.display = "none";
+
+
+    resultBox.innerHTML = `
+      <div class="info-box" style="background:linear-gradient(135deg,#4CAF50,#81C784);">
+        <h3>Aule libere:</h3>
+        <p>${freeRooms.join(", ")}</p>
+      </div>`;
+      
+
+  }
+});
+
+// 🔄 Bottone "Trova Ora" — usa la funzione getCurrentSchoolIndex()
+document.getElementById("findNowBtn").addEventListener("click", () => {
+  const resultBox = document.getElementById("freeRoomsResult");
+  resultBox.innerHTML = "";
+  event.preventDefault();
+
+
+  try {
+    const slot = getCurrentSchoolSlotInfo(Date.now());
+    const freeRooms = findEmptyRoomsAtIndex(roomsData, slot.index - 1);
+
+    if (freeRooms.length === 0) {
+      resultBox.innerHTML = `
+        <div class="info-box" style="background:linear-gradient(135deg,#FF6B9D,#FFA07A);">
+          <strong>Nessuna aula libera in questo momento.</strong>
+        </div>`;
+    } else {
+      resultBox.innerHTML = `
+        <div class="info-box" style="background:linear-gradient(135deg,#4CAF50,#81C784);">
+          <h3>Aule libere ora:</h3>
+          <p>${slot.label}</p>
+          <p><strong>${freeRooms.join(", ")}</strong></p>
+        </div>`;
+    }
+    
+
+  } catch (err) {
+    alert(err.message);
+    
+  }
+});
+
   </script>
 </body>
 </html>
