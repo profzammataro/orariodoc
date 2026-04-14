@@ -56,24 +56,34 @@
       background: rgba(247, 249, 252, 0.8);
       padding: 20px;
       border-bottom: 2px solid #e1e8ed;
+      box-sizing: border-box;
     }
     .mode-buttons {
-      display: inline-flex;
-      gap: 10px;
+      display: flex;
+      gap: 6px;
       background: white;
       padding: 5px;
       border-radius: 50px;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 420px;
+      margin: 0 auto;
+      box-sizing: border-box;
     }
     .mode-btn {
-      padding: 12px 30px;
+      flex: 1;
+      min-width: 0;
+      padding: 12px 8px;
       border: none;
       border-radius: 50px;
       background: transparent;
       color: #666;
-      font-size: 16px;
+      font-size: 15px;
       cursor: pointer;
       transition: all 0.3s ease;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     .mode-btn.active {
       background: linear-gradient(135deg, #2196F3, #21CBF3);
