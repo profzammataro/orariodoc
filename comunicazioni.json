@@ -28,6 +28,13 @@
       "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "1E",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
@@ -107,7 +114,7 @@
       "classe": "4I",
       "ora": "5",
       "aula": "221",
-      "docente": "BARTOLI"
+      "docente": "ZAMMATARO"
     },
     {
       "classe": "STUD. ASS.",
@@ -116,29 +123,54 @@
       "docente": "SESTITO (3I)"
     },
     {
-      "classe": "1",
-      "ora": "3A",
+      "classe": "5F",
+      "ora": "1",
+      "aula": "204",
+      "docente": "FRATTARELLI"
+    },
+    {
+      "classe": "5E",
+      "ora": "2",
+      "aula": "204",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "4F",
+      "ora": "3",
+      "aula": "CHI",
+      "docente": "VALERI (rec)"
+    },
+    {
+      "classe": "3E",
+      "ora": "4",
+      "aula": "204",
+      "docente": "TOMMASINO"
+    }
+  ],
+  "cambi_aula": [
+    {
+      "ora": "1",
+      "classe": "3A",
       "aula": "119",
       "docente": "PROGETTO ASL RM D"
     },
     {
-      "classe": "2",
-      "ora": "3A",
+      "ora": "2",
+      "classe": "3A",
       "aula": "119",
       "docente": "PROGETTO ASL RM D"
     },
     {
-      "classe": "3",
-      "ora": "4B",
+      "ora": "3",
+      "classe": "4B",
       "aula": "113",
       "docente": "PROGETTO ASL RM D"
     },
     {
-      "classe": "4",
-      "ora": "4B",
+      "ora": "4",
+      "classe": "4B",
       "aula": "113",
       "docente": "PROGETTO ASL RM D"
     }
-  ],
-  "cambi_aula": []
+  ]
 }
