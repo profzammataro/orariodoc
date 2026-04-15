@@ -293,7 +293,7 @@
 
     @media (max-width: 480px) {
       body {
-        padding: 8px;
+        padding: 4px;
       }
       .comunicazioni-section {
         padding: 20px 10px;
@@ -487,7 +487,7 @@
       <h2>📢 Comunicazioni del Giorno</h2>
       <p class="com-data" id="comData"></p>
 
-      <div class="com-table-wrapper">
+      <div class="com-table-wrapper" id="comIngressiWrapper">
         <table class="com-table" id="comIngressiTable">
           <caption>🚪 Ingressi / Uscite</caption>
           <thead><tr><th>Classe</th><th>Ingresso</th><th>Uscita</th><th>Sostituzione</th><th>Aula</th></tr></thead>
@@ -495,7 +495,7 @@
         </table>
       </div>
 
-      <div class="com-table-wrapper">
+      <div class="com-table-wrapper" id="comSostituzioniWrapper">
         <table class="com-table" id="comSostituzioniTable">
           <caption>🔄 Sostituzioni</caption>
           <thead><tr><th>Classe</th><th>Ora</th><th>Aula</th><th>Docente</th></tr></thead>
@@ -503,7 +503,7 @@
         </table>
       </div>
 
-      <div class="com-table-wrapper">
+      <div class="com-table-wrapper" id="comCambiWrapper">
         <table class="com-table" id="comCambiTable">
           <caption>🏫 Cambi Aula</caption>
           <thead><tr><th>Ora</th><th>Classe</th><th>Aula</th><th>Docente</th></tr></thead>
@@ -958,7 +958,7 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
       // Ingressi / Uscite
       const inBody = document.getElementById("comIngressiBody");
       const inRows = (com.ingressi_uscite || []).filter(r => r.classe);
-      document.getElementById("comIngressiTable").style.display = inRows.length ? "" : "none";
+      document.getElementById("comIngressiWrapper").style.display = inRows.length ? "" : "none";
       inBody.innerHTML = inRows.map(r => `
         <tr>
           <td><strong>${r.classe}</strong></td>
@@ -971,7 +971,7 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
       // Sostituzioni
       const soBody = document.getElementById("comSostituzioniBody");
       const soRows = (com.sostituzioni || []).filter(r => r.classe);
-      document.getElementById("comSostituzioniTable").style.display = soRows.length ? "" : "none";
+      document.getElementById("comSostituzioniWrapper").style.display = soRows.length ? "" : "none";
       soBody.innerHTML = soRows.map(r => `
         <tr>
           <td><strong>${r.classe}</strong></td>
@@ -983,7 +983,7 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
       // Cambi Aula
       const caBody = document.getElementById("comCambiBody");
       const caRows = (com.cambi_aula || []).filter(r => r.classe || r.ora);
-      document.getElementById("comCambiTable").style.display = caRows.length ? "" : "none";
+      document.getElementById("comCambiWrapper").style.display = caRows.length ? "" : "none";
       caBody.innerHTML = caRows.map(r => `
         <tr>
           <td>${r.ora     || "—"}</td>
