@@ -1,6 +1,144 @@
 {
-  "data": "",
-  "ingressi_uscite": [],
-  "sostituzioni": [],
+  "data": "15/04/2026",
+  "ingressi_uscite": [
+    {
+      "classe": "3D",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5H",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4A",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4D",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    }
+  ],
+  "sostituzioni": [
+    {
+      "classe": "4D",
+      "ora": "2",
+      "aula": "112",
+      "docente": "SPOLETI (REC)"
+    },
+    {
+      "classe": "3H",
+      "ora": "3",
+      "aula": "224",
+      "docente": "PETRUCCI"
+    },
+    {
+      "classe": "3A",
+      "ora": "5",
+      "aula": "224",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "5G",
+      "ora": "5",
+      "aula": "212",
+      "docente": "GEROMINO"
+    },
+    {
+      "classe": "1C",
+      "ora": "2",
+      "aula": "LNX",
+      "docente": "FASANO (3I)"
+    },
+    {
+      "classe": "2A",
+      "ora": "3",
+      "aula": "LNX",
+      "docente": "SMAREGLIA (3I)"
+    },
+    {
+      "classe": "3D",
+      "ora": "4",
+      "aula": "208",
+      "docente": "TASSETTI"
+    },
+    {
+      "classe": "2I",
+      "ora": "2",
+      "aula": "121",
+      "docente": "TOMMASINO"
+    },
+    {
+      "classe": "2I",
+      "ora": "3",
+      "aula": "121",
+      "docente": "CHAMBERLAIN"
+    },
+    {
+      "classe": "2I",
+      "ora": "1",
+      "aula": "218",
+      "docente": "TOMMASINO"
+    },
+    {
+      "classe": "5B",
+      "ora": "3",
+      "aula": "218",
+      "docente": "MOSCARELLI"
+    },
+    {
+      "classe": "2B",
+      "ora": "4",
+      "aula": "221",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "4I",
+      "ora": "5",
+      "aula": "221",
+      "docente": "BARTOLI"
+    },
+    {
+      "classe": "STUD. ASS.",
+      "ora": "4",
+      "aula": "122",
+      "docente": "SESTITO (3I)"
+    },
+    {
+      "classe": "1",
+      "ora": "3A",
+      "aula": "119",
+      "docente": "PROGETTO ASL RM D"
+    },
+    {
+      "classe": "2",
+      "ora": "3A",
+      "aula": "119",
+      "docente": "PROGETTO ASL RM D"
+    },
+    {
+      "classe": "3",
+      "ora": "4B",
+      "aula": "113",
+      "docente": "PROGETTO ASL RM D"
+    },
+    {
+      "classe": "4",
+      "ora": "4B",
+      "aula": "113",
+      "docente": "PROGETTO ASL RM D"
+    }
+  ],
   "cambi_aula": []
 }
