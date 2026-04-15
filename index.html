@@ -274,14 +274,21 @@
       color: #999;
       margin-bottom: 20px;
     }
+    .com-table-wrapper {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
     .com-table {
       width: 100%;
+      min-width: 400px;
       border-collapse: collapse;
       background: white;
       border-radius: 12px;
       overflow: hidden;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-      margin-bottom: 20px;
     }
     .com-table caption {
       font-weight: 700;
@@ -458,23 +465,29 @@
       <h2>📢 Comunicazioni del Giorno</h2>
       <p class="com-data" id="comData"></p>
 
-      <table class="com-table" id="comIngressiTable">
-        <caption>🚪 Ingressi / Uscite</caption>
-        <thead><tr><th>Classe</th><th>Ingresso</th><th>Uscita</th><th>Sostituzione</th><th>Aula</th></tr></thead>
-        <tbody id="comIngressiBody"></tbody>
-      </table>
+      <div class="com-table-wrapper">
+        <table class="com-table" id="comIngressiTable">
+          <caption>🚪 Ingressi / Uscite</caption>
+          <thead><tr><th>Classe</th><th>Ingresso</th><th>Uscita</th><th>Sostituzione</th><th>Aula</th></tr></thead>
+          <tbody id="comIngressiBody"></tbody>
+        </table>
+      </div>
 
-      <table class="com-table" id="comSostituzioniTable">
-        <caption>🔄 Sostituzioni</caption>
-        <thead><tr><th>Classe</th><th>Ora</th><th>Aula</th><th>Docente</th></tr></thead>
-        <tbody id="comSostituzioniBody"></tbody>
-      </table>
+      <div class="com-table-wrapper">
+        <table class="com-table" id="comSostituzioniTable">
+          <caption>🔄 Sostituzioni</caption>
+          <thead><tr><th>Classe</th><th>Ora</th><th>Aula</th><th>Docente</th></tr></thead>
+          <tbody id="comSostituzioniBody"></tbody>
+        </table>
+      </div>
 
-      <table class="com-table" id="comCambiTable">
-        <caption>🏫 Cambi Aula</caption>
-        <thead><tr><th>Ora</th><th>Classe</th><th>Aula</th><th>Docente</th></tr></thead>
-        <tbody id="comCambiBody"></tbody>
-      </table>
+      <div class="com-table-wrapper">
+        <table class="com-table" id="comCambiTable">
+          <caption>🏫 Cambi Aula</caption>
+          <thead><tr><th>Ora</th><th>Classe</th><th>Aula</th><th>Docente</th></tr></thead>
+          <tbody id="comCambiBody"></tbody>
+        </table>
+      </div>
     </div>
 
   </div>
