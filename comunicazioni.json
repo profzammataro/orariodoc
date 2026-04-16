@@ -1,189 +1,158 @@
 {
-  "data": "16/04/2026",
+  "data": "17/04/2026",
+  "giorno_settimana": 4,
   "ingressi_uscite": [
     {
-      "classe": "3D",
+      "classe": "4F",
+      "ingresso": "9..10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5A",
       "ingresso": "9.10",
       "uscita": "",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "5H",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "4A",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "4D",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "1E",
+      "classe": "1D",
       "ingresso": "",
       "uscita": "12.10",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "2A",
+      "classe": "1F",
       "ingresso": "",
-      "uscita": "11.00",
-      "sostituzione": "",
-      "aula": ""
+      "uscita": "13.05",
+      "sostituzione": "ANT FREDDO IN 4h",
+      "aula": "108"
     }
   ],
   "sostituzioni": [
     {
-      "classe": "4D",
+      "classe": "3L",
       "ora": "2",
-      "aula": "112",
-      "docente": "SPOLETI (REC)"
+      "aula": "014",
+      "docente": "CASTRONUOVO (REC)"
     },
     {
-      "classe": "3H",
+      "classe": "1L",
       "ora": "3",
-      "aula": "224",
-      "docente": "PETRUCCI"
+      "aula": "014",
+      "docente": "TOMMASINO (REC)"
     },
     {
-      "classe": "3A",
-      "ora": "5",
-      "aula": "224",
-      "docente": "GAGLIARDI"
+      "classe": "5L",
+      "ora": "4",
+      "aula": "014",
+      "docente": "LOBARDI (REC)"
     },
     {
-      "classe": "5G",
-      "ora": "5",
-      "aula": "212",
-      "docente": "GEROMINO"
+      "classe": "5D",
+      "ora": "1",
+      "aula": "206",
+      "docente": "TASSETTI"
+    },
+    {
+      "classe": "5C",
+      "ora": "2",
+      "aula": "224",
+      "docente": "VALERI (REC)"
     },
     {
       "classe": "1C",
-      "ora": "2",
-      "aula": "LNX",
-      "docente": "FASANO (3I)"
+      "ora": "3",
+      "aula": "224",
+      "docente": "PALUMBO (REC)"
     },
     {
-      "classe": "2A",
+      "classe": "2N",
+      "ora": "2",
+      "aula": "101",
+      "docente": "DE CARLI"
+    },
+    {
+      "classe": "2N",
       "ora": "3",
-      "aula": "LNX",
-      "docente": "SMAREGLIA (3I)"
+      "aula": "101",
+      "docente": "RIZZO"
+    },
+    {
+      "classe": "4E",
+      "ora": "6",
+      "aula": "102",
+      "docente": "RIZZO"
+    },
+    {
+      "classe": "5A",
+      "ora": "3",
+      "aula": "104",
+      "docente": "BARTOLI"
+    },
+    {
+      "classe": "3D",
+      "ora": "3",
+      "aula": "226",
+      "docente": "FATTORUSO"
     },
     {
       "classe": "3D",
       "ora": "4",
-      "aula": "208",
-      "docente": "TASSETTI"
+      "aula": "226",
+      "docente": "PELUSO (REC)"
     },
     {
-      "classe": "2I",
-      "ora": "2",
-      "aula": "121",
-      "docente": "TOMMASINO"
-    },
-    {
-      "classe": "2I",
-      "ora": "3",
-      "aula": "121",
-      "docente": "CHAMBERLAIN"
-    },
-    {
-      "classe": "2I",
-      "ora": "1",
-      "aula": "218",
-      "docente": "TOMMASINO"
-    },
-    {
-      "classe": "5B",
-      "ora": "3",
-      "aula": "218",
-      "docente": "MOSCARELLI"
-    },
-    {
-      "classe": "2B",
-      "ora": "4",
-      "aula": "221",
-      "docente": "FORCELLINO"
-    },
-    {
-      "classe": "4I",
+      "classe": "4D",
       "ora": "5",
-      "aula": "221",
-      "docente": "SEQUI (5C)"
+      "aula": "226",
+      "docente": "BARTOLI"
     },
     {
-      "classe": "STUD. ASS.",
-      "ora": "4",
-      "aula": "122",
-      "docente": "SESTITO (3I)"
-    },
-    {
-      "classe": "5F",
-      "ora": "1",
-      "aula": "204",
-      "docente": "FRATTARELLI"
-    },
-    {
-      "classe": "5E",
-      "ora": "2",
-      "aula": "204",
-      "docente": "FORCELLINO"
+      "classe": "5M",
+      "ora": "6",
+      "aula": "222",
+      "docente": "LOMBARDI"
     },
     {
       "classe": "4F",
       "ora": "3",
-      "aula": "CHI",
-      "docente": "FORCELLINO"
+      "aula": "207",
+      "docente": "MEDDA (REC)"
     },
     {
-      "classe": "3E",
-      "ora": "4",
-      "aula": "204",
-      "docente": "TOMMASINO"
-    },
-    {
-      "classe": "5A",
-      "ora": "2",
-      "aula": "AM",
-      "docente": "MEDDA (5C)"
+      "classe": "5F",
+      "ora": "5",
+      "aula": "206",
+      "docente": "ZAMMATARO (REC)"
     }
   ],
   "cambi_aula": [
     {
-      "ora": "1",
-      "classe": "3A",
-      "aula": "119",
-      "docente": "PROGETTO ASL RM D"
+      "ora": "2-3",
+      "classe": "3E + 4D",
+      "aula": "A M",
+      "docente": ""
     },
     {
       "ora": "2",
-      "classe": "3A",
-      "aula": "119",
-      "docente": "PROGETTO ASL RM D"
+      "classe": "2F",
+      "aula": "130",
+      "docente": ""
     },
     {
       "ora": "3",
-      "classe": "4B",
-      "aula": "113",
-      "docente": "PROGETTO ASL RM D"
+      "classe": "2A",
+      "aula": "215",
+      "docente": ""
     },
     {
       "ora": "4",
-      "classe": "4B",
-      "aula": "113",
-      "docente": "PROGETTO ASL RM D"
+      "classe": "1D",
+      "aula": "129",
+      "docente": ""
     }
   ]
 }
