@@ -1,5 +1,5 @@
 {
-  "data": "15/04/2026",
+  "data": "16/04/2026",
   "ingressi_uscite": [
     {
       "classe": "3D",
@@ -33,6 +33,13 @@
       "classe": "1E",
       "ingresso": "",
       "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2A",
+      "ingresso": "",
+      "uscita": "11.00",
       "sostituzione": "",
       "aula": ""
     }
@@ -114,7 +121,7 @@
       "classe": "4I",
       "ora": "5",
       "aula": "221",
-      "docente": "ZAMMATARO"
+      "docente": "SEQUI (5C)"
     },
     {
       "classe": "STUD. ASS.",
@@ -138,13 +145,19 @@
       "classe": "4F",
       "ora": "3",
       "aula": "CHI",
-      "docente": "VALERI (rec)"
+      "docente": "FORCELLINO"
     },
     {
       "classe": "3E",
       "ora": "4",
       "aula": "204",
       "docente": "TOMMASINO"
+    },
+    {
+      "classe": "5A",
+      "ora": "2",
+      "aula": "AM",
+      "docente": "MEDDA (5C)"
     }
   ],
   "cambi_aula": [
