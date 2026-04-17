@@ -29,6 +29,34 @@
       "uscita": "13.05",
       "sostituzione": "ANT FREDDO IN 4h",
       "aula": "108"
+    },
+    {
+      "classe": "5C",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "GALATI anticipa in 2h",
+      "aula": "224"
+    },
+    {
+      "classe": "3F",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2D",
+      "ingresso": "",
+      "uscita": "11.00",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3D",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
@@ -60,7 +88,7 @@
       "classe": "5C",
       "ora": "2",
       "aula": "224",
-      "docente": "VALERI (REC)"
+      "docente": "GALATI"
     },
     {
       "classe": "1C",
@@ -90,7 +118,7 @@
       "classe": "5A",
       "ora": "3",
       "aula": "104",
-      "docente": "BARTOLI"
+      "docente": "GEROMINO"
     },
     {
       "classe": "3D",
@@ -108,7 +136,7 @@
       "classe": "4D",
       "ora": "5",
       "aula": "226",
-      "docente": "BARTOLI"
+      "docente": "FORCELLINO"
     },
     {
       "classe": "5M",
@@ -127,6 +155,48 @@
       "ora": "5",
       "aula": "206",
       "docente": "ZAMMATARO (REC)"
+    },
+    {
+      "classe": "3D",
+      "ora": "5",
+      "aula": "117",
+      "docente": "GALATI"
+    },
+    {
+      "classe": "1F",
+      "ora": "3",
+      "aula": "FIS",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "2F",
+      "ora": "4",
+      "aula": "106",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "4F",
+      "ora": "5",
+      "aula": "106",
+      "docente": "MOSCARELLI"
+    },
+    {
+      "classe": "3D",
+      "ora": "1",
+      "aula": "113",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "4D",
+      "ora": "2/3",
+      "aula": "",
+      "docente": "FRANCESCHELLI"
+    },
+    {
+      "classe": "1D",
+      "ora": "4",
+      "aula": "108",
+      "docente": "TORELLI"
     }
   ],
   "cambi_aula": [
