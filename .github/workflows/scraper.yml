@@ -2,7 +2,7 @@ name: Aggiorna Comunicazioni Scolastiche
 
 on:
   schedule:
-    - cron: '0 15 * * *'  # tutti i giorni alle 16:00 ora italiana (UTC+2)
+    - cron: '0 15 * * *'  # tutti i giorni alle 16:00 ora italiana (UTC+1)
   workflow_dispatch:         # permette di avviarlo manualmente dalla dashboard GitHub
 
 jobs:
