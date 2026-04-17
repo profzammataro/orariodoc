@@ -271,7 +271,7 @@
     .com-data {
       text-align: center;
       font-size: 13px;
-      color: #999;
+      color: #e65100;
       margin-bottom: 20px;
     }
     .com-table-wrapper {
@@ -557,8 +557,8 @@
 
     <!-- ─── COMUNICAZIONI DEL GIORNO ─── -->
     <div id="comunicazioniSection" class="comunicazioni-section" style="display:none;">
-      <h2>📢 Comunicazioni del Giorno</h2>
-      <p class="com-data" id="comData"></p>
+      <h2>📢 Comunicazioni per il giorno
+      <p class="com-data" id="comData"></p></h2>
 
       <div class="com-table-wrapper">
         <table class="com-table" id="comIngressiTable">
@@ -1026,7 +1026,7 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
 
       section.style.display = "block";
       document.getElementById("comData").textContent =
-        com.data ? `📅 Comunicazioni di: ${com.data}` : "";
+        com.data ? `${com.data}` : "";
 
       // Ingressi / Uscite
       const inBody = document.getElementById("comIngressiBody");
