@@ -557,7 +557,7 @@
 
     <!-- ─── COMUNICAZIONI DEL GIORNO ─── -->
     <div id="comunicazioniSection" class="comunicazioni-section" style="display:none;">
-      <h2>📢 Comunicazioni del...
+      <h2>📢 Comunicazioni per il giorno...
       <p class="com-data" id="comData"></p></h2>
 
       <div class="com-table-wrapper">
@@ -1026,7 +1026,7 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
 
       section.style.display = "block";
       document.getElementById("comData").textContent =
-        com.data ? `Aggiornato: ${com.data}` : "";
+        com.data ? `${com.data}` : "";
 
       // Ingressi / Uscite
       const inBody = document.getElementById("comIngressiBody");
