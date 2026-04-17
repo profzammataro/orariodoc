@@ -674,12 +674,12 @@
     "2N": [
         "ITA-LAT(BALDI)(121)",
         "ITA-LAT(BALDI)(121)",
-        "STOGEO(PRINCIPATO)(013)",
-        "STOGEO(PRINCIPATO)(013)",
+        "STOGEO(VOZZA)(013)",
+        "STOGEO(VOZZA)(013)",
         "FISICA(MOSCARELLI)(FIS)",
         "MAT-FIS(MOSCARELLI)(101)",
         "SCIENZE(GALLEAZZI)(215)",
-        "STOGEO(PRINCIPATO)(A_M_)",
+        "STOGEO(VOZZA)(A_M_)",
         "ITA-LAT(BALDI)(121)",
         "ITA-LAT(BALDI)(121)",
         "INGLESE(GEROMINO)(212)",
@@ -689,7 +689,7 @@
         "SCIENZE_MOT(FRANCARDI)(Palestra)",
         "ITA-LAT(BALDI)(121)",
         "ITA-LAT(BALDI)(121)",
-        "",
+        "INGLESE(GEROMINO)(226)",
         "MAT-FIS(MOSCARELLI)(101)",
         "MAT-FIS(MOSCARELLI)(101)",
         "SCIENZE_MOT(FRANCARDI)(Palestra)",
@@ -701,7 +701,7 @@
         "MAT-FIS(MOSCARELLI)(101)",
         "INFORMATICA(ZAMMATARO)(ECDL)",
         "SCIENZE(GALLEAZZI)(215)",
-        "INGLESE(GEROMINO)(226)"
+        ""
     ],
     "3A": [
         "SCIENZE_MOT(IORIO)(Palestra)",
