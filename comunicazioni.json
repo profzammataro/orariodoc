@@ -1,147 +1,206 @@
 {
-  "data": "20/04/2026",
-  "giorno_settimana": 0,
+  "data": "21/04/2026",
+  "giorno_settimana": 1,
   "ingressi_uscite": [
     {
-      "classe": "2C",
+      "classe": "2B",
+      "ingresso": "",
+      "uscita": "11.00",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5B",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1C",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2I",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1G",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4D",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3F",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4L",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4I",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4C",
       "ingresso": "",
       "uscita": "12.10",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "1D",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "4H",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "2L",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "5I",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "4F",
-      "ingresso": "10.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
+      "sostituzione": "MEDDA anticipa in 4h",
+      "aula": "226"
     }
   ],
   "sostituzioni": [
     {
       "classe": "4B",
-      "ora": "4",
-      "aula": "125",
-      "docente": "BARTOLI"
+      "ora": "2",
+      "aula": "213",
+      "docente": "ANDRIANI (3B)"
     },
     {
       "classe": "1C",
       "ora": "3",
-      "aula": "106",
-      "docente": "RICCIO"
+      "aula": "201",
+      "docente": "LOMBARDI"
     },
     {
-      "classe": "1C",
-      "ora": "4",
-      "aula": "106",
-      "docente": "PETRUCCI"
-    },
-    {
-      "classe": "3C",
+      "classe": "5D",
       "ora": "5",
-      "aula": "202",
+      "aula": "215",
+      "docente": "MARTONE"
+    },
+    {
+      "classe": "1G",
+      "ora": "2",
+      "aula": "113",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "3G",
+      "ora": "5",
+      "aula": "201",
+      "docente": "RAO (1B)"
+    },
+    {
+      "classe": "1D",
+      "ora": "5",
+      "aula": "210",
       "docente": "BARTOLI"
     },
     {
-      "classe": "Studio assistito",
+      "classe": "2C",
       "ora": "2",
-      "aula": "104",
-      "docente": "GAGLIARDI"
+      "aula": "",
+      "docente": "FASANO"
+    },
+    {
+      "classe": "5H",
+      "ora": "2",
+      "aula": "201",
+      "docente": "SPALLIERO"
+    },
+    {
+      "classe": "3D",
+      "ora": "3",
+      "aula": "215",
+      "docente": "RICCI (3C)"
+    },
+    {
+      "classe": "1D",
+      "ora": "4",
+      "aula": "CHI",
+      "docente": "PETRUCCI"
+    },
+    {
+      "classe": "4H",
+      "ora": "5",
+      "aula": "206",
+      "docente": "SPALLIERO"
+    },
+    {
+      "classe": "5H",
+      "ora": "6",
+      "aula": "206",
+      "docente": "SPALLIERO"
+    },
+    {
+      "classe": "4H",
+      "ora": "2",
+      "aula": "ECDL",
+      "docente": "CICCONE (3D)"
+    },
+    {
+      "classe": "2F",
+      "ora": "3",
+      "aula": "ECDL",
+      "docente": "VALERI (REC)"
+    },
+    {
+      "classe": "1F",
+      "ora": "4",
+      "aula": "ECDL",
+      "docente": "BARTOLI"
+    },
+    {
+      "classe": "2H",
+      "ora": "5",
+      "aula": "LNX",
+      "docente": "PETRIGNANI (3D)"
+    },
+    {
+      "classe": "3L",
+      "ora": "5",
+      "aula": "214",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "1A",
+      "ora": "2",
+      "aula": "",
+      "docente": "FORCELLINO"
     },
     {
       "classe": "5H",
       "ora": "3",
-      "aula": "206",
-      "docente": "ZAMMATARO (REC)"
-    },
-    {
-      "classe": "4D",
-      "ora": "4",
-      "aula": "CHI",
-      "docente": "ROMANO"
-    },
-    {
-      "classe": "3N",
-      "ora": "2",
-      "aula": "014",
-      "docente": "FERRARA"
-    },
-    {
-      "classe": "1N",
-      "ora": "3",
-      "aula": "014",
+      "aula": "",
       "docente": "FATTORUSO"
     },
     {
-      "classe": "1L",
-      "ora": "4",
-      "aula": "014",
-      "docente": "VALERI (REC)"
-    },
-    {
-      "classe": "Studio assistito",
-      "ora": "5",
-      "aula": "102",
-      "docente": "BARTOLI"
-    },
-    {
-      "classe": "4C",
-      "ora": "3",
-      "aula": "226",
-      "docente": "CASTRONUOVO"
-    },
-    {
-      "classe": "3I",
-      "ora": "4",
-      "aula": "213",
-      "docente": "POLITO"
-    },
-    {
-      "classe": "3E",
-      "ora": "5",
-      "aula": "227",
-      "docente": "CASTRONUOVO"
-    },
-    {
-      "classe": "5D",
-      "ora": "2",
-      "aula": "102",
-      "docente": "MARTONE"
-    },
-    {
-      "classe": "4H",
-      "ora": "3",
-      "aula": "105",
-      "docente": "SPALLIERO"
+      "classe": "3C+3D+3B",
+      "ora": "234",
+      "aula": "215223223",
+      "docente": "FRANZI (REC)DE RUVOFATTORUSO"
     }
   ],
-  "cambi_aula": []
+  "cambi_aula": [
+    {
+      "ora": "2",
+      "classe": "2A",
+      "aula": "112",
+      "docente": "DI CAMPLI"
+    }
+  ]
 }
