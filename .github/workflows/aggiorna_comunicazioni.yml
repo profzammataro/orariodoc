@@ -1,0 +1,53 @@
+name: Aggiorna Comunicazioni Scolastiche
+
+on:
+  schedule:
+    - cron: '0 6-19 * * *'  # ogni ora dalle 7:00 alle 20:00 ora italiana (UTC+1)
+  workflow_dispatch:         # permette di avviarlo manualmente dalla dashboard GitHub
+
+jobs:
+  scraper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Installa Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installa dipendenze
+        run: pip install requests beautifulsoup4
+
+      - name: Controlla se la pagina è cambiata
+        id: hash_check
+        run: |
+          NEW_HASH=$(curl -s https://www.liceolabriola.edu.it/comunicazioni/ | sha256sum | awk '{print $1}')
+          OLD_HASH=$(cat .page_hash 2>/dev/null || echo "none")
+          echo "🔍 Hash nuovo:  $NEW_HASH"
+          echo "🔍 Hash vecchio: $OLD_HASH"
+          if [ "$NEW_HASH" = "$OLD_HASH" ]; then
+            echo "⏭️ Pagina invariata, scraper saltato."
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "✅ Pagina modificata, avvio scraper."
+            echo "$NEW_HASH" > .page_hash
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Esegui scraper
+        if: steps.hash_check.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: python scraper.py
+
+      - name: Salva hash aggiornato nel repository
+        if: steps.hash_check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add .page_hash
+          git commit -m "📄 Aggiorna hash pagina comunicazioni" || echo "Nessuna modifica da committare"
+          git push
