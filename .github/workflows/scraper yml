@@ -21,7 +21,7 @@ jobs:
       - name: Installa dipendenze
         run: pip install requests beautifulsoup4
 
-      - name: Controlla se la pagina Ã¨ cambiata
+      - name: Controlla se la pagina è cambiata
         id: hash_check
         run: |
           NEW_HASH=$(curl -s https://www.liceolabriola.edu.it/comunicazioni/ | sha256sum | awk '{print $1}')
