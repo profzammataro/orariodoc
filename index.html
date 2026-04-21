@@ -937,9 +937,18 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
           const cell = result[idx] || "";
           const formattedCell = formatCell(cell, currentMode);
 
-          if (currentMode === "class" && isModified(key, ora, giorno)) {
-            // Classe con sostituzione → arancione
-            html += `<td class="modified-cell"><span class="modified-badge">⚠️ modifica</span>${formattedCell}</td>`;
+          if (currentMode === "class") {
+            const subInfo = getClassSubstituteInfo(key, ora, giorno);
+            if (subInfo) {
+              // Mostra docente sostituto e aula aggiornata
+              const extra = `<div class="lesson-info" style="margin-top:4px;">
+                <span class="teacher">🔄 ${subInfo.docente || "sostituto"}</span>
+                <span class="room">aula ${subInfo.aula || "—"}</span>
+              </div>`;
+              html += `<td class="modified-cell"><span class="modified-badge">⚠️ modifica</span>${extra}</td>`;
+            } else {
+              html += `<td>${formattedCell}</td>`;
+            }
 
           } else if (currentMode === "teacher") {
             const subInfo = getSubstituteInfo(key, ora, giorno);
@@ -955,6 +964,19 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
                 <span class="room">aula ${subInfo.aula}</span>
               </div>`;
               html += `<td class="substitute-cell"><span class="substitute-badge">🟠 sostituzione</span>${extra}</td>`;
+            } else {
+              html += `<td>${formattedCell}</td>`;
+            }
+
+          } else if (currentMode === "room") {
+            const roomSubInfo = getRoomSubstituteInfo(key, ora, giorno);
+            if (roomSubInfo) {
+              // Aula con cambio → mostra classe e docente aggiornati
+              const extra = `<div class="lesson-info" style="margin-top:4px;">
+                <span class="subject">${roomSubInfo.classe || "—"}</span>
+                <span class="teacher">🔄 ${roomSubInfo.docente || "sostituto"}</span>
+              </div>`;
+              html += `<td class="modified-cell"><span class="modified-badge">⚠️ cambio</span>${extra}</td>`;
             } else {
               html += `<td>${formattedCell}</td>`;
             }
@@ -1115,6 +1137,48 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
         const cell = teacherSchedule[idx] || "";
         return cell && s.classe && cell.toUpperCase().includes(s.classe.toUpperCase());
       });
+    }
+
+    // Restituisce info sostituzione per una CLASSE in quell'ora
+    function getClassSubstituteInfo(classe, oraIndex, giorno) {
+      if (!comunicazioniData || !comunicazioniData.sostituzioni) return null;
+      const ora = oraIndex + 1;
+      const giornoRef = (comunicazioniData.giorno_settimana >= 0)
+        ? comunicazioniData.giorno_settimana
+        : new Date().getDay() - 1;
+      if (giorno !== giornoRef) return null;
+      const match = comunicazioniData.sostituzioni.find(s =>
+        s.classe && s.classe.toUpperCase().includes(classe.toUpperCase()) &&
+        String(s.ora) === String(ora)
+      );
+      return match || null;
+    }
+
+    // Restituisce info sostituzione/cambio per un'AULA in quell'ora
+    function getRoomSubstituteInfo(aula, oraIndex, giorno) {
+      if (!comunicazioniData) return null;
+      const ora = oraIndex + 1;
+      const giornoRef = (comunicazioniData.giorno_settimana >= 0)
+        ? comunicazioniData.giorno_settimana
+        : new Date().getDay() - 1;
+      if (giorno !== giornoRef) return null;
+      // Controlla prima nei cambi aula
+      if (comunicazioniData.cambi_aula) {
+        const match = comunicazioniData.cambi_aula.find(s =>
+          s.aula && s.aula.toUpperCase().includes(aula.toUpperCase()) &&
+          String(s.ora) === String(ora)
+        );
+        if (match) return match;
+      }
+      // Poi nelle sostituzioni
+      if (comunicazioniData.sostituzioni) {
+        const match = comunicazioniData.sostituzioni.find(s =>
+          s.aula && s.aula.toUpperCase().includes(aula.toUpperCase()) &&
+          String(s.ora) === String(ora)
+        );
+        if (match) return match;
+      }
+      return null;
     }
 
     loadData();
