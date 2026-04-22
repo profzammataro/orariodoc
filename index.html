@@ -628,6 +628,21 @@
         updateSuggestions();
         renderComunicazioni();
 
+        // 🔄 Ripristina ultima ricerca
+        try {
+          const last = JSON.parse(localStorage.getItem("lastSearch"));
+          if (last && last.key && last.mode) {
+            // Attiva la modalità giusta
+            document.querySelectorAll(".mode-btn").forEach(b => b.classList.remove("active"));
+            const btn = document.querySelector(`.mode-btn[data-mode="${last.mode}"]`);
+            if (btn) { btn.classList.add("active"); currentMode = last.mode; }
+            updateSuggestions();
+            // Imposta il campo di ricerca e carica
+            document.getElementById("searchInput").value = last.key;
+            searchSchedule(last.key);
+          }
+        } catch(e) {}
+
       } catch (err) {
         console.error("Errore nel caricamento:", err);
         alert("Errore nel caricamento dei JSON (usa Live Server o http://localhost)");
@@ -924,6 +939,9 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
         container.style.display = "block";
         return;
       }
+
+      // 💾 Salva ultima ricerca
+      localStorage.setItem("lastSearch", JSON.stringify({ mode: currentMode, key: key }));
 
       let label = "Orario del docente";
       if (currentMode === "class") label = "Orario della classe";
