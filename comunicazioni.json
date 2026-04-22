@@ -40,9 +40,9 @@
     {
       "classe": "1G",
       "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
+      "uscita": "12.10",
+      "sostituzione": "ANTICIPA VIVA IN 4^H",
+      "aula": "210"
     },
     {
       "classe": "2I",
@@ -124,7 +124,7 @@
     {
       "classe": "4B",
       "ingresso": "9.10",
-      "uscita": "13.05",
+      "uscita": "12.10",
       "sostituzione": "",
       "aula": ""
     },
@@ -160,8 +160,8 @@
       "classe": "4E",
       "ingresso": "",
       "uscita": "13.05",
-      "sostituzione": "ANTICIPA  MOSCARELLI IN 3H AULA 126",
-      "aula": ""
+      "sostituzione": "ANTICIPA  MOSCARELLI IN 3h",
+      "aula": "126"
     },
     {
       "classe": "4D",
@@ -175,13 +175,6 @@
       "ingresso": "",
       "uscita": "12.10",
       "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "1G",
-      "ingresso": "",
-      "uscita": "12.10",
-      "sostituzione": "ANTICIPA VIVA IN 4 ORAAULA 210",
       "aula": ""
     }
   ],
@@ -202,7 +195,7 @@
       "classe": "5D",
       "ora": "2",
       "aula": "202",
-      "docente": "ANDRIANI"
+      "docente": "ANDRIANI (3B)"
     },
     {
       "classe": "1C",
@@ -250,7 +243,7 @@
       "classe": "3L",
       "ora": "5",
       "aula": "014",
-      "docente": "ZAMMATARI (3D)"
+      "docente": "ZAMMATARO (3D)"
     },
     {
       "classe": "1F",
@@ -286,7 +279,7 @@
       "classe": "1C",
       "ora": "1",
       "aula": "217",
-      "docente": "LOMBARDI"
+      "docente": "GAGLIARDI"
     },
     {
       "classe": "2C",
@@ -297,7 +290,7 @@
     {
       "classe": "4G",
       "ora": "3",
-      "aula": "",
+      "aula": "212",
       "docente": ""
     },
     {
@@ -365,14 +358,32 @@
       "ora": "2/3",
       "aula": "118",
       "docente": "MARTONE"
+    },
+    {
+      "classe": "5I",
+      "ora": "3",
+      "aula": "129",
+      "docente": ""
     }
   ],
   "cambi_aula": [
     {
-      "ora": "2",
-      "classe": "2A",
-      "aula": "112",
-      "docente": "DI CAMPLI"
+      "ora": "3/4",
+      "classe": "3H",
+      "aula": "FIS",
+      "docente": ""
+    },
+    {
+      "ora": "3",
+      "classe": "1H",
+      "aula": "225",
+      "docente": ""
+    },
+    {
+      "ora": "4",
+      "classe": "2E",
+      "aula": "217",
+      "docente": ""
     }
   ]
 }
