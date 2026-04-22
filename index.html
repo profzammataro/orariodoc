@@ -526,6 +526,44 @@
         <button id="searchBtn" class="search-btn">🔍</button>
         <ul id="suggestionsList"></ul>
       </div>
+      <!-- 👨‍🏫 Sezione Trova Docente Disponibile -->
+<div id="findAvailTeacherSection" style="display:none; text-align:center; padding:25px; background:rgba(247, 249, 252, 0.8); border-top:2px solid #e1e8ed;">
+
+  <h3 style="margin-bottom:15px; color:#333;">🔍 Trova Docente Disponibile</h3>
+
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:10px;">
+
+    <select id="daySelectTeacher" class="search-input" style="max-width:160px; border-radius:10px; padding:10px;">
+      <option value="">Giorno</option>
+      <option value="1">Lunedì</option>
+      <option value="2">Martedì</option>
+      <option value="3">Mercoledì</option>
+      <option value="4">Giovedì</option>
+      <option value="5">Venerdì</option>
+    </select>
+
+    <select id="hourSelectTeacher" class="search-input" style="max-width:160px; border-radius:10px; padding:10px;">
+      <option value="">Ora</option>
+      <option value="1">1ª Ora</option>
+      <option value="2">2ª Ora</option>
+      <option value="3">3ª Ora</option>
+      <option value="4">4ª Ora</option>
+      <option value="5">5ª Ora</option>
+      <option value="6">6ª Ora</option>
+    </select>
+
+<button id="searchAvailTeacherBtn" type="button" class="find-btn green">
+      🔍 Trova
+    </button>
+
+<button id="findAvailTeacherNowBtn" type="button" class="find-btn blue">
+      ⏰ Disponibili Ora
+    </button>
+  </div>
+
+  <div id="availTeacherResult" style="margin-top:20px;"></div>
+</div>
+
       <!-- 🏫 Sezione Trova Aula Vuota -->
 <div id="findFreeRoomSection" style="display:none; text-align:center; padding:25px; background:rgba(247, 249, 252, 0.8); border-top:2px solid #e1e8ed;">
 
@@ -1275,10 +1313,12 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
 
     // === 🏫 TROVA AULA VUOTA ===
 
-// Mostra la sezione solo in modalità "Aule"
+// Mostra le sezioni in base alla modalità
 function toggleFindFreeRoomSection() {
-  document.getElementById("findFreeRoomSection").style.display = 
+  document.getElementById("findFreeRoomSection").style.display =
     currentMode === "room" ? "block" : "none";
+  document.getElementById("findAvailTeacherSection").style.display =
+    currentMode === "teacher" ? "block" : "none";
 }
 toggleFindFreeRoomSection();
 
@@ -1287,6 +1327,82 @@ document.querySelectorAll('.mode-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     toggleFindFreeRoomSection();
   });
+});
+
+// === 👨‍🏫 TROVA DOCENTE DISPONIBILE ===
+
+// Funzione core: trova docenti con "Disp." in un dato indice slot (0-based)
+function findAvailableTeachersAtIndex(data, i) {
+  if (typeof i !== "number" || i < 0) return [];
+  const result = [];
+  for (const [teacher, schedule] of Object.entries(data)) {
+    const cell = schedule[i];
+    if (cell && typeof cell === "string" && cell.trim().toLowerCase().includes("disp")) {
+      result.push(teacher);
+    }
+  }
+  return result.sort();
+}
+
+// Filtra i docenti già impegnati in una sostituzione in quell'ora
+function filterAlreadySubstituting(teachers, oraNum) {
+  if (!comunicazioniData || !comunicazioniData.sostituzioni) return teachers;
+  const impegnati = comunicazioniData.sostituzioni
+    .filter(s => String(s.ora) === String(oraNum) && s.docente)
+    .map(s => s.docente.toUpperCase());
+  return teachers.filter(t =>
+    !impegnati.some(imp => imp.includes(t.toUpperCase()) || t.toUpperCase().includes(imp))
+  );
+}
+
+function showAvailTeacherResult(resultBox, teachers, label) {
+  if (teachers.length === 0) {
+    resultBox.innerHTML = `
+      <div class="info-box" style="background:linear-gradient(135deg,#FF6B9D,#FFA07A);">
+        <strong>Nessun docente disponibile in questa fascia oraria.</strong>
+      </div>`;
+  } else {
+    resultBox.innerHTML = `
+      <div class="info-box" style="background:linear-gradient(135deg,#4CAF50,#81C784);">
+        <h3>Docenti disponibili${label ? " — " + label : ""}:</h3>
+        <p><strong>${teachers.join(", ")}</strong></p>
+      </div>`;
+    document.getElementById("scheduleContainer").style.display = "none";
+  }
+}
+
+document.getElementById("searchAvailTeacherBtn").addEventListener("click", () => {
+  event.preventDefault();
+  const day = parseInt(document.getElementById("daySelectTeacher").value);
+  const hour = parseInt(document.getElementById("hourSelectTeacher").value);
+  const resultBox = document.getElementById("availTeacherResult");
+  resultBox.innerHTML = "";
+
+  if (!day || !hour) {
+    alert("Seleziona giorno e ora!");
+    return;
+  }
+
+  const index = (day - 1) * 6 + (hour - 1); // 0-based
+  const oraNum = hour;
+  let teachers = findAvailableTeachersAtIndex(teachersData, index);
+  teachers = filterAlreadySubstituting(teachers, oraNum);
+  showAvailTeacherResult(resultBox, teachers, "");
+});
+
+document.getElementById("findAvailTeacherNowBtn").addEventListener("click", () => {
+  event.preventDefault();
+  const resultBox = document.getElementById("availTeacherResult");
+  resultBox.innerHTML = "";
+
+  try {
+    const slot = getCurrentSchoolSlotInfo(Date.now());
+    let teachers = findAvailableTeachersAtIndex(teachersData, slot.index - 1);
+    teachers = filterAlreadySubstituting(teachers, slot.hour);
+    showAvailTeacherResult(resultBox, teachers, slot.label);
+  } catch (err) {
+    alert(err.message);
+  }
 });
 
 // Funzione per cercare aule vuote in base a giorno/ora scelti
