@@ -1167,6 +1167,14 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
         ? comunicazioniData.giorno_settimana
         : new Date().getDay() - 1;
       if (giorno !== giornoRef) return false;
+
+      // Se questo docente è lui stesso il sostituto in quest'ora, NON è assente
+      const isSubstitute = comunicazioniData.sostituzioni.some(s =>
+        String(s.ora) === String(ora) &&
+        s.docente && s.docente.toUpperCase().includes(cognome)
+      );
+      if (isSubstitute) return false;
+
       return comunicazioniData.sostituzioni.some(s => {
         if (String(s.ora) !== String(ora)) return false;
         const teacherSchedule = teachersData[
