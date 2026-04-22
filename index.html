@@ -429,21 +429,6 @@
       text-transform: uppercase;
       letter-spacing: 0.5px;
     }
-    /* Cella docente assente */
-    .absent-cell {
-      background: linear-gradient(135deg, #fce4ec, #ffcdd2) !important;
-      border: 2px solid #e53935 !important;
-      border-radius: 8px;
-    }
-    .absent-badge {
-      display: block;
-      font-size: 9px;
-      color: #b71c1c;
-      font-weight: 700;
-      margin-bottom: 3px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
     /* Cella ora non prevista (ingresso tardivo / uscita anticipata) */
     .no-school-cell {
       background: linear-gradient(135deg, #ffebee, #ffcdd2) !important;
@@ -460,6 +445,21 @@
       letter-spacing: 0.5px;
     }
 
+    /* Cella docente assente */
+    .absent-cell {
+      background: linear-gradient(135deg, #fce4ec, #ffcdd2) !important;
+      border: 2px solid #e53935 !important;
+      border-radius: 8px;
+    }
+    .absent-badge {
+      display: block;
+      font-size: 9px;
+      color: #b71c1c;
+      font-weight: 700;
+      margin-bottom: 3px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
     /* Cella docente sostituto */
     .substitute-cell {
       background: linear-gradient(135deg, #fff3e0, #ffe0b2) !important;
@@ -1169,7 +1169,6 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
         : new Date().getDay() - 1;
       if (giorno !== giornoRef) return null;
 
-      // Mappa orari scolastici → indice ora (0-based)
       const orariMap = {
         '8.10': 0, '8:10': 0,
         '9.10': 1, '9:10': 1,
@@ -1179,27 +1178,28 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
         '13.05': 5, '13:05': 5
       };
 
-      const match = comunicazioniData.ingressi_uscite.find(r =>
+      // Cerca tutte le righe della classe (potrebbero esserci più righe)
+      const matches = comunicazioniData.ingressi_uscite.filter(r =>
         r.classe && r.classe.toUpperCase().includes(classe.toUpperCase())
       );
-      if (!match) return null;
+      if (!matches.length) return null;
 
-      // Ingresso tardivo: le ore PRIMA dell'ingresso sono da saltare
-      if (match.ingresso && match.ingresso !== '—' && match.ingresso.trim() !== '') {
-        const ingressoIdx = orariMap[match.ingresso.trim()];
-        if (ingressoIdx !== undefined && oraIndex < ingressoIdx) {
-          return { tipo: 'ingresso', orario: match.ingresso };
+      for (const match of matches) {
+        // Uscita anticipata controllata PRIMA: ore da quella in poi sono da saltare
+        if (match.uscita && match.uscita !== '—' && match.uscita.trim() !== '') {
+          const uscitaIdx = orariMap[match.uscita.trim()];
+          if (uscitaIdx !== undefined && oraIndex >= uscitaIdx) {
+            return { tipo: 'uscita', orario: match.uscita };
+          }
+        }
+        // Ingresso tardivo: ore PRIMA dell'ingresso sono da saltare
+        if (match.ingresso && match.ingresso !== '—' && match.ingresso.trim() !== '') {
+          const ingressoIdx = orariMap[match.ingresso.trim()];
+          if (ingressoIdx !== undefined && oraIndex < ingressoIdx) {
+            return { tipo: 'ingresso', orario: match.ingresso };
+          }
         }
       }
-
-      // Uscita anticipata: le ore DALLA uscita in poi sono da saltare
-      if (match.uscita && match.uscita !== '—' && match.uscita.trim() !== '') {
-        const uscitaIdx = orariMap[match.uscita.trim()];
-        if (uscitaIdx !== undefined && oraIndex >= uscitaIdx) {
-          return { tipo: 'uscita', orario: match.uscita };
-        }
-      }
-
       return null;
     }
 
