@@ -92,6 +92,13 @@
       "uscita": "",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "5G",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "ANTICIPA BALDI IN 3h",
+      "aula": "207"
     }
   ],
   "sostituzioni": [
@@ -116,13 +123,13 @@
     {
       "classe": "5D",
       "ora": "3",
-      "aula": "",
+      "aula": "224",
       "docente": "FORCELLINO"
     },
     {
       "classe": "4D",
       "ora": "5",
-      "aula": "",
+      "aula": "224",
       "docente": "ZAMMATARO"
     },
     {
@@ -165,7 +172,7 @@
       "classe": "5G",
       "ora": "3",
       "aula": "207",
-      "docente": "MOSCARELLI"
+      "docente": "BALDI"
     },
     {
       "classe": "4G",
@@ -174,10 +181,22 @@
       "docente": "FATTORUSO"
     },
     {
-      "classe": "5A",
+      "classe": "5I",
       "ora": "2",
-      "aula": "A.M.",
+      "aula": "207",
       "docente": "FORCELLINO"
+    },
+    {
+      "classe": "4A",
+      "ora": "3",
+      "aula": "112",
+      "docente": "MOSCARELLI"
+    },
+    {
+      "classe": "3A",
+      "ora": "4",
+      "aula": "206",
+      "docente": "BARTOLI"
     }
   ],
   "cambi_aula": [
