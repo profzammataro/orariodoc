@@ -42,10 +42,17 @@
       "ingresso": "9.10",
       "uscita": "",
       "sostituzione": "Appello alle 9.10",
-      "aula": "VICEPRESIDENZA"
+      "aula": "BIBLIOTECA"
     }
   ],
-  "sostituzioni": [],
+  "sostituzioni": [
+    {
+      "classe": "1I",
+      "ora": "1",
+      "aula": "125",
+      "docente": "CIULLA"
+    }
+  ],
   "cambi_aula": [
     {
       "ora": "3N",
