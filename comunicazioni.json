@@ -1,69 +1,199 @@
 {
-  "data": "24/04/2026",
-  "giorno_settimana": 4,
+  "data": "27/04/2026",
+  "giorno_settimana": 0,
   "ingressi_uscite": [
-    {
-      "classe": "5B",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "CERCIELLO Appello alle 9.10",
-      "aula": "111"
-    },
-    {
-      "classe": "4B",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "GAGLIARDI Appello alle 9.10",
-      "aula": "223"
-    },
-    {
-      "classe": "1D",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "SPOLETI Appello alle 9.10",
-      "aula": "106"
-    },
     {
       "classe": "5D",
       "ingresso": "9.10",
       "uscita": "",
-      "sostituzione": "CICCONE (3D) Appello alle 9.10",
-      "aula": "113"
+      "sostituzione": "",
+      "aula": ""
     },
     {
-      "classe": "3E",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "CIULLA (3B) Appello alle 9.10",
-      "aula": "125"
+      "classe": "4G",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
     },
     {
-      "classe": "3B+3C+3C",
+      "classe": "5B",
       "ingresso": "9.10",
       "uscita": "",
-      "sostituzione": "Appello alle 9.10",
-      "aula": "BIBLIOTECA"
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2F",
+      "ingresso": "10.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2I",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2E",
+      "ingresso": "10.10",
+      "uscita": "",
+      "sostituzione": "TORELLI posticipa in 3h",
+      "aula": "221"
+    },
+    {
+      "classe": "1N",
+      "ingresso": "",
+      "uscita": "11.00",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2C",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4E",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3F",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
     {
-      "classe": "1I",
+      "classe": "2D",
+      "ora": "2",
+      "aula": "111",
+      "docente": "FORCELLINO (TUTTA)"
+    },
+    {
+      "classe": "5L",
+      "ora": "3",
+      "aula": "113",
+      "docente": "POLIDORI (TUTTA)"
+    },
+    {
+      "classe": "5G",
+      "ora": "3",
+      "aula": "212",
+      "docente": "BARTOLI"
+    },
+    {
+      "classe": "3G",
+      "ora": "5",
+      "aula": "108",
+      "docente": "BARTOLI"
+    },
+    {
+      "classe": "1F",
+      "ora": "4",
+      "aula": "212",
+      "docente": "PETRUCCI"
+    },
+    {
+      "classe": "1N",
       "ora": "1",
-      "aula": "125",
+      "aula": "215",
       "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "2F",
+      "ora": "3",
+      "aula": "CHI",
+      "docente": "FERRARA"
+    },
+    {
+      "classe": "2F",
+      "ora": "4",
+      "aula": "215",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "1A",
+      "ora": "5",
+      "aula": "221",
+      "docente": "ROCCAMO"
+    },
+    {
+      "classe": "1A",
+      "ora": "6",
+      "aula": "221",
+      "docente": "LASERRA"
+    },
+    {
+      "classe": "4D",
+      "ora": "1/2",
+      "aula": "218",
+      "docente": "ROMANO"
+    },
+    {
+      "classe": "1E",
+      "ora": "2",
+      "aula": "128",
+      "docente": "BARTOLI"
+    },
+    {
+      "classe": "4I",
+      "ora": "4",
+      "aula": "120",
+      "docente": "DONNADIO (TUTTA)"
+    },
+    {
+      "classe": "3I",
+      "ora": "5",
+      "aula": "102",
+      "docente": "FRANCARDI (TUTTA)"
+    },
+    {
+      "classe": "5I",
+      "ora": "5",
+      "aula": "105",
+      "docente": "BISELLI"
+    },
+    {
+      "classe": "2D",
+      "ora": "5",
+      "aula": "LNX",
+      "docente": "CORIGLIANO"
     }
   ],
   "cambi_aula": [
     {
-      "ora": "3N",
-      "classe": "1",
-      "aula": "CHI",
+      "ora": "2/3",
+      "classe": "2H",
+      "aula": "A.M.",
       "docente": ""
     },
     {
-      "ora": "3I",
-      "classe": "1",
-      "aula": "215",
+      "ora": "1",
+      "classe": "2D",
+      "aula": "210",
+      "docente": ""
+    },
+    {
+      "ora": "2",
+      "classe": "1D",
+      "aula": "210",
+      "docente": ""
+    },
+    {
+      "ora": "2/3",
+      "classe": "2A",
+      "aula": "118",
       "docente": ""
     }
   ]
