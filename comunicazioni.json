@@ -78,6 +78,20 @@
       "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "4E",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5A",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "ROTA anticipa in 4h",
+      "aula": "207"
     }
   ],
   "sostituzioni": [
