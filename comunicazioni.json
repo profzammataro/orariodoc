@@ -69,8 +69,15 @@
       "classe": "4A",
       "ingresso": "",
       "uscita": "13.05",
-      "sostituzione": "MARTIRADONNA anticipa in 1 ora",
+      "sostituzione": "MARTIRADONNA anticipa in 1h",
       "aula": "207"
+    },
+    {
+      "classe": "3D",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
@@ -90,19 +97,19 @@
       "classe": "5G",
       "ora": "3",
       "aula": "212",
-      "docente": "BARTOLI"
+      "docente": "SPOLETI (1C)"
     },
     {
       "classe": "3G",
       "ora": "5",
       "aula": "108",
-      "docente": "BARTOLI"
+      "docente": "ROSSI (1C)"
     },
     {
       "classe": "1F",
       "ora": "4",
       "aula": "212",
-      "docente": "PETRUCCI"
+      "docente": "FORCELLINO"
     },
     {
       "classe": "1N",
@@ -113,7 +120,7 @@
     {
       "classe": "2F",
       "ora": "3",
-      "aula": "CHI",
+      "aula": "127",
       "docente": "FERRARA"
     },
     {
@@ -144,7 +151,7 @@
       "classe": "1E",
       "ora": "2",
       "aula": "128",
-      "docente": "BARTOLI"
+      "docente": "GAGLIARDI"
     },
     {
       "classe": "4I",
@@ -162,13 +169,43 @@
       "classe": "5I",
       "ora": "5",
       "aula": "105",
-      "docente": "BISELLI"
+      "docente": "SESTITO (5I)"
     },
     {
       "classe": "2D",
       "ora": "5",
       "aula": "LNX",
       "docente": "CORIGLIANO"
+    },
+    {
+      "classe": "2A",
+      "ora": "5",
+      "aula": "213",
+      "docente": "GALLEAZZI (2L)"
+    },
+    {
+      "classe": "5D",
+      "ora": "4",
+      "aula": "127",
+      "docente": "GRANIERO"
+    },
+    {
+      "classe": "5I",
+      "ora": "3",
+      "aula": "207",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "5A",
+      "ora": "4",
+      "aula": "207",
+      "docente": "TORELLI"
+    },
+    {
+      "classe": "5L",
+      "ora": "6",
+      "aula": "225",
+      "docente": "RIZZO"
     }
   ],
   "cambi_aula": [
@@ -194,6 +231,12 @@
       "ora": "2/3",
       "classe": "2A",
       "aula": "118",
+      "docente": ""
+    },
+    {
+      "ora": "4",
+      "classe": "4D",
+      "aula": "218",
       "docente": ""
     }
   ]
