@@ -183,7 +183,7 @@
       "classe": "5I",
       "ora": "5",
       "aula": "105",
-      "docente": "SESTITO (5I)"
+      "docente": "SESTITO (3E)"
     },
     {
       "classe": "2D",
@@ -220,6 +220,12 @@
       "ora": "6",
       "aula": "225",
       "docente": "RIZZO"
+    },
+    {
+      "classe": "1I",
+      "ora": "4",
+      "aula": "130",
+      "docente": "REPOLE"
     }
   ],
   "cambi_aula": [
