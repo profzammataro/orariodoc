@@ -1,7 +1,92 @@
 {
   "data": "29/04/2026",
   "giorno_settimana": 2,
-  "ingressi_uscite": [],
+  "ingressi_uscite": [
+    {
+      "classe": "2B",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2G",
+      "ingresso": "",
+      "uscita": "11.00",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4B",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2C",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4D",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3A",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5A",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3D",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1F",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1E",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5C",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3C",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    }
+  ],
   "sostituzioni": [
     {
       "classe": "5M",
@@ -158,6 +243,12 @@
       "ora": "5",
       "aula": "112",
       "docente": "FATTORUSO"
+    },
+    {
+      "classe": "1C",
+      "ora": "4",
+      "aula": "201",
+      "docente": "RICCIO"
     }
   ],
   "cambi_aula": [
@@ -171,6 +262,12 @@
       "ora": "1/2/3",
       "classe": "CAMBI AULA PER LE ALTRE CLASSI",
       "aula": "CONSULTARE LA TABELLA PUBBLICATA SOTTO LA DATA DELLE COMUNICAZIONI ORGANIZZATIVE",
+      "docente": ""
+    },
+    {
+      "ora": "1/2/3",
+      "classe": "3E+3F",
+      "aula": "biblioteca",
       "docente": ""
     }
   ]
