@@ -85,38 +85,47 @@
       "uscita": "",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "1B",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3B",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5H",
+      "ingresso": "",
+      "uscita": "11.00",
+      "sostituzione": "chi non si avvale IRC",
+      "aula": ""
     }
   ],
   "sostituzioni": [
+    {
+      "classe": "Studio assistito",
+      "ora": "5",
+      "aula": "112",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "Studio Assistito",
+      "ora": "4",
+      "aula": "122",
+      "docente": "GAGLIARDI"
+    },
     {
       "classe": "5M",
       "ora": "1",
       "aula": "215",
       "docente": "BUSA'"
-    },
-    {
-      "classe": "2N",
-      "ora": "2",
-      "aula": "214",
-      "docente": "DI CAMPLI"
-    },
-    {
-      "classe": "1D",
-      "ora": "4",
-      "aula": "117",
-      "docente": "TORELLI (TUTTA)"
-    },
-    {
-      "classe": "2G",
-      "ora": "3",
-      "aula": "220",
-      "docente": "BARTOLI"
-    },
-    {
-      "classe": "3B",
-      "ora": "4",
-      "aula": "227",
-      "docente": "ZAMMATARO"
     },
     {
       "classe": "5G",
@@ -125,87 +134,33 @@
       "docente": "CHAMBERLAIN"
     },
     {
-      "classe": "4D",
-      "ora": "1",
-      "aula": "125",
-      "docente": "FRANCESCHELLI"
-    },
-    {
-      "classe": "4B",
+      "classe": "5F",
       "ora": "2",
-      "aula": "219",
-      "docente": "BARTOLI"
+      "aula": "112",
+      "docente": ""
     },
     {
-      "classe": "3B",
+      "classe": "5F",
       "ora": "3",
-      "aula": "214",
-      "docente": "FATTORUSO"
+      "aula": "ECDL",
+      "docente": "BARTOCCI"
     },
     {
-      "classe": "4A",
-      "ora": "2",
-      "aula": "226",
-      "docente": "DONNADIO"
-    },
-    {
-      "classe": "4A",
-      "ora": "3",
-      "aula": "226",
-      "docente": "GAGLIARDI"
-    },
-    {
-      "classe": "3A",
+      "classe": "5E",
       "ora": "4",
-      "aula": "223",
-      "docente": "FORCELLINO"
+      "aula": "221",
+      "docente": "MOSCARELLI"
     },
     {
       "classe": "4H",
       "ora": "5",
       "aula": "222",
-      "docente": "SPALLIERO"
-    },
-    {
-      "classe": "2A",
-      "ora": "2",
-      "aula": "213",
-      "docente": "GAGLIARDI"
-    },
-    {
-      "classe": "4A",
-      "ora": "4",
-      "aula": "213",
-      "docente": "FERRARA"
-    },
-    {
-      "classe": "2D",
-      "ora": "4/5",
-      "aula": "119",
-      "docente": "FORTE"
+      "docente": "FORCELLINO"
     },
     {
       "classe": "4F",
       "ora": "1",
       "aula": "212",
-      "docente": "BARTOLI"
-    },
-    {
-      "classe": "5F",
-      "ora": "2",
-      "aula": "112",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "2F",
-      "ora": "2",
-      "aula": "208",
-      "docente": "FRATTARELLI"
-    },
-    {
-      "classe": "Studio Assistito",
-      "ora": "4",
-      "aula": "122",
       "docente": "GAGLIARDI"
     },
     {
@@ -215,16 +170,10 @@
       "docente": "BRANDONISIO"
     },
     {
-      "classe": "5E",
-      "ora": "4",
-      "aula": "221",
-      "docente": "MOSCARELLI"
-    },
-    {
-      "classe": "1N",
-      "ora": "4",
-      "aula": "126",
-      "docente": "CHAMBERLAIN"
+      "classe": "4D",
+      "ora": "1",
+      "aula": "125",
+      "docente": "FRANCESCHELLI"
     },
     {
       "classe": "4C",
@@ -239,10 +188,112 @@
       "docente": "CASTRONUOVO (REC)"
     },
     {
-      "classe": "Studio assistito",
-      "ora": "5",
-      "aula": "112",
+      "classe": "4B",
+      "ora": "2",
+      "aula": "219",
       "docente": "FATTORUSO"
+    },
+    {
+      "classe": "4B",
+      "ora": "4",
+      "aula": "AM",
+      "docente": "PECORA (3F)"
+    },
+    {
+      "classe": "4A",
+      "ora": "2",
+      "aula": "226",
+      "docente": "DONNADIO (3F)"
+    },
+    {
+      "classe": "4A",
+      "ora": "4",
+      "aula": "213",
+      "docente": "FERRARA"
+    },
+    {
+      "classe": "4A",
+      "ora": "3",
+      "aula": "226",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "3I",
+      "ora": "3",
+      "aula": "221",
+      "docente": "CAMILLERI (ST ASS)"
+    },
+    {
+      "classe": "3B",
+      "ora": "3",
+      "aula": "214",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "3B",
+      "ora": "4",
+      "aula": "227",
+      "docente": "ZAMMATARO"
+    },
+    {
+      "classe": "3A",
+      "ora": "4",
+      "aula": "223",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "2N",
+      "ora": "2",
+      "aula": "214",
+      "docente": "DI CAMPLI"
+    },
+    {
+      "classe": "2I",
+      "ora": "2",
+      "aula": "225",
+      "docente": "TOMMASINO"
+    },
+    {
+      "classe": "2G",
+      "ora": "3",
+      "aula": "220",
+      "docente": "BOVA (3F)"
+    },
+    {
+      "classe": "2F",
+      "ora": "1",
+      "aula": "208",
+      "docente": "DONNADIO (3F)"
+    },
+    {
+      "classe": "2F",
+      "ora": "2",
+      "aula": "208",
+      "docente": "FRATTARELLI"
+    },
+    {
+      "classe": "2D",
+      "ora": "4/5",
+      "aula": "119",
+      "docente": "FORTE"
+    },
+    {
+      "classe": "2A",
+      "ora": "2",
+      "aula": "213",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "1N",
+      "ora": "4",
+      "aula": "126",
+      "docente": "CHAMBERLAIN"
+    },
+    {
+      "classe": "1D",
+      "ora": "4",
+      "aula": "117",
+      "docente": "TORELLI (TUTTA)"
     },
     {
       "classe": "1C",
@@ -268,6 +319,12 @@
       "ora": "1/2/3",
       "classe": "3E+3F",
       "aula": "biblioteca",
+      "docente": ""
+    },
+    {
+      "ora": "1N",
+      "classe": "2",
+      "aula": "117",
       "docente": ""
     }
   ]
