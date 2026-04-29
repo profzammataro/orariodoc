@@ -106,6 +106,13 @@
       "uscita": "11.00",
       "sostituzione": "chi non si avvale IRC",
       "aula": ""
+    },
+    {
+      "classe": "3h",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
@@ -130,7 +137,7 @@
     {
       "classe": "5G",
       "ora": "5",
-      "aula": "227",
+      "aula": "102",
       "docente": "CHAMBERLAIN"
     },
     {
