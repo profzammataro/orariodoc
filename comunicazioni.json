@@ -104,7 +104,7 @@
       "classe": "5H",
       "ingresso": "",
       "uscita": "11.00",
-      "sostituzione": "chi non si avvale IRC",
+      "sostituzione": "",
       "aula": ""
     },
     {
@@ -112,6 +112,13 @@
       "ingresso": "",
       "uscita": "13.05",
       "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4A",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "ANTICIPA MARTIRADONNA IN 4 ORA",
       "aula": ""
     }
   ],
@@ -216,7 +223,7 @@
       "classe": "4A",
       "ora": "4",
       "aula": "213",
-      "docente": "FERRARA"
+      "docente": "MARTIRADONNA"
     },
     {
       "classe": "4A",
@@ -332,6 +339,12 @@
       "ora": "1N",
       "classe": "2",
       "aula": "117",
+      "docente": ""
+    },
+    {
+      "ora": "2I",
+      "classe": "4/5",
+      "aula": "206",
       "docente": ""
     }
   ]
