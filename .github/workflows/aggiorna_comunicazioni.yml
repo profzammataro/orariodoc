@@ -29,7 +29,8 @@ jobs:
       - name: Installa dipendenze
         run: pip install requests beautifulsoup4
 
-      - name: Esegui scraper
+      - name: Esegui scraper 
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: python scraper.py
