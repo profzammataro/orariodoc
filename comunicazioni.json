@@ -25,10 +25,10 @@
     },
     {
       "classe": "5C",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
+      "ingresso": "10.10",
+      "uscita": "12.10",
+      "sostituzione": "anticipa GALATI 3h",
+      "aula": "104"
     },
     {
       "classe": "1B",
@@ -130,58 +130,16 @@
       "docente": "GASPARINI (3E)"
     },
     {
+      "classe": "1F",
+      "ora": "3",
+      "aula": "205",
+      "docente": "MOSCARELLI"
+    },
+    {
       "classe": "2A",
       "ora": "3",
       "aula": "LNX",
       "docente": "DONINELLI (3E)"
-    },
-    {
-      "classe": "3D",
-      "ora": "4",
-      "aula": "208",
-      "docente": "TASSETTI"
-    },
-    {
-      "classe": "4A",
-      "ora": "2",
-      "aula": "221",
-      "docente": "CASTRONUOVO (3E)"
-    },
-    {
-      "classe": "2C",
-      "ora": "2",
-      "aula": "128",
-      "docente": "BOVA (3F)"
-    },
-    {
-      "classe": "3B",
-      "ora": "4",
-      "aula": "128",
-      "docente": "PECORA (TUTTA)"
-    },
-    {
-      "classe": "3G",
-      "ora": "3",
-      "aula": "220",
-      "docente": "FORCELLINO"
-    },
-    {
-      "classe": "STUDIO ASSISTITO",
-      "ora": "4",
-      "aula": "122",
-      "docente": "REPOLE (3E)"
-    },
-    {
-      "classe": "4C",
-      "ora": "3",
-      "aula": "204",
-      "docente": "BARTOCCI"
-    },
-    {
-      "classe": "5C",
-      "ora": "5",
-      "aula": "204",
-      "docente": "ZAMMATARO"
     },
     {
       "classe": "2B",
@@ -190,34 +148,28 @@
       "docente": "MILEO (2C)"
     },
     {
-      "classe": "3A",
+      "classe": "2C",
+      "ora": "2",
+      "aula": "128",
+      "docente": "BOVA (3F)"
+    },
+    {
+      "classe": "2E",
       "ora": "3",
-      "aula": "111",
-      "docente": "DI CAMPLI"
-    },
-    {
-      "classe": "5G",
-      "ora": "4",
-      "aula": "111",
-      "docente": "GALATI"
-    },
-    {
-      "classe": "3L",
-      "ora": "4",
-      "aula": "CHI",
-      "docente": "TOMMASINO (3E)"
-    },
-    {
-      "classe": "5L",
-      "ora": "5",
       "aula": "201",
       "docente": "BARTOLI"
     },
     {
-      "classe": "5B",
-      "ora": "1",
-      "aula": "201",
-      "docente": "POLITO"
+      "classe": "2I",
+      "ora": "4",
+      "aula": "205",
+      "docente": "PELUSO (REC)"
+    },
+    {
+      "classe": "3A",
+      "ora": "3",
+      "aula": "111",
+      "docente": "DI CAMPLI"
     },
     {
       "classe": "3B",
@@ -226,10 +178,76 @@
       "docente": "FORCELLINO"
     },
     {
-      "classe": "2E",
+      "classe": "3B",
+      "ora": "4",
+      "aula": "128",
+      "docente": "PECORA (TUTTA)"
+    },
+    {
+      "classe": "3C",
       "ora": "3",
-      "aula": "201",
-      "docente": "BARTOLI"
+      "aula": "202",
+      "docente": "TASSETTI"
+    },
+    {
+      "classe": "3D",
+      "ora": "5",
+      "aula": "226",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "3D",
+      "ora": "4",
+      "aula": "208",
+      "docente": "TASSETTI"
+    },
+    {
+      "classe": "3G",
+      "ora": "3",
+      "aula": "220",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "3L",
+      "ora": "4",
+      "aula": "CHI",
+      "docente": "TOMMASINO (3E)"
+    },
+    {
+      "classe": "4A",
+      "ora": "2",
+      "aula": "221",
+      "docente": "CASTRONUOVO (3E)"
+    },
+    {
+      "classe": "4C",
+      "ora": "5",
+      "aula": "104",
+      "docente": "BARTOCCI"
+    },
+    {
+      "classe": "4C",
+      "ora": "3",
+      "aula": "204",
+      "docente": "BARTOCCI"
+    },
+    {
+      "classe": "4C",
+      "ora": "4",
+      "aula": "104",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "4D",
+      "ora": "4",
+      "aula": "226",
+      "docente": "CORIGLIANO (1H)"
+    },
+    {
+      "classe": "4D",
+      "ora": "3",
+      "aula": "222",
+      "docente": "GIAMMEI"
     },
     {
       "classe": "4E",
@@ -244,52 +262,22 @@
       "docente": "ROMANO"
     },
     {
-      "classe": "4D",
-      "ora": "3",
-      "aula": "222",
-      "docente": "GIAMMEI"
-    },
-    {
-      "classe": "4D",
+      "classe": "4L",
       "ora": "4",
-      "aula": "226",
-      "docente": "CORIGLIANO (1H)"
+      "aula": "127",
+      "docente": "ROMANO"
     },
     {
-      "classe": "3D",
-      "ora": "5",
-      "aula": "226",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "3C",
-      "ora": "3",
-      "aula": "107",
-      "docente": "TASSETTI +3D"
-    },
-    {
-      "classe": "1F",
-      "ora": "3",
-      "aula": "205",
-      "docente": "MOSCARELLI"
-    },
-    {
-      "classe": "2I",
-      "ora": "4",
-      "aula": "205",
-      "docente": "PELUSO (REC)"
+      "classe": "5B",
+      "ora": "1",
+      "aula": "201",
+      "docente": "POLITO"
     },
     {
       "classe": "5D",
       "ora": "1",
       "aula": "221",
       "docente": "GRANIERO"
-    },
-    {
-      "classe": "STUDIO ASSISTITO",
-      "ora": "2",
-      "aula": "215",
-      "docente": "FATTORUSO"
     },
     {
       "classe": "5E",
@@ -300,14 +288,32 @@
     {
       "classe": "5F",
       "ora": "2",
-      "aula": "",
+      "aula": "212",
       "docente": "FRATTARELLI"
     },
     {
-      "classe": "4L",
+      "classe": "5G",
       "ora": "4",
-      "aula": "127",
-      "docente": "ROMANO"
+      "aula": "111",
+      "docente": "GALATI"
+    },
+    {
+      "classe": "5L",
+      "ora": "5",
+      "aula": "201",
+      "docente": "BARTOLI"
+    },
+    {
+      "classe": "STUDIO ASSISTITO",
+      "ora": "2",
+      "aula": "215",
+      "docente": "IORIO (ECC)"
+    },
+    {
+      "classe": "STUDIO ASSISTITO",
+      "ora": "4",
+      "aula": "122",
+      "docente": "REPOLE (3E)"
     }
   ],
   "cambi_aula": [
@@ -316,6 +322,24 @@
       "classe": "3E+3F",
       "aula": "biblioteca",
       "docente": ""
+    },
+    {
+      "ora": "1",
+      "classe": "3C + 3D",
+      "aula": "CHI",
+      "docente": "TASSETTI"
+    },
+    {
+      "ora": "1",
+      "classe": "4I",
+      "aula": "202",
+      "docente": "GIANNETTI"
+    },
+    {
+      "ora": "3",
+      "classe": "3D",
+      "aula": "107",
+      "docente": "CICCONE"
     }
   ]
 }
