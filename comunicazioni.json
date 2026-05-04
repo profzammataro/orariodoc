@@ -64,6 +64,13 @@
       "uscita": "",
       "sostituzione": "POSTICIPA CICCONE IN 4^ ORA",
       "aula": "202"
+    },
+    {
+      "classe": "3G",
+      "ingresso": "10.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
@@ -162,6 +169,18 @@
       "ora": "1",
       "aula": "111",
       "docente": "FORCELLINO"
+    },
+    {
+      "classe": "4G",
+      "ora": "3",
+      "aula": "116",
+      "docente": ""
+    },
+    {
+      "classe": "4G",
+      "ora": "4",
+      "aula": "116",
+      "docente": ""
     }
   ],
   "cambi_aula": [
