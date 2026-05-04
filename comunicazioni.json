@@ -78,6 +78,20 @@
       "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "4H",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "ANTICIPA PELUSO IN 5 ORA",
+      "aula": "127"
+    },
+    {
+      "classe": "5B",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "ANTICIPA VERCIELLO IN 3 ORA",
+      "aula": "211"
     }
   ],
   "sostituzioni": [
@@ -133,7 +147,7 @@
       "classe": "2D (TUTTA)",
       "ora": "2",
       "aula": "211",
-      "docente": ""
+      "docente": "FERRARA"
     },
     {
       "classe": "5L",
@@ -181,7 +195,7 @@
       "classe": "5B",
       "ora": "3",
       "aula": "211",
-      "docente": ""
+      "docente": "CERCIELLO"
     },
     {
       "classe": "5C",
@@ -217,12 +231,6 @@
       "classe": "4G",
       "ora": "1",
       "aula": "116",
-      "docente": ""
-    },
-    {
-      "classe": "STUDIO ASSISTITO",
-      "ora": "2",
-      "aula": "",
       "docente": ""
     },
     {
