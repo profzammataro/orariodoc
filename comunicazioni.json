@@ -47,7 +47,7 @@
     {
       "classe": "2G",
       "ingresso": "",
-      "uscita": "13.05",
+      "uscita": "12.10",
       "sostituzione": "",
       "aula": ""
     },
@@ -83,12 +83,6 @@
     {
       "classe": "3H",
       "ora": "4",
-      "aula": "114",
-      "docente": "BARTOLI"
-    },
-    {
-      "classe": "2G",
-      "ora": "5",
       "aula": "114",
       "docente": "BARTOLI"
     },
