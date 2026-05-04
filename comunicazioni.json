@@ -115,7 +115,7 @@
       "classe": "STUDIO ASSISTITO",
       "ora": "5",
       "aula": "014",
-      "docente": "BARTOLI"
+      "docente": "FATTORUSO"
     },
     {
       "classe": "2F",
@@ -130,10 +130,10 @@
       "docente": "TORELLI"
     },
     {
-      "classe": "2D",
+      "classe": "2D (TUTTA)",
       "ora": "2",
       "aula": "211",
-      "docente": "FORCELLINO"
+      "docente": ""
     },
     {
       "classe": "5L",
@@ -175,13 +175,13 @@
       "classe": "1B",
       "ora": "2",
       "aula": "213",
-      "docente": "BARTOLI"
+      "docente": "FERRARA"
     },
     {
       "classe": "5B",
       "ora": "3",
       "aula": "211",
-      "docente": "BARTOLI"
+      "docente": ""
     },
     {
       "classe": "5C",
@@ -206,6 +206,30 @@
       "ora": "3",
       "aula": "202",
       "docente": "MARTONE"
+    },
+    {
+      "classe": "3G",
+      "ora": "4",
+      "aula": "116",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "4G",
+      "ora": "1",
+      "aula": "116",
+      "docente": ""
+    },
+    {
+      "classe": "STUDIO ASSISTITO",
+      "ora": "2",
+      "aula": "",
+      "docente": ""
+    },
+    {
+      "classe": "3G",
+      "ora": "1",
+      "aula": "",
+      "docente": ""
     }
   ],
   "cambi_aula": [
