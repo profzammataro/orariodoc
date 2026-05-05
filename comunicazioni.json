@@ -192,9 +192,9 @@
       "docente": "FATTORUSO"
     },
     {
-      "classe": "5B",
+      "classe": "1H",
       "ora": "5",
-      "aula": "120",
+      "aula": "101",
       "docente": "SEQUI (TUTTA)"
     },
     {
@@ -231,7 +231,7 @@
       "classe": "5B",
       "ora": "6",
       "aula": "120",
-      "docente": ""
+      "docente": "ZAMMATARO"
     }
   ],
   "cambi_aula": [
