@@ -1,18 +1,32 @@
 {
-  "data": "05/05/2026",
-  "giorno_settimana": 1,
+  "data": "06/05/2026",
+  "giorno_settimana": 2,
   "ingressi_uscite": [
     {
-      "classe": "4C",
+      "classe": "1G",
       "ingresso": "9.10",
       "uscita": "",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "4E",
+      "classe": "1F",
       "ingresso": "9.10",
       "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3D",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2B",
+      "ingresso": "",
+      "uscita": "12.10",
       "sostituzione": "",
       "aula": ""
     },
@@ -24,222 +38,158 @@
       "aula": ""
     },
     {
-      "classe": "1N",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "3C",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "1A",
+      "classe": "2H",
       "ingresso": "",
       "uscita": "12.10",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "2G",
+      "classe": "5G",
       "ingresso": "",
-      "uscita": "12.10",
+      "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "3H",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "ANTICIPA MASTRIPIERI IN 2 ORA",
+      "aula": "114"
+    },
+    {
+      "classe": "4A",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "POSTICIPA DI CAMPLI IN 2 ORA",
+      "aula": "226"
     },
     {
       "classe": "4A",
       "ingresso": "",
       "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
+      "sostituzione": "ANTICIPA MARTIRADONNA IN 3 ORA",
+      "aula": "226"
     },
     {
-      "classe": "3D",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "POSTICIPA CICCONE IN 4^ ORA",
-      "aula": "202"
-    },
-    {
-      "classe": "3G",
-      "ingresso": "10.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "3N",
+      "classe": "3A",
       "ingresso": "",
       "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "2I",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "anticipa ROSSI in 5 ora",
-      "aula": "207"
-    },
-    {
-      "classe": "4I",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
+      "sostituzione": "ANTICIPA FASANO IN 4 ORA",
+      "aula": "223"
     }
   ],
   "sostituzioni": [
     {
+      "classe": "2N",
+      "ora": "2",
+      "aula": "128",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "1D",
+      "ora": "4",
+      "aula": "128",
+      "docente": "FORCELLINO"
+    },
+    {
       "classe": "2F",
       "ora": "2",
-      "aula": "204",
-      "docente": "FASANO"
-    },
-    {
-      "classe": "5A",
-      "ora": "1",
-      "aula": "111",
-      "docente": "FORCELLINO"
-    },
-    {
-      "classe": "1B",
-      "ora": "1",
-      "aula": "224",
-      "docente": "DI CAMPLI"
-    },
-    {
-      "classe": "3C",
-      "ora": "2",
-      "aula": "128",
-      "docente": "FORCELLINO"
-    },
-    {
-      "classe": "1F",
-      "ora": "2",
-      "aula": "205",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "1G",
-      "ora": "2",
-      "aula": "224",
-      "docente": "GAGLIARDI"
-    },
-    {
-      "classe": "3H",
-      "ora": "3",
-      "aula": "114",
-      "docente": "GAGLIARDI"
-    },
-    {
-      "classe": "3N",
-      "ora": "3",
-      "aula": "128",
-      "docente": "ZAMMATARO"
-    },
-    {
-      "classe": "2I",
-      "ora": "3",
-      "aula": "CHI",
-      "docente": "CANTORE"
-    },
-    {
-      "classe": "1C",
-      "ora": "3",
-      "aula": "201",
-      "docente": "LOMBARDI"
-    },
-    {
-      "classe": "4G",
-      "ora": "3",
-      "aula": "116",
-      "docente": "DE RUVO"
-    },
-    {
-      "classe": "3H",
-      "ora": "4",
-      "aula": "114",
-      "docente": "BARTOLI"
-    },
-    {
-      "classe": "3F",
-      "ora": "4",
       "aula": "215",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "S.A.",
+      "ora": "4",
+      "aula": "122",
       "docente": "CHAMBERLAIN"
     },
     {
-      "classe": "3E",
+      "classe": "5D",
+      "ora": "2",
+      "aula": "202",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "3C",
+      "ora": "3",
+      "aula": "202",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "1C",
       "ora": "4",
-      "aula": "210",
+      "aula": "201",
+      "docente": "ZAMMATARO"
+    },
+    {
+      "classe": "3B",
+      "ora": "4",
+      "aula": "127",
       "docente": "FERRARA"
     },
     {
-      "classe": "4G",
+      "classe": "5G",
+      "ora": "5",
+      "aula": "222",
+      "docente": "MOSCARELLI"
+    },
+    {
+      "classe": "3H",
       "ora": "4",
-      "aula": "116",
+      "aula": "217",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "4H",
+      "ora": "5",
+      "aula": "",
+      "docente": "FERRARA"
+    },
+    {
+      "classe": "ASSISTENZA SANZIONE",
+      "ora": "6",
+      "aula": "110-111-116-119",
       "docente": "FORCELLINO"
     },
     {
-      "classe": "2B",
-      "ora": "4",
-      "aula": "224",
+      "classe": "ASSISTENZA SANZIONE",
+      "ora": "6",
+      "aula": "121 -126- 128-129",
       "docente": "FATTORUSO"
     },
     {
-      "classe": "1H",
-      "ora": "5",
-      "aula": "101",
-      "docente": "SEQUI (TUTTA)"
-    },
-    {
-      "classe": "3F",
-      "ora": "5",
-      "aula": "CHI",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "5D",
-      "ora": "5",
-      "aula": "215",
-      "docente": "MARTONE"
-    },
-    {
-      "classe": "3G",
-      "ora": "5",
-      "aula": "224",
-      "docente": "BARTOLI"
-    },
-    {
-      "classe": "5E",
+      "classe": "ASSISTENZA SANZIONE",
       "ora": "6",
-      "aula": "222",
-      "docente": "GASPARINI"
-    },
-    {
-      "classe": "5D",
-      "ora": "6",
-      "aula": "102",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "2H",
-      "ora": "6",
-      "aula": "120",
-      "docente": "ZAMMATARO"
+      "aula": "202-204-205206",
+      "docente": "FERRARA"
     }
   ],
   "cambi_aula": [
     {
-      "ora": "1",
-      "classe": "1E",
+      "ora": "4",
+      "classe": "4B",
+      "aula": "127",
+      "docente": ""
+    },
+    {
+      "ora": "5",
+      "classe": "1N",
       "aula": "113",
       "docente": ""
+    },
+    {
+      "ora": "6",
+      "classe": "3A",
+      "aula": "101",
+      "docente": ""
+    },
+    {
+      "ora": "5",
+      "classe": "4B",
+      "aula": "CHI",
+      "docente": "DE SIMONE"
     }
   ]
 }
