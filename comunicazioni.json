@@ -75,16 +75,16 @@
   ],
   "sostituzioni": [
     {
-      "classe": "3H",
-      "ora": "3",
-      "aula": "114",
-      "docente": "GAGLIARDI"
+      "classe": "5A",
+      "ora": "1",
+      "aula": "111",
+      "docente": "FORCELLINO"
     },
     {
-      "classe": "3H",
-      "ora": "4",
-      "aula": "114",
-      "docente": "BARTOLI"
+      "classe": "1B",
+      "ora": "1",
+      "aula": "224",
+      "docente": "DI CAMPLI"
     },
     {
       "classe": "3C",
@@ -93,22 +93,28 @@
       "docente": "FORCELLINO"
     },
     {
-      "classe": "3N",
-      "ora": "3",
-      "aula": "128",
-      "docente": "ZAMMATARO"
-    },
-    {
-      "classe": "5B",
-      "ora": "5",
-      "aula": "120",
-      "docente": "SEQUI (TUTTA)"
-    },
-    {
       "classe": "1F",
       "ora": "2",
       "aula": "205",
       "docente": "FATTORUSO"
+    },
+    {
+      "classe": "1G",
+      "ora": "2",
+      "aula": "224",
+      "docente": "FERRARA"
+    },
+    {
+      "classe": "3H",
+      "ora": "3",
+      "aula": "114",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "3N",
+      "ora": "3",
+      "aula": "128",
+      "docente": "ZAMMATARO"
     },
     {
       "classe": "2I",
@@ -117,28 +123,28 @@
       "docente": "CANTORE"
     },
     {
-      "classe": "3F",
-      "ora": "4",
-      "aula": "215",
-      "docente": "CHAMBERLAIN"
-    },
-    {
-      "classe": "3F",
-      "ora": "5",
-      "aula": "CHI",
-      "docente": "FATTORUSO"
-    },
-    {
       "classe": "1C",
       "ora": "3",
       "aula": "201",
       "docente": "LOMBARDI"
     },
     {
-      "classe": "5D",
-      "ora": "5",
+      "classe": "4G",
+      "ora": "3",
+      "aula": "116",
+      "docente": "DE RUVO"
+    },
+    {
+      "classe": "3H",
+      "ora": "4",
+      "aula": "114",
+      "docente": "BARTOLI"
+    },
+    {
+      "classe": "3F",
+      "ora": "4",
       "aula": "215",
-      "docente": "MARTONE"
+      "docente": "CHAMBERLAIN"
     },
     {
       "classe": "3E",
@@ -147,59 +153,65 @@
       "docente": "FORCELLINO"
     },
     {
+      "classe": "4G",
+      "ora": "4",
+      "aula": "116",
+      "docente": "TORELLI"
+    },
+    {
+      "classe": "2B",
+      "ora": "4",
+      "aula": "224",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "5B",
+      "ora": "5",
+      "aula": "120",
+      "docente": "SEQUI (TUTTA)"
+    },
+    {
+      "classe": "3F",
+      "ora": "5",
+      "aula": "CHI",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "5D",
+      "ora": "5",
+      "aula": "215",
+      "docente": "MARTONE"
+    },
+    {
+      "classe": "3G",
+      "ora": "5",
+      "aula": "224",
+      "docente": "BARTOLI"
+    },
+    {
       "classe": "5E",
       "ora": "6",
       "aula": "222",
-      "docente": ""
+      "docente": "BARTOLI"
     },
     {
       "classe": "5D",
       "ora": "6",
       "aula": "102",
-      "docente": ""
+      "docente": "FATTORUSO"
     },
     {
-      "classe": "5A",
-      "ora": "1",
-      "aula": "111",
-      "docente": "FORCELLINO"
-    },
-    {
-      "classe": "4G",
-      "ora": "3",
-      "aula": "116",
-      "docente": ""
-    },
-    {
-      "classe": "4G",
-      "ora": "4",
-      "aula": "116",
+      "classe": "5B",
+      "ora": "6",
+      "aula": "120",
       "docente": ""
     }
   ],
   "cambi_aula": [
     {
-      "ora": "6",
-      "classe": "4A",
-      "aula": "ECDL",
-      "docente": ""
-    },
-    {
-      "ora": "2",
-      "classe": "2I",
-      "aula": "LNX",
-      "docente": ""
-    },
-    {
       "ora": "1",
-      "classe": "2D",
-      "aula": "210",
-      "docente": ""
-    },
-    {
-      "ora": "2",
-      "classe": "1D",
-      "aula": "210",
+      "classe": "1E",
+      "aula": "113",
       "docente": ""
     }
   ]
