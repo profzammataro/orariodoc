@@ -71,9 +71,36 @@
       "uscita": "",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "3N",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2I",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "anticipa ROSSI in 5 ora",
+      "aula": "207"
+    },
+    {
+      "classe": "4I",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
+    {
+      "classe": "2F",
+      "ora": "2",
+      "aula": "204",
+      "docente": "FASANO"
+    },
     {
       "classe": "5A",
       "ora": "1",
@@ -102,7 +129,7 @@
       "classe": "1G",
       "ora": "2",
       "aula": "224",
-      "docente": "FERRARA"
+      "docente": "GAGLIARDI"
     },
     {
       "classe": "3H",
@@ -150,13 +177,13 @@
       "classe": "3E",
       "ora": "4",
       "aula": "210",
-      "docente": "FORCELLINO"
+      "docente": "FERRARA"
     },
     {
       "classe": "4G",
       "ora": "4",
       "aula": "116",
-      "docente": "TORELLI"
+      "docente": "FORCELLINO"
     },
     {
       "classe": "2B",
@@ -192,7 +219,7 @@
       "classe": "5E",
       "ora": "6",
       "aula": "222",
-      "docente": "BARTOLI"
+      "docente": "GASPARINI"
     },
     {
       "classe": "5D",
