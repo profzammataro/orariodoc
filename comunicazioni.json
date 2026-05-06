@@ -54,7 +54,7 @@
     {
       "classe": "3H",
       "ingresso": "",
-      "uscita": "13.05",
+      "uscita": "12.05",
       "sostituzione": "ANTICIPA MASTRIPIERI IN 2 ORA",
       "aula": "114"
     },
@@ -92,6 +92,13 @@
       "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "3H",
+      "ingresso": "",
+      "uscita": "12.05",
+      "sostituzione": "ANTICIPA TURCHI N 4 ORA",
+      "aula": "217"
     }
   ],
   "sostituzioni": [
@@ -196,6 +203,12 @@
       "ora": "4",
       "aula": "201",
       "docente": "ZAMMATARO"
+    },
+    {
+      "classe": "5F",
+      "ora": "6",
+      "aula": "217",
+      "docente": "FATTORUSO"
     }
   ],
   "cambi_aula": [
