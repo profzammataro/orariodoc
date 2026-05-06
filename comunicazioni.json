@@ -78,74 +78,28 @@
       "uscita": "13.05",
       "sostituzione": "ANTICIPA FASANO IN 4 ORA",
       "aula": "223"
+    },
+    {
+      "classe": "5M",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4G",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
-    {
-      "classe": "2N",
-      "ora": "2",
-      "aula": "128",
-      "docente": "FORCELLINO"
-    },
-    {
-      "classe": "1D",
-      "ora": "4",
-      "aula": "128",
-      "docente": "FORCELLINO"
-    },
-    {
-      "classe": "2F",
-      "ora": "2",
-      "aula": "215",
-      "docente": "GAGLIARDI"
-    },
     {
       "classe": "S.A.",
       "ora": "4",
       "aula": "122",
       "docente": "CHAMBERLAIN"
-    },
-    {
-      "classe": "5D",
-      "ora": "2",
-      "aula": "202",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "3C",
-      "ora": "3",
-      "aula": "202",
-      "docente": "GAGLIARDI"
-    },
-    {
-      "classe": "1C",
-      "ora": "4",
-      "aula": "201",
-      "docente": "ZAMMATARO"
-    },
-    {
-      "classe": "3B",
-      "ora": "4",
-      "aula": "127",
-      "docente": "FERRARA"
-    },
-    {
-      "classe": "5G",
-      "ora": "5",
-      "aula": "222",
-      "docente": "MOSCARELLI"
-    },
-    {
-      "classe": "3H",
-      "ora": "4",
-      "aula": "217",
-      "docente": "GAGLIARDI"
-    },
-    {
-      "classe": "4H",
-      "ora": "5",
-      "aula": "",
-      "docente": "FERRARA"
     },
     {
       "classe": "ASSISTENZA SANZIONE",
@@ -157,13 +111,91 @@
       "classe": "ASSISTENZA SANZIONE",
       "ora": "6",
       "aula": "121 -126- 128-129",
-      "docente": "FATTORUSO"
+      "docente": "PECORA"
     },
     {
       "classe": "ASSISTENZA SANZIONE",
       "ora": "6",
       "aula": "202-204-205206",
       "docente": "FERRARA"
+    },
+    {
+      "classe": "5G",
+      "ora": "5",
+      "aula": "222",
+      "docente": "MOSCARELLI"
+    },
+    {
+      "classe": "5D",
+      "ora": "2",
+      "aula": "202",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "4L",
+      "ora": "2",
+      "aula": "014",
+      "docente": "PELUSO (4H)"
+    },
+    {
+      "classe": "3L",
+      "ora": "5",
+      "aula": "014",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "3H",
+      "ora": "4",
+      "aula": "217",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "3C",
+      "ora": "3",
+      "aula": "202",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "3B",
+      "ora": "4",
+      "aula": "127",
+      "docente": "FERRARA"
+    },
+    {
+      "classe": "2N",
+      "ora": "2",
+      "aula": "128",
+      "docente": "SPALLIERO (4H)"
+    },
+    {
+      "classe": "2N",
+      "ora": "3",
+      "aula": "014",
+      "docente": "SPALLIERO (5H)"
+    },
+    {
+      "classe": "2F",
+      "ora": "2",
+      "aula": "215",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "1N",
+      "ora": "1",
+      "aula": "014",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "1D",
+      "ora": "4",
+      "aula": "128",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "1C",
+      "ora": "4",
+      "aula": "201",
+      "docente": "ZAMMATARO"
     }
   ],
   "cambi_aula": [
