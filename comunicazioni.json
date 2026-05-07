@@ -1,5 +1,5 @@
 {
-  "data": "07/05/2026",
+  "data": "08/05/2026",
   "giorno_settimana": 4,
   "ingressi_uscite": [
     {
@@ -76,6 +76,13 @@
       "classe": "3E",
       "ingresso": "10:10",
       "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1D",
+      "ingresso": "",
+      "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
     }
