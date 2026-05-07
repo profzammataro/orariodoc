@@ -2,6 +2,31 @@
   "data": "07/05/2026",
   "giorno_settimana": 3,
   "ingressi_uscite": [],
-  "sostituzioni": [],
+  "sostituzioni": [
+    {
+      "classe": "1D",
+      "ora": "1",
+      "aula": "114",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "3C",
+      "ora": "1",
+      "aula": "202",
+      "docente": "DE RUVO"
+    },
+    {
+      "classe": "5F",
+      "ora": "1",
+      "aula": "212",
+      "docente": "FRATTARELLI"
+    },
+    {
+      "classe": "5H",
+      "ora": "1",
+      "aula": "127",
+      "docente": "MARTIRADONNA"
+    }
+  ],
   "cambi_aula": []
 }
