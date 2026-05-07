@@ -90,7 +90,7 @@
     {
       "classe": "5L",
       "ora": "2",
-      "aula": "218",
+      "aula": "Linux",
       "docente": "FRANCARDI (3L)"
     },
     {
@@ -190,6 +190,18 @@
       "classe": "3H",
       "aula": "221",
       "docente": ""
+    },
+    {
+      "ora": "2 - 3",
+      "classe": "5L",
+      "aula": "LNX",
+      "docente": "pretest invalsi"
+    },
+    {
+      "ora": "4 - 5",
+      "classe": "5M",
+      "aula": "LNX",
+      "docente": "prestest invalsi"
     }
   ]
 }
