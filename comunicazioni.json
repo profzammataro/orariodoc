@@ -1,88 +1,60 @@
 {
-  "data": "08/05/2026",
-  "giorno_settimana": 4,
+  "data": "11/05/2026",
+  "giorno_settimana": 0,
   "ingressi_uscite": [
     {
-      "classe": "1C",
-      "ingresso": "",
-      "uscita": "11:00",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "3C",
-      "ingresso": "",
-      "uscita": "13:05",
-      "sostituzione": "ZAMMATARO anticipa in 5h",
-      "aula": "CHI"
-    },
-    {
-      "classe": "5D",
-      "ingresso": "",
-      "uscita": "13:05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "4D",
-      "ingresso": "",
-      "uscita": "12:10",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "2H",
-      "ingresso": "",
-      "uscita": "13:05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "3D",
-      "ingresso": "",
-      "uscita": "11:00",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "4H",
-      "ingresso": "10:10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "1C",
-      "ingresso": "",
-      "uscita": "11:00",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "2C",
-      "ingresso": "",
-      "uscita": "13:05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "4B",
-      "ingresso": "",
-      "uscita": "13:05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "3E",
-      "ingresso": "10:10",
+      "classe": "4I",
+      "ingresso": "9.10",
       "uscita": "",
       "sostituzione": "",
       "aula": ""
     },
     {
       "classe": "1D",
-      "ingresso": "",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4H",
+      "ingresso": "13.05",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5I",
+      "ingresso": "13.05",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3L",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3A",
+      "ingresso": "10.10",
       "uscita": "13.05",
+      "sostituzione": "PETRUCCI anticipa 4hIORIO posticipa 3h",
+      "aula": "226"
+    },
+    {
+      "classe": "1A",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4E",
+      "ingresso": "13.05",
+      "uscita": "",
       "sostituzione": "",
       "aula": ""
     },
