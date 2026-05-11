@@ -3,63 +3,70 @@
   "giorno_settimana": 0,
   "ingressi_uscite": [
     {
-      "classe": "4I",
-      "ingresso": "9.10",
-      "uscita": "",
+      "classe": "2L",
+      "ingresso": "",
+      "uscita": "12.10",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "1D",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "4H",
-      "ingresso": "13.05",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "5I",
-      "ingresso": "13.05",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "3L",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "3A",
-      "ingresso": "10.10",
+      "classe": "5L",
+      "ingresso": "",
       "uscita": "13.05",
-      "sostituzione": "PETRUCCI anticipa 4hIORIO posticipa 3h",
-      "aula": "226"
+      "sostituzione": "",
+      "aula": ""
     },
     {
-      "classe": "1A",
+      "classe": "2H",
+      "ingresso": "10.10",
+      "uscita": "",
+      "sostituzione": "TORELLI posticipa in 3^",
+      "aula": "119"
+    },
+    {
+      "classe": "1B",
       "ingresso": "9.10",
       "uscita": "",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "4E",
-      "ingresso": "13.05",
+      "classe": "5B",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1N",
+      "ingresso": "10.10",
       "uscita": "",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "2I",
+      "classe": "3N",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "DE LUCA  anticipa in 4^",
+      "aula": "220"
+    },
+    {
+      "classe": "5A",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4A",
+      "ingresso": "",
+      "uscita": "12.10* CHI NON SI AVVALE IRC ESCE ALLE 11.00",
+      "sostituzione": "MELLANI anticipa in 4^",
+      "aula": "A.M."
+    },
+    {
+      "classe": "4G",
       "ingresso": "",
       "uscita": "12.10",
       "sostituzione": "",
@@ -67,8 +74,8 @@
     },
     {
       "classe": "1N",
-      "ingresso": "9.10",
-      "uscita": "",
+      "ingresso": "",
+      "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
     }
