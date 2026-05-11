@@ -84,7 +84,7 @@
       "classe": "ST ASS",
       "ora": "2",
       "aula": "104",
-      "docente": "BARTOLI"
+      "docente": "FERRARA"
     },
     {
       "classe": "5H",
@@ -156,19 +156,31 @@
       "classe": "3F",
       "ora": "2",
       "aula": "215",
-      "docente": ""
+      "docente": "GAGLIARDI"
     },
     {
       "classe": "2F",
       "ora": "3",
       "aula": "CHI",
-      "docente": ""
+      "docente": "GAGLIARDI"
     },
     {
       "classe": "2F",
       "ora": "4",
       "aula": "215",
-      "docente": ""
+      "docente": "RUGGIERI"
+    },
+    {
+      "classe": "2A",
+      "ora": "2",
+      "aula": "206",
+      "docente": "VASMARA (REC)"
+    },
+    {
+      "classe": "2A",
+      "ora": "3",
+      "aula": "120",
+      "docente": "FATTORUSO"
     }
   ],
   "cambi_aula": [
@@ -187,7 +199,7 @@
     {
       "ora": "3",
       "classe": "1B",
-      "aula": "",
+      "aula": "208",
       "docente": ""
     },
     {
