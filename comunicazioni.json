@@ -71,122 +71,33 @@
       "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "3H",
+      "ingresso": "9.10",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": "Biblioteca"
     }
   ],
   "sostituzioni": [
     {
-      "classe": "4C",
-      "ora": "2",
-      "aula": "217",
-      "docente": "TESONE"
+      "classe": "3N",
+      "ora": "5",
+      "aula": "220",
+      "docente": "FERRARA"
     },
     {
-      "classe": "1H",
-      "ora": "3",
-      "aula": "217",
-      "docente": "ZAMMATARO"
-    },
-    {
-      "classe": "2H",
+      "classe": "1I",
       "ora": "4",
-      "aula": "217",
-      "docente": "PETRUCCI"
-    },
-    {
-      "classe": "4L",
-      "ora": "4",
-      "aula": "014",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "2H",
-      "ora": "3",
-      "aula": "219",
-      "docente": "TORELLI"
-    },
-    {
-      "classe": "1H",
-      "ora": "4",
-      "aula": "130",
-      "docente": "CHAMBERLAIN"
-    },
-    {
-      "classe": "2B",
-      "ora": "4",
-      "aula": "114",
-      "docente": "VOZZA (1G)"
+      "aula": "218",
+      "docente": "BARTOLI"
     },
     {
       "classe": "2G",
       "ora": "5",
       "aula": "114",
       "docente": "BARTOLI"
-    },
-    {
-      "classe": "1A",
-      "ora": "6",
-      "aula": "114",
-      "docente": "CATALLI"
-    },
-    {
-      "classe": "5G",
-      "ora": "3",
-      "aula": "220",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "2D",
-      "ora": "1",
-      "aula": "119",
-      "docente": "GRANIERO"
-    },
-    {
-      "classe": "1D",
-      "ora": "2",
-      "aula": "210",
-      "docente": "FASANO"
-    },
-    {
-      "classe": "1D",
-      "ora": "3",
-      "aula": "210",
-      "docente": "GAGLIARDI"
-    },
-    {
-      "classe": "5D",
-      "ora": "4",
-      "aula": "125",
-      "docente": "GRANIERO"
-    },
-    {
-      "classe": "3I",
-      "ora": "3",
-      "aula": "A.M.",
-      "docente": "POLITO"
-    },
-    {
-      "classe": "1I",
-      "ora": "4",
-      "aula": "",
-      "docente": "BARTOLI"
-    },
-    {
-      "classe": "1B",
-      "ora": "5",
-      "aula": "130",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "STUDIO ASSISTITO",
-      "ora": "2",
-      "aula": "125",
-      "docente": "DONINELLI (3H)"
-    },
-    {
-      "classe": "1F",
-      "ora": "2",
-      "aula": "205",
-      "docente": "GAGLIARDI"
     },
     {
       "classe": "2I",
@@ -198,7 +109,85 @@
       "classe": "3F",
       "ora": "4",
       "aula": "215",
-      "docente": ""
+      "docente": "CANTORE (REC)"
+    },
+    {
+      "classe": "1A",
+      "ora": "6",
+      "aula": "114",
+      "docente": "CATALLI"
+    },
+    {
+      "classe": "1H",
+      "ora": "4",
+      "aula": "130",
+      "docente": "CHAMBERLAIN"
+    },
+    {
+      "classe": "STUDIO ASSISTITO",
+      "ora": "2",
+      "aula": "125",
+      "docente": "DONINELLI (3H)"
+    },
+    {
+      "classe": "1D",
+      "ora": "2",
+      "aula": "210",
+      "docente": "FASANO"
+    },
+    {
+      "classe": "1B",
+      "ora": "5",
+      "aula": "113",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "4L",
+      "ora": "4",
+      "aula": "014",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "5G",
+      "ora": "3",
+      "aula": "220",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "1D",
+      "ora": "3",
+      "aula": "210",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "1F",
+      "ora": "2",
+      "aula": "205",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "2D",
+      "ora": "1",
+      "aula": "119",
+      "docente": "GRANIERO"
+    },
+    {
+      "classe": "5D",
+      "ora": "4",
+      "aula": "125",
+      "docente": "GRANIERO"
+    },
+    {
+      "classe": "3N",
+      "ora": "4",
+      "aula": "220",
+      "docente": "MAMPIERI (1G)"
+    },
+    {
+      "classe": "2H",
+      "ora": "4",
+      "aula": "217",
+      "docente": "PETRUCCI"
     },
     {
       "classe": "3F",
@@ -207,16 +196,34 @@
       "docente": "POLIDORI (3G)"
     },
     {
-      "classe": "3N",
-      "ora": "4",
-      "aula": "220",
-      "docente": ""
+      "classe": "3I",
+      "ora": "3",
+      "aula": "A.M.",
+      "docente": "POLITO"
     },
     {
-      "classe": "3N",
-      "ora": "5",
-      "aula": "220",
-      "docente": "MAMPIERI (1G)"
+      "classe": "4C",
+      "ora": "2",
+      "aula": "217",
+      "docente": "TESONE"
+    },
+    {
+      "classe": "2H",
+      "ora": "3",
+      "aula": "219",
+      "docente": "TORELLI"
+    },
+    {
+      "classe": "2B",
+      "ora": "4",
+      "aula": "114",
+      "docente": "VOZZA (1G)"
+    },
+    {
+      "classe": "1H",
+      "ora": "3",
+      "aula": "217",
+      "docente": "ZAMMATARO"
     }
   ],
   "cambi_aula": [
