@@ -76,7 +76,7 @@
       "classe": "3B",
       "ora": "4",
       "aula": "217",
-      "docente": "MOSCARELLI"
+      "docente": "FERRARA"
     },
     {
       "classe": "STUDIO ASSISTITO",
@@ -125,6 +125,12 @@
       "ora": "1",
       "aula": "126",
       "docente": "GAGLIADI"
+    },
+    {
+      "classe": "5I",
+      "ora": "5",
+      "aula": "110",
+      "docente": "FERRARA"
     }
   ],
   "cambi_aula": [
@@ -138,6 +144,24 @@
       "ora": "2/3/4",
       "classe": "3H",
       "aula": "BIBLIOTECA",
+      "docente": ""
+    },
+    {
+      "ora": "3/4",
+      "classe": "1G+1B",
+      "aula": "AM",
+      "docente": ""
+    },
+    {
+      "ora": "3",
+      "classe": "2F",
+      "aula": "207",
+      "docente": ""
+    },
+    {
+      "ora": "4",
+      "classe": "4B",
+      "aula": "212",
       "docente": ""
     }
   ]
