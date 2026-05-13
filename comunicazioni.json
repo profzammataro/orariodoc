@@ -50,20 +50,27 @@
       "uscita": "",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "5G",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
-    {
-      "classe": "4L",
-      "ora": "2",
-      "aula": "014",
-      "docente": "GAGLIARDI"
-    },
     {
       "classe": "3L",
       "ora": "5",
       "aula": "014",
       "docente": "FATTORUSO"
+    },
+    {
+      "classe": "5C",
+      "ora": "5",
+      "aula": "212",
+      "docente": "MOSCARELLI"
     },
     {
       "classe": "3B",
@@ -72,10 +79,34 @@
       "docente": "MOSCARELLI"
     },
     {
+      "classe": "STUDIO ASSISTITO",
+      "ora": "4",
+      "aula": "122",
+      "docente": "ZAMMATARO"
+    },
+    {
       "classe": "5H",
       "ora": "3",
       "aula": "122",
       "docente": "SPALLIERO"
+    },
+    {
+      "classe": "4G",
+      "ora": "3",
+      "aula": "212",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "4E",
+      "ora": "3",
+      "aula": "126",
+      "docente": "BRANDONISIO"
+    },
+    {
+      "classe": "4L",
+      "ora": "2",
+      "aula": "014",
+      "docente": "GAGLIARDI"
     },
     {
       "classe": "2F",
@@ -84,10 +115,16 @@
       "docente": "FATTORUSO"
     },
     {
-      "classe": "STUDIO ASSISTITO",
-      "ora": "4",
-      "aula": "122",
-      "docente": "ZAMMATARO"
+      "classe": "1I",
+      "ora": "2",
+      "aula": "126",
+      "docente": "DI CAMPLI"
+    },
+    {
+      "classe": "1I",
+      "ora": "1",
+      "aula": "126",
+      "docente": "GAGLIADI"
     }
   ],
   "cambi_aula": [
