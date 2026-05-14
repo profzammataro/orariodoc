@@ -75,22 +75,16 @@
   ],
   "sostituzioni": [
     {
+      "classe": "1A",
+      "ora": "5",
+      "aula": "213",
+      "docente": "LASERRA"
+    },
+    {
       "classe": "2I",
       "ora": "4",
       "aula": "205",
       "docente": "CANTORE"
-    },
-    {
-      "classe": "5B",
-      "ora": "2",
-      "aula": "211",
-      "docente": "GAGLIARDI"
-    },
-    {
-      "classe": "1B",
-      "ora": "3",
-      "aula": "",
-      "docente": "BARTOLI"
     },
     {
       "classe": "STUDIO ASSISTITO",
@@ -105,65 +99,107 @@
       "docente": "BARTOLI"
     },
     {
-      "classe": "1A",
-      "ora": "5",
+      "classe": "1I",
+      "ora": "4",
+      "aula": "130",
+      "docente": "GALATI"
+    },
+    {
+      "classe": "1B",
+      "ora": "3",
       "aula": "213",
-      "docente": "LASERRA"
+      "docente": "BARTOLI"
     },
     {
       "classe": "1L",
       "ora": "3",
       "aula": "129",
       "docente": "MOSCARELLI"
+    },
+    {
+      "classe": "1I",
+      "ora": "3",
+      "aula": "130",
+      "docente": "PETRUCCI"
+    },
+    {
+      "classe": "5B",
+      "ora": "2",
+      "aula": "211",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "4E",
+      "ora": "1",
+      "aula": "130",
+      "docente": "DE RUVO"
     }
   ],
   "cambi_aula": [
     {
-      "ora": "1",
-      "classe": "2L",
-      "aula": "207",
+      "ora": "3-5",
+      "classe": "3B",
+      "aula": "113",
+      "docente": "FSL"
+    },
+    {
+      "ora": "3",
+      "classe": "4B",
+      "aula": "125",
+      "docente": ""
+    },
+    {
+      "ora": "4",
+      "classe": "4B",
+      "aula": "FIS",
+      "docente": ""
+    },
+    {
+      "ora": "5",
+      "classe": "1E",
+      "aula": "CHI",
       "docente": ""
     },
     {
       "ora": "2",
-      "classe": "1L",
-      "aula": "213",
+      "classe": "1C",
+      "aula": "130",
       "docente": ""
     },
     {
       "ora": "3",
-      "classe": "1I",
-      "aula": "130",
+      "classe": "2A",
+      "aula": "122",
       "docente": ""
     },
     {
       "ora": "4",
       "classe": "1H",
-      "aula": "130",
+      "aula": "221",
       "docente": ""
     },
     {
       "ora": "1",
-      "classe": "5I",
-      "aula": "220",
-      "docente": ""
-    },
-    {
-      "ora": "2",
-      "classe": "2D",
-      "aula": "220",
+      "classe": "5M",
+      "aula": "110",
       "docente": ""
     },
     {
       "ora": "3",
-      "classe": "5F",
-      "aula": "201",
+      "classe": "5L",
+      "aula": "114",
       "docente": ""
     },
     {
       "ora": "4",
-      "classe": "3L",
-      "aula": "119",
+      "classe": "4F",
+      "aula": "110",
+      "docente": ""
+    },
+    {
+      "ora": "2-4",
+      "classe": "3H",
+      "aula": "BIBLIOTECA",
       "docente": ""
     }
   ]
