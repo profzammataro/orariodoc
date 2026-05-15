@@ -176,9 +176,22 @@ def invia_notifiche(dati, access_token=None):
                     if s.get("docente","").strip() not in ("", "—", "-", "--")
                     and (nome in s.get("docente","").upper().strip()
                     or s.get("docente","").upper().strip() in nome)]
+
+            # Cerca anche cambi aula per le classi del docente
+            cambi = [c for c in dati.get("cambi_aula",[])
+                     if c.get("docente","").strip() not in ("", "—", "-", "--")
+                     and (nome in c.get("docente","").upper().strip()
+                     or c.get("docente","").upper().strip() in nome)]
+
+            messaggi = []
             if subs:
-                title = "📋 Hai una sostituzione!"
-                body = " | ".join([f"{s['ora']}ª ora – {s['classe']} – aula {s['aula']}" for s in subs])
+                messaggi += [f"{s['ora']}ª ora – {s['classe']} – aula {s['aula']}" for s in subs]
+            if cambi:
+                messaggi += [f"{c['ora']}ª ora – {c['classe']} – cambio aula {c['aula']}" for c in cambi]
+
+            if messaggi:
+                title = "📋 Comunicazione docente"
+                body = " | ".join(messaggi)
         elif tipo == "classe":
             iu = [r for r in dati.get("ingressi_uscite",[]) if nome in r.get("classe","").upper()]
             if iu:
