@@ -1283,23 +1283,40 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
 
     // Restituisce info sostituzione per una CLASSE in quell'ora
     function getClassSubstituteInfo(classe, oraIndex, giorno) {
-      if (!comunicazioniData || !comunicazioniData.sostituzioni) return null;
+      if (!comunicazioniData) return null;
       const ora = oraIndex + 1;
       const giornoRef = (comunicazioniData.giorno_settimana >= 0)
         ? comunicazioniData.giorno_settimana
         : new Date().getDay() - 1;
       if (giorno !== giornoRef) return null;
-      const match = comunicazioniData.sostituzioni.find(s => {
-        if (!s.classe || !s.classe.toUpperCase().includes(classe.toUpperCase())) return false;
-        const oraStr = String(s.ora);
-        // Gestisce ora singola (es. "3") e intervalli (es. "2-3", "4-5", "1/2")
-        if (oraStr.includes('-') || oraStr.includes('/')) {
-          const parti = oraStr.split(/[-\/]/).map(p => parseInt(p.trim()));
+
+      // Funzione helper per confrontare ora con intervalli tipo "2-3" o "1/2"
+      function oraMatch(oraStr) {
+        const s = String(oraStr);
+        if (s.includes('-') || s.includes('/')) {
+          const parti = s.split(/[-\/]/).map(p => parseInt(p.trim()));
           return parti.includes(ora);
         }
-        return oraStr === String(ora);
-      });
-      return match || null;
+        return s === String(ora);
+      }
+
+      // Cerca prima nelle sostituzioni
+      if (comunicazioniData.sostituzioni) {
+        const match = comunicazioniData.sostituzioni.find(s =>
+          s.classe && s.classe.toUpperCase().includes(classe.toUpperCase()) && oraMatch(s.ora)
+        );
+        if (match) return match;
+      }
+
+      // Poi nei cambi aula (campo classe potrebbe essere presente)
+      if (comunicazioniData.cambi_aula) {
+        const match = comunicazioniData.cambi_aula.find(s =>
+          s.classe && s.classe.toUpperCase().includes(classe.toUpperCase()) && oraMatch(s.ora)
+        );
+        if (match) return { ...match, docente: match.docente || "—" };
+      }
+
+      return null;
     }
 
     // Restituisce info sostituzione/cambio per un'AULA in quell'ora
