@@ -36,6 +36,20 @@
       "uscita": "13.05",
       "sostituzione": "TORTI anticipa 5h",
       "aula": "226"
+    },
+    {
+      "classe": "1B",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5M",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
@@ -49,13 +63,13 @@
       "classe": "2I",
       "ora": "1",
       "aula": "205",
-      "docente": "CASTRONUOVO"
+      "docente": "FATTORUSO"
     },
     {
       "classe": "2I",
       "ora": "3",
       "aula": "110",
-      "docente": ""
+      "docente": "TURCHI (3H)"
     },
     {
       "classe": "5H",
@@ -85,12 +99,12 @@
       "classe": "3D",
       "ora": "4",
       "aula": "226",
-      "docente": "LOMBARDI (REC)"
+      "docente": "GALATI (3G)"
     },
     {
       "classe": "3I",
       "ora": "4",
-      "aula": "",
+      "aula": "212",
       "docente": "LATTANZI (1I)"
     },
     {
@@ -110,6 +124,48 @@
       "ora": "4",
       "aula": "220",
       "docente": "LASERRA"
+    },
+    {
+      "classe": "4E",
+      "ora": "1",
+      "aula": "130",
+      "docente": "DONINELLI (3H)"
+    },
+    {
+      "classe": "4E",
+      "ora": "2",
+      "aula": "130",
+      "docente": "CHAMBERLAIN"
+    },
+    {
+      "classe": "5M",
+      "ora": "3",
+      "aula": "117",
+      "docente": "BUSA'"
+    },
+    {
+      "classe": "5M",
+      "ora": "4",
+      "aula": "117",
+      "docente": "BUSA'"
+    },
+    {
+      "classe": "1A",
+      "ora": "1",
+      "aula": "114",
+      "docente": "ROCCAMO"
+    },
+    {
+      "classe": "3N",
+      "ora": "2",
+      "aula": "114",
+      "docente": "BOVA (REC)"
+    },
+    {
+      "classe": "3N",
+      "ora": "3",
+      "aula": "114",
+      "docente": "BARTOLI"
     }
   ],
   "cambi_aula": [
@@ -178,6 +234,12 @@
       "classe": "2F",
       "aula": "221",
       "docente": ""
+    },
+    {
+      "ora": "2",
+      "classe": "3I",
+      "aula": "217",
+      "docente": "MOSER"
     }
   ]
 }
