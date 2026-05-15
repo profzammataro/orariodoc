@@ -1045,6 +1045,7 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
           } else if (currentMode === "teacher") {
             const subInfo = getSubstituteInfo(key, ora, giorno);
             const absent  = isAbsent(key, ora, giorno);
+            const roomChange = getTeacherRoomChange(key, ora, giorno);
 
             if (absent) {
               // Docente assente → rosso
@@ -1056,6 +1057,12 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
                 <span class="room">aula ${subInfo.aula}</span>
               </div>`;
               html += `<td class="substitute-cell"><span class="substitute-badge">🟠 sostituzione</span>${extra}</td>`;
+            } else if (roomChange) {
+              // Cambio aula → azzurro + nuova aula
+              const extra = `<div class="lesson-info" style="margin-top:4px;">
+                <span class="room">🏫 aula ${roomChange.aula || "—"}</span>
+              </div>`;
+              html += `<td class="modified-cell"><span class="modified-badge">⚠️ cambio aula</span>${extra}</td>`;
             } else {
               html += `<td>${formattedCell}</td>`;
             }
@@ -1237,6 +1244,45 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
         const cell = teacherSchedule[idx] || "";
         return cell && s.classe && cell.toUpperCase().includes(s.classe.toUpperCase());
       });
+    }
+
+    // Restituisce cambio aula per un DOCENTE in quell'ora (cerca la sua classe nei cambi_aula)
+    function getTeacherRoomChange(docente, oraIndex, giorno) {
+      if (!comunicazioniData || !comunicazioniData.cambi_aula) return null;
+      const ora = oraIndex + 1;
+      const cognome = docente.toUpperCase();
+      const giornoRef = (comunicazioniData.giorno_settimana >= 0)
+        ? comunicazioniData.giorno_settimana
+        : new Date().getDay() - 1;
+      if (giorno !== giornoRef) return null;
+
+      // Trova la classe del docente in quell'ora dall'orario
+      const teacherSchedule = teachersData[
+        Object.keys(teachersData).find(k => k.toUpperCase() === cognome)
+      ];
+      if (!teacherSchedule) return null;
+      const idx = giorno * 6 + oraIndex;
+      const cell = teacherSchedule[idx] || "";
+      if (!cell) return null;
+
+      // Estrae il nome classe dalla cella (es. "3B(108)" → "3B")
+      const classeDocente = cell.split("(")[0].trim().toUpperCase();
+
+      // Cerca nei cambi_aula una entry che coinvolga questa classe
+      const match = comunicazioniData.cambi_aula.find(s => {
+        if (!s.classe) return false;
+        const oraStr = String(s.ora);
+        // Gestisce intervalli tipo "2-3"
+        let oraOk = false;
+        if (oraStr.includes('-') || oraStr.includes('/')) {
+          const parti = oraStr.split(/[-/]/).map(p => parseInt(p.trim()));
+          oraOk = parti.includes(ora);
+        } else {
+          oraOk = oraStr === String(ora);
+        }
+        return oraOk && s.classe.toUpperCase().includes(classeDocente);
+      });
+      return match || null;
     }
 
     // Restituisce info ingresso/uscita per una CLASSE in quell'ora (ora da saltare)
