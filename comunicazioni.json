@@ -85,38 +85,33 @@
       "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "5C",
+      "ingresso": "10.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
     {
+      "classe": "3I",
+      "ora": "1",
+      "aula": "AM",
+      "docente": "FORCELLINO"
+    },
+    {
       "classe": "ESAMI PRELIMINARI",
       "ora": "12356",
       "aula": "BIBLIOTECA",
-      "docente": "GAGLIARDI-FORCELLINOCERCIELLO-GAGLIARDIGAGLIARDI-TORELLIFATTORUSOFATTORUSO"
+      "docente": "CERCIELLO-FORCELLINOCERCIELLO--CAMILLERIFATTORUSOFATTORUSO"
     },
     {
       "classe": "1D",
       "ora": "2",
       "aula": "210",
-      "docente": "GAGLIARDI"
-    },
-    {
-      "classe": "3A",
-      "ora": "2",
-      "aula": "221",
-      "docente": "FASANO"
-    },
-    {
-      "classe": "2N",
-      "ora": "2",
-      "aula": "A.M.",
-      "docente": "IORIO (1A)"
-    },
-    {
-      "classe": "STUDIO ASSISTITO",
-      "ora": "2",
-      "aula": "125",
-      "docente": "FORCELLINO"
+      "docente": "CASTALDO"
     },
     {
       "classe": "1H",
@@ -125,10 +120,40 @@
       "docente": "CHAMBERLAIN"
     },
     {
+      "classe": "2N",
+      "ora": "2",
+      "aula": "A.M.",
+      "docente": "IORIO (1A)"
+    },
+    {
+      "classe": "3A",
+      "ora": "2",
+      "aula": "221",
+      "docente": "FASANO"
+    },
+    {
+      "classe": "5I",
+      "ora": "2",
+      "aula": "104",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "STUDIO ASSISTITO",
+      "ora": "2",
+      "aula": "125",
+      "docente": ""
+    },
+    {
       "classe": "1D",
       "ora": "3",
       "aula": "210",
       "docente": "FRANCESCHELLI (REC)"
+    },
+    {
+      "classe": "1I",
+      "ora": "3",
+      "aula": "207",
+      "docente": "CHAMBERLAIN"
     },
     {
       "classe": "2F",
@@ -140,6 +165,12 @@
       "classe": "3A",
       "ora": "3",
       "aula": "221",
+      "docente": "BISCONTI (1A)"
+    },
+    {
+      "classe": "3C",
+      "ora": "3",
+      "aula": "110",
       "docente": "PARPAGLIONI (REC)"
     },
     {
@@ -149,22 +180,10 @@
       "docente": "DE RUVO"
     },
     {
-      "classe": "3C",
-      "ora": "3",
-      "aula": "110",
-      "docente": "BISCONTI (1A)"
-    },
-    {
       "classe": "3H",
       "ora": "3",
       "aula": "114",
       "docente": "ZAMMATARO"
-    },
-    {
-      "classe": "5D",
-      "ora": "4",
-      "aula": "125",
-      "docente": "GRANIERO"
     },
     {
       "classe": "1F",
@@ -179,22 +198,16 @@
       "docente": "BARTOLI"
     },
     {
-      "classe": "4A",
+      "classe": "3C",
       "ora": "4",
-      "aula": "A.M.",
-      "docente": "IARDINO"
+      "aula": "104",
+      "docente": "FATTORUSO"
     },
     {
       "classe": "3G",
       "ora": "4",
       "aula": "127",
-      "docente": "FERRARA"
-    },
-    {
-      "classe": "4H",
-      "ora": "4",
-      "aula": "110",
-      "docente": "SPALLIERO"
+      "docente": "CHAMBELAIN"
     },
     {
       "classe": "3H",
@@ -204,8 +217,26 @@
     },
     {
       "classe": "4A",
-      "ora": "5",
+      "ora": "4",
       "aula": "A.M.",
+      "docente": "IARDINO"
+    },
+    {
+      "classe": "4H",
+      "ora": "4",
+      "aula": "110",
+      "docente": "SPALLIERO"
+    },
+    {
+      "classe": "5D",
+      "ora": "4",
+      "aula": "125",
+      "docente": "GRANIERO"
+    },
+    {
+      "classe": "1N",
+      "ora": "5",
+      "aula": "013",
       "docente": "BARTOLI"
     },
     {
@@ -219,6 +250,36 @@
       "ora": "5",
       "aula": "121",
       "docente": "TOMMASINO"
+    },
+    {
+      "classe": "3C",
+      "ora": "5",
+      "aula": "104",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "3E",
+      "ora": "5",
+      "aula": "127",
+      "docente": ""
+    },
+    {
+      "classe": "4A",
+      "ora": "5",
+      "aula": "A.M.",
+      "docente": ""
+    },
+    {
+      "classe": "4I",
+      "ora": "5",
+      "aula": "213",
+      "docente": "CATALLI (1A)"
+    },
+    {
+      "classe": "4C",
+      "ora": "6",
+      "aula": "104",
+      "docente": "BARTOCCI"
     }
   ],
   "cambi_aula": [
