@@ -78,33 +78,23 @@
       "uscita": "",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "1D",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "CORIGLIANO ant. in 3h",
+      "aula": "110"
+    },
+    {
+      "classe": "1L",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "FREDDO ant. in 3hRUGGIERI ant. in 4h",
+      "aula": "218"
     }
   ],
   "sostituzioni": [
-    {
-      "classe": "ESAMI PRELIMINARI",
-      "ora": "1245",
-      "aula": "BIBLIOTECA",
-      "docente": "CAGNETTA-BARTOLICAGNETTA-BARTOLIDONNADIO-CHAMBERLEINDONNADIO-CHAMBERLEIN"
-    },
-    {
-      "classe": "1F",
-      "ora": "4",
-      "aula": "",
-      "docente": "ZAMMATARO"
-    },
-    {
-      "classe": "5F",
-      "ora": "3",
-      "aula": "214",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "5H",
-      "ora": "4",
-      "aula": "208",
-      "docente": "SPALLIERO"
-    },
     {
       "classe": "5H",
       "ora": "5",
@@ -112,27 +102,9 @@
       "docente": "MOSCARELLI"
     },
     {
-      "classe": "4L",
-      "ora": "2",
-      "aula": "014",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "2N",
-      "ora": "3",
-      "aula": "014",
-      "docente": "BARTOLI"
-    },
-    {
       "classe": "3L",
       "ora": "5",
       "aula": "014",
-      "docente": "FERRARA"
-    },
-    {
-      "classe": "ST ASS",
-      "ora": "4",
-      "aula": "122",
       "docente": "FERRARA"
     },
     {
@@ -148,10 +120,82 @@
       "docente": "MOSCARELLI"
     },
     {
+      "classe": "2C",
+      "ora": "4",
+      "aula": "110",
+      "docente": "MOSCARELLI"
+    },
+    {
+      "classe": "1F",
+      "ora": "4",
+      "aula": "219",
+      "docente": "ZAMMATARO"
+    },
+    {
+      "classe": "5H",
+      "ora": "4",
+      "aula": "208",
+      "docente": "SPALLIERO"
+    },
+    {
+      "classe": "ST ASS",
+      "ora": "4",
+      "aula": "122",
+      "docente": "FERRARA"
+    },
+    {
+      "classe": "5F",
+      "ora": "3",
+      "aula": "214",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "2N",
+      "ora": "3",
+      "aula": "014",
+      "docente": "BARTOLI"
+    },
+    {
+      "classe": "1D",
+      "ora": "3",
+      "aula": "110",
+      "docente": "CORIGLIANO"
+    },
+    {
+      "classe": "4L",
+      "ora": "2",
+      "aula": "014",
+      "docente": "FATTORUSO"
+    },
+    {
       "classe": "5I",
       "ora": "2",
       "aula": "104",
       "docente": "BARTOLI"
+    },
+    {
+      "classe": "1C",
+      "ora": "2",
+      "aula": "106",
+      "docente": "LOMBARDI"
+    },
+    {
+      "classe": "ESAMI PRELIMINARI",
+      "ora": "1245",
+      "aula": "BIBLIOTECA",
+      "docente": "CAGNETTA-BARTOLICAGNETTA-BARTOLIDONNADIO-DONNADIO-"
+    },
+    {
+      "classe": "1D",
+      "ora": "1",
+      "aula": "106",
+      "docente": "BARTOLI"
+    },
+    {
+      "classe": "5M",
+      "ora": "5",
+      "aula": "218",
+      "docente": "LOMBARDI"
     }
   ],
   "cambi_aula": [
@@ -200,7 +244,7 @@
     {
       "ora": "2",
       "classe": "2D",
-      "aula": "220",
+      "aula": "108",
       "docente": ""
     },
     {
