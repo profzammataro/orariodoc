@@ -39,10 +39,10 @@
     },
     {
       "classe": "5C",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
+      "ingresso": "10.10",
+      "uscita": "13.05",
+      "sostituzione": "GALATI ant 3h",
+      "aula": "104"
     },
     {
       "classe": "5H",
@@ -64,38 +64,60 @@
       "uscita": "13.05",
       "sostituzione": "MARTINELLI ANTICIPA IN 4 ORA",
       "aula": "129"
+    },
+    {
+      "classe": "5D",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5G",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1D",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1C",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
     {
-      "classe": "2D",
-      "ora": "2/3",
-      "aula": "114",
-      "docente": "GRANIERO"
+      "classe": "ESAMI PRELIMINARI",
+      "ora": "1/2/34/5/6",
+      "aula": "BIBLIOTECA",
+      "docente": "MARTIRADONNACAGNETTA"
     },
     {
-      "classe": "5D",
-      "ora": "5/6",
-      "aula": "127",
-      "docente": "GRANIERO"
+      "classe": "5M",
+      "ora": "6",
+      "aula": "227",
+      "docente": "LOMBARDI"
     },
     {
-      "classe": "2A",
-      "ora": "2",
-      "aula": "130",
-      "docente": "FORCELLINO"
-    },
-    {
-      "classe": "1G",
+      "classe": "5C",
       "ora": "3",
-      "aula": "013",
-      "docente": "PETRUCCI"
+      "aula": "104",
+      "docente": "BUSA'"
     },
     {
-      "classe": "2G",
-      "ora": "4",
-      "aula": "013",
-      "docente": "FATTORUSO"
+      "classe": "5A",
+      "ora": "3",
+      "aula": "117",
+      "docente": "MOSCARELLI"
     },
     {
       "classe": "4L",
@@ -116,34 +138,40 @@
       "docente": "GALATI"
     },
     {
+      "classe": "4C",
+      "ora": "5",
+      "aula": "104",
+      "docente": "BARTOCCI"
+    },
+    {
+      "classe": "4C",
+      "ora": "4",
+      "aula": "104",
+      "docente": "GIANNETTI"
+    },
+    {
+      "classe": "3E",
+      "ora": "5",
+      "aula": "102",
+      "docente": "ZAMMATARO"
+    },
+    {
       "classe": "3D",
       "ora": "5",
       "aula": "226",
       "docente": "BARTOLI"
     },
     {
-      "classe": "5M",
-      "ora": "6",
-      "aula": "227",
-      "docente": "LOMBARDI"
-    },
-    {
-      "classe": "2F",
-      "ora": "2",
-      "aula": "227",
-      "docente": "VASMARA (REC)"
-    },
-    {
-      "classe": "5A",
+      "classe": "3C",
       "ora": "3",
-      "aula": "117",
-      "docente": "MOSCARELLI"
+      "aula": "107",
+      "docente": "DI CAMPLI"
     },
     {
-      "classe": "2D",
+      "classe": "2G",
       "ora": "4",
-      "aula": "215",
-      "docente": "BARTOLI"
+      "aula": "013",
+      "docente": "FATTORUSO"
     },
     {
       "classe": "2G",
@@ -152,16 +180,70 @@
       "docente": "ZAMMATARO"
     },
     {
-      "classe": "ESAMI PRELIMINARI",
-      "ora": "1/2/34/5/6",
-      "aula": "BIBLIOTECA",
-      "docente": "MARTIRADONNACAGNETTA"
+      "classe": "2F",
+      "ora": "2",
+      "aula": "227",
+      "docente": "VASMARA (REC)"
+    },
+    {
+      "classe": "2D",
+      "ora": "4",
+      "aula": "215",
+      "docente": "BARTOLI"
+    },
+    {
+      "classe": "2D",
+      "ora": "3",
+      "aula": "114",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "2D",
+      "ora": "2",
+      "aula": "114",
+      "docente": "GALATI"
     },
     {
       "classe": "2B",
       "ora": "5/6",
       "aula": "LNX",
       "docente": "FATTORUSO"
+    },
+    {
+      "classe": "2A",
+      "ora": "2",
+      "aula": "130",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "1H",
+      "ora": "1",
+      "aula": "107",
+      "docente": "DE RUVO"
+    },
+    {
+      "classe": "1H",
+      "ora": "2",
+      "aula": "107",
+      "docente": "SAJEVA (REC)"
+    },
+    {
+      "classe": "1G",
+      "ora": "3",
+      "aula": "013",
+      "docente": "PETRUCCI"
+    },
+    {
+      "classe": "1D",
+      "ora": "4",
+      "aula": "126",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "S ASS",
+      "ora": "4",
+      "aula": "122",
+      "docente": "PELUSO (REC)"
     }
   ],
   "cambi_aula": [
