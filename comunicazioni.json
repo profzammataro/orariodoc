@@ -88,10 +88,10 @@
     },
     {
       "classe": "3G",
-      "ingresso": "",
+      "ingresso": "10.10",
       "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
+      "sostituzione": "BABUDRI post. in 3h",
+      "aula": "127"
     },
     {
       "classe": "1H",
@@ -136,10 +136,17 @@
       "aula": ""
     },
     {
-      "classe": "4C",
-      "ingresso": "",
+      "classe": "2N",
+      "ingresso": "9.10",
       "uscita": "",
       "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5G",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "SERPICO ant. in 5h",
       "aula": ""
     }
   ],
@@ -263,6 +270,24 @@
       "ora": "1/2/35/6",
       "aula": "BIBLIOTECA",
       "docente": "CERCIELLOIARDINOBABUDRIFORCELLINOFORCELLINO"
+    },
+    {
+      "classe": "4C",
+      "ora": "6",
+      "aula": "",
+      "docente": "D'ANGELO"
+    },
+    {
+      "classe": "5G",
+      "ora": "3",
+      "aula": "",
+      "docente": ""
+    },
+    {
+      "classe": "5G",
+      "ora": "4",
+      "aula": "",
+      "docente": "SERPICO"
     }
   ],
   "cambi_aula": [
