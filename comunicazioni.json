@@ -3,6 +3,20 @@
   "giorno_settimana": 3,
   "ingressi_uscite": [
     {
+      "classe": "3L",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3I",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
       "classe": "1D",
       "ingresso": "9.10",
       "uscita": "",
@@ -10,49 +24,42 @@
       "aula": ""
     },
     {
-      "classe": "1F",
-      "ingresso": "",
-      "uscita": "12.10",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "3F",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "1A",
-      "ingresso": "9.10",
+      "classe": "5D",
+      "ingresso": "10.10",
       "uscita": "",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "1N",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "ANTICIPA GEROMINO IN 5 ORA",
-      "aula": "013"
-    },
-    {
-      "classe": "5C",
+      "classe": "3C",
       "ingresso": "10.10",
-      "uscita": "13.05",
-      "sostituzione": "GALATI ant 3h",
-      "aula": "104"
-    },
-    {
-      "classe": "5H",
-      "ingresso": "",
-      "uscita": "13.05",
+      "uscita": "",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "1H",
+      "classe": "4G",
+      "ingresso": "11.00",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2H",
+      "ingresso": "11.00",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5H",
+      "ingresso": "9.10",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3D",
       "ingresso": "",
       "uscita": "12.10",
       "sostituzione": "",
@@ -60,36 +67,78 @@
     },
     {
       "classe": "4F",
-      "ingresso": "",
+      "ingresso": "9.10",
       "uscita": "13.05",
-      "sostituzione": "MARTINELLI ANTICIPA IN 4 ORA",
-      "aula": "129"
+      "sostituzione": "",
+      "aula": ""
     },
     {
-      "classe": "5D",
+      "classe": "5F",
+      "ingresso": "10.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5I",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3G",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1H",
+      "ingresso": "9.10",
+      "uscita": "12.10",
+      "sostituzione": "GALLEAZZI ant. in 2h",
+      "aula": ""
+    },
+    {
+      "classe": "5C",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "GALATI ant 2h",
+      "aula": ""
+    },
+    {
+      "classe": "4C",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4H",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3A",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "FASANO ANT. 4h (4I)",
+      "aula": ""
+    },
+    {
+      "classe": "1A",
       "ingresso": "",
       "uscita": "12.10",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "5G",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "1D",
+      "classe": "4C",
       "ingresso": "",
       "uscita": "12.10",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "1C",
-      "ingresso": "",
-      "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
     }
