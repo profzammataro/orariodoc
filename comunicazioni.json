@@ -148,6 +148,27 @@
       "uscita": "13.05",
       "sostituzione": "SERPICO ant. in 5h",
       "aula": ""
+    },
+    {
+      "classe": "1I",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "GIANNETTI ant. 4h",
+      "aula": "211"
+    },
+    {
+      "classe": "1C",
+      "ingresso": "",
+      "uscita": "11.00",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2C",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
@@ -156,6 +177,12 @@
       "ora": "6",
       "aula": "202",
       "docente": "MARTONE"
+    },
+    {
+      "classe": "4C",
+      "ora": "6",
+      "aula": "104",
+      "docente": "D'ANGELO"
     },
     {
       "classe": "5M",
@@ -176,6 +203,24 @@
       "docente": "FASANO (4I)"
     },
     {
+      "classe": "5G",
+      "ora": "4",
+      "aula": "121",
+      "docente": "SERPICO"
+    },
+    {
+      "classe": "3I",
+      "ora": "4",
+      "aula": "224",
+      "docente": "GRANIERO (REC)"
+    },
+    {
+      "classe": "3C",
+      "ora": "4",
+      "aula": "104",
+      "docente": "TORELLI"
+    },
+    {
       "classe": "2D",
       "ora": "4",
       "aula": "116",
@@ -186,12 +231,6 @@
       "ora": "4",
       "aula": "111",
       "docente": "FATTORUSO"
-    },
-    {
-      "classe": "1I",
-      "ora": "4",
-      "aula": "211",
-      "docente": "TORELLI"
     },
     {
       "classe": "1C",
@@ -209,13 +248,25 @@
       "classe": "5H",
       "ora": "3",
       "aula": "217",
-      "docente": ""
+      "docente": "FIOCCOLA (E)"
+    },
+    {
+      "classe": "5G",
+      "ora": "3",
+      "aula": "121",
+      "docente": "LIBERATORI (REC)"
     },
     {
       "classe": "4F",
       "ora": "3",
       "aula": "207",
       "docente": ""
+    },
+    {
+      "classe": "2I",
+      "ora": "3",
+      "aula": "201",
+      "docente": "GASPARINI (E)"
     },
     {
       "classe": "2D",
@@ -227,7 +278,7 @@
       "classe": "1G",
       "ora": "3",
       "aula": "118",
-      "docente": ""
+      "docente": "GEROMINO"
     },
     {
       "classe": "1C",
@@ -242,6 +293,12 @@
       "docente": "DE CARLI"
     },
     {
+      "classe": "ST ASS +1C TUTTA",
+      "ora": "2",
+      "aula": "107",
+      "docente": "LUNETTA"
+    },
+    {
       "classe": "3H",
       "ora": "2",
       "aula": "217",
@@ -254,6 +311,12 @@
       "docente": "CAMILLERI"
     },
     {
+      "classe": "3C",
+      "ora": "2",
+      "aula": "117",
+      "docente": "BOVA"
+    },
+    {
       "classe": "1G",
       "ora": "2",
       "aula": "118",
@@ -263,7 +326,7 @@
       "classe": "1B",
       "ora": "2",
       "aula": "013",
-      "docente": "POLITO"
+      "docente": ""
     },
     {
       "classe": "ESAMI PRELIMINARI",
@@ -272,22 +335,28 @@
       "docente": "CERCIELLOIARDINOBABUDRIFORCELLINOFORCELLINO"
     },
     {
-      "classe": "4C",
-      "ora": "6",
-      "aula": "",
-      "docente": "D'ANGELO"
+      "classe": "4H",
+      "ora": "1",
+      "aula": "104",
+      "docente": "FRATTARELLI"
     },
     {
-      "classe": "5G",
-      "ora": "3",
-      "aula": "",
+      "classe": "4H",
+      "ora": "2",
+      "aula": "104",
       "docente": ""
     },
     {
-      "classe": "5G",
+      "classe": "1H",
       "ora": "4",
-      "aula": "",
-      "docente": "SERPICO"
+      "aula": "107",
+      "docente": "BARTOLI"
+    },
+    {
+      "classe": "STUDIO ASSISTITO 1L",
+      "ora": "5",
+      "aula": "202",
+      "docente": "LOMBARDI"
     }
   ],
   "cambi_aula": [
