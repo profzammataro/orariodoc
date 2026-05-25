@@ -12,7 +12,7 @@
     {
       "classe": "5C",
       "ingresso": "9.10",
-      "uscita": "",
+      "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
     },
@@ -117,8 +117,29 @@
     {
       "classe": "3F",
       "ingresso": "9.10",
-      "uscita": "",
+      "uscita": "12.10",
       "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2G",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5A",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4F",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "PECORA anticipa in 4h",
       "aula": ""
     }
   ],
@@ -139,13 +160,13 @@
       "classe": "S ASS",
       "ora": "4",
       "aula": "120",
-      "docente": ""
+      "docente": "FORCELLINO"
     },
     {
       "classe": "4C",
       "ora": "2",
       "aula": "219",
-      "docente": "BARTOLI"
+      "docente": ""
     },
     {
       "classe": "3D",
@@ -181,7 +202,7 @@
       "classe": "S ASS",
       "ora": "3",
       "aula": "113",
-      "docente": ""
+      "docente": "POLITO (REC)"
     },
     {
       "classe": "1B",
@@ -192,14 +213,14 @@
     {
       "classe": "3B",
       "ora": "4",
-      "aula": "223",
+      "aula": "013",
       "docente": "CIULLA (4B)"
     },
     {
       "classe": "5G",
       "ora": "3",
       "aula": "212",
-      "docente": "GAGLIARDI"
+      "docente": "SAJEVA"
     },
     {
       "classe": "1H",
@@ -223,13 +244,13 @@
       "classe": "3C",
       "ora": "4",
       "aula": "222",
-      "docente": "LAMBARDI (REC)"
+      "docente": "LOMBARDI (REC)"
     },
     {
       "classe": "5I",
       "ora": "3",
       "aula": "207",
-      "docente": "BARTOLI"
+      "docente": "SPALLIERO (4H)"
     },
     {
       "classe": "5A",
@@ -241,31 +262,73 @@
       "classe": "1N",
       "ora": "3",
       "aula": "116",
-      "docente": "DE RUVO"
+      "docente": ""
+    },
+    {
+      "classe": "2F",
+      "ora": "2",
+      "aula": "212",
+      "docente": "FERRARA"
+    },
+    {
+      "classe": "1F",
+      "ora": "4",
+      "aula": "212",
+      "docente": "TORELLI"
+    },
+    {
+      "classe": "4F",
+      "ora": "3",
+      "aula": "219",
+      "docente": "FERRARA"
+    },
+    {
+      "classe": "2A",
+      "ora": "2",
+      "aula": "A.M.",
+      "docente": ""
+    },
+    {
+      "classe": "2A",
+      "ora": "3",
+      "aula": "223",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "2N",
+      "ora": "3",
+      "aula": "013",
+      "docente": "GEROMINO"
+    },
+    {
+      "classe": "2N",
+      "ora": "4",
+      "aula": "223",
+      "docente": "PETRUCCI"
     }
   ],
   "cambi_aula": [
     {
       "ora": "3",
-      "classe": "4L",
+      "classe": "4L+5C",
       "aula": "AM",
       "docente": ""
     },
     {
       "ora": "4",
-      "classe": "4D",
+      "classe": "4D+5A",
       "aula": "AM",
       "docente": ""
     },
     {
       "ora": "4",
-      "classe": "5A",
-      "aula": "AM",
+      "classe": "1B",
+      "aula": "207",
       "docente": ""
     },
     {
       "ora": "5",
-      "classe": "4F",
+      "classe": "4F+4E",
       "aula": "AM",
       "docente": ""
     },
