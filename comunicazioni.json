@@ -92,14 +92,39 @@
       "uscita": "12.10",
       "sostituzione": "",
       "aula": "BIBLIOTECA"
+    },
+    {
+      "classe": "4D",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "CICCONE  ant 4h",
+      "aula": "112"
     }
   ],
   "sostituzioni": [
+    {
+      "classe": "4E",
+      "ora": "6",
+      "aula": "201",
+      "docente": "CATALLI"
+    },
     {
       "classe": "3G",
       "ora": "5",
       "aula": "220",
       "docente": "BARTOLI"
+    },
+    {
+      "classe": "3B",
+      "ora": "4",
+      "aula": "223",
+      "docente": "CHAMBERLAIN"
+    },
+    {
+      "classe": "2B",
+      "ora": "4",
+      "aula": "220",
+      "docente": "SERPICO (3A)"
     },
     {
       "classe": "3I",
@@ -114,40 +139,22 @@
       "docente": "BARTOLI"
     },
     {
-      "classe": "3B",
-      "ora": "4",
-      "aula": "223",
-      "docente": "CHAMBERLAIN"
-    },
-    {
-      "classe": "4D",
-      "ora": "4",
-      "aula": "117",
-      "docente": "SERPICO (3A)"
-    },
-    {
-      "classe": "2B",
-      "ora": "4",
-      "aula": "220",
-      "docente": ""
-    },
-    {
       "classe": "4I",
       "ora": "3",
       "aula": "LNX",
       "docente": "DE RUVO"
     },
     {
-      "classe": "1A",
-      "ora": "3",
-      "aula": "207",
-      "docente": "ROCCAMO"
-    },
-    {
       "classe": "3B",
       "ora": "3",
       "aula": "223",
       "docente": "ANDRIANI (4B)"
+    },
+    {
+      "classe": "1A",
+      "ora": "3",
+      "aula": "207",
+      "docente": "ROCCAMO"
     },
     {
       "classe": "4D",
@@ -168,6 +175,12 @@
       "docente": "FASANO"
     },
     {
+      "classe": "1G",
+      "ora": "2",
+      "aula": "221",
+      "docente": "LOMBARDO (4B)"
+    },
+    {
       "classe": "4A",
       "ora": "2",
       "aula": "207",
@@ -180,10 +193,10 @@
       "docente": "CHAMBELAIN"
     },
     {
-      "classe": "1G",
-      "ora": "2",
-      "aula": "221",
-      "docente": "LOMBARDO (4B)"
+      "classe": "4H",
+      "ora": "1",
+      "aula": "107",
+      "docente": "GAGLIARDI"
     }
   ],
   "cambi_aula": []
