@@ -144,6 +144,42 @@
       "ora": "1",
       "aula": "LINUX",
       "docente": "MARTONE"
+    },
+    {
+      "classe": "1I",
+      "ora": "3",
+      "aula": "LINUX",
+      "docente": "BARTOLI"
+    },
+    {
+      "classe": "4L",
+      "ora": "2",
+      "aula": "",
+      "docente": "DE LUCA (3N)"
+    },
+    {
+      "classe": "2N",
+      "ora": "3",
+      "aula": "",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "4D",
+      "ora": "3/4",
+      "aula": "206",
+      "docente": "FRANCESCHELLI"
+    },
+    {
+      "classe": "2I",
+      "ora": "3/4",
+      "aula": "211",
+      "docente": "CANTORE"
+    },
+    {
+      "classe": "STUDIO ASSISTITO",
+      "ora": "2",
+      "aula": "101",
+      "docente": "GAGLIARDI"
     }
   ],
   "cambi_aula": []
