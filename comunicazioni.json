@@ -124,13 +124,13 @@
     {
       "classe": "2N",
       "ora": "2",
-      "aula": "",
+      "aula": "101",
       "docente": "BARTOLI (TUTTA)"
     },
     {
       "classe": "1D",
       "ora": "4",
-      "aula": "",
+      "aula": "117",
       "docente": "TORELLI (TUTTA)"
     },
     {
@@ -154,13 +154,13 @@
     {
       "classe": "4L",
       "ora": "2",
-      "aula": "",
+      "aula": "206",
       "docente": "DE LUCA (3N)"
     },
     {
       "classe": "2N",
       "ora": "3",
-      "aula": "",
+      "aula": "119",
       "docente": "GAGLIARDI"
     },
     {
@@ -180,7 +180,44 @@
       "ora": "2",
       "aula": "101",
       "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "1D",
+      "ora": "1",
+      "aula": "106",
+      "docente": "BARTOLI"
+    },
+    {
+      "classe": "1C",
+      "ora": "2",
+      "aula": "106",
+      "docente": "DI CAMPLI"
+    },
+    {
+      "classe": "1D",
+      "ora": "3",
+      "aula": "110",
+      "docente": "CASTRONUOVO (REC)"
+    },
+    {
+      "classe": "2C",
+      "ora": "4",
+      "aula": "110",
+      "docente": "ZAMMATARO"
+    },
+    {
+      "classe": "1H",
+      "ora": "2",
+      "aula": "119",
+      "docente": "ROMANO (REC)"
     }
   ],
-  "cambi_aula": []
+  "cambi_aula": [
+    {
+      "ora": "6",
+      "classe": "5F",
+      "aula": "013",
+      "docente": "DONINELLI"
+    }
+  ]
 }
