@@ -117,52 +117,10 @@
   ],
   "sostituzioni": [
     {
-      "classe": "4A",
-      "ora": "2",
-      "aula": "221",
-      "docente": "PLASMATI (3A)"
-    },
-    {
-      "classe": "5A",
-      "ora": "4",
-      "aula": "213",
-      "docente": "BARTOLI"
-    },
-    {
-      "classe": "1A",
-      "ora": "5",
-      "aula": "213",
-      "docente": "LASERRA"
-    },
-    {
-      "classe": "5I",
-      "ora": "2",
-      "aula": "207",
-      "docente": "FORTE"
-    },
-    {
-      "classe": "1A",
-      "ora": "2",
-      "aula": "110",
-      "docente": "CATALLI"
-    },
-    {
-      "classe": "1B",
-      "ora": "4",
-      "aula": "108",
-      "docente": "DE CARLI"
-    },
-    {
-      "classe": "2C",
-      "ora": "2",
-      "aula": "128",
-      "docente": "CHAMBERLAIN (3N)"
-    },
-    {
-      "classe": "3B",
-      "ora": "4",
-      "aula": "128",
-      "docente": "DE LUCA (3N)"
+      "classe": "5M",
+      "ora": "1",
+      "aula": "ECDL",
+      "docente": "LOMBARDI"
     },
     {
       "classe": "4C",
@@ -171,16 +129,28 @@
       "docente": "TESONE"
     },
     {
-      "classe": "5M",
-      "ora": "1",
-      "aula": "ECDL",
-      "docente": "LOMBARDI"
+      "classe": "1B",
+      "ora": "2",
+      "aula": "120",
+      "docente": "PLASMATI (3A)"
     },
     {
-      "classe": "5L",
-      "ora": "3",
-      "aula": "ECDL",
+      "classe": "1A",
+      "ora": "2",
+      "aula": "110",
+      "docente": "CATALLI"
+    },
+    {
+      "classe": "2C",
+      "ora": "2",
+      "aula": "128",
       "docente": "CHAMBERLAIN (3N)"
+    },
+    {
+      "classe": "5I",
+      "ora": "2",
+      "aula": "207",
+      "docente": "FORTE"
     },
     {
       "classe": "5D",
@@ -189,46 +159,10 @@
       "docente": "MARTONE"
     },
     {
-      "classe": "3D",
-      "ora": "3",
-      "aula": "202",
-      "docente": "MOSCARELLI"
-    },
-    {
-      "classe": "STUDIO ASSISTITO",
-      "ora": "4",
-      "aula": "122",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "1N",
-      "ora": "3",
-      "aula": "102",
-      "docente": ""
-    },
-    {
-      "classe": "1G",
-      "ora": "3",
-      "aula": "013",
-      "docente": "BARTOLI"
-    },
-    {
-      "classe": "2G",
-      "ora": "4",
-      "aula": "013",
-      "docente": "GAGLIARDI"
-    },
-    {
-      "classe": "4B",
-      "ora": "3/4",
-      "aula": "113",
-      "docente": "BERNABEI"
-    },
-    {
-      "classe": "1B",
+      "classe": "4A",
       "ora": "2",
-      "aula": "120",
-      "docente": "POLITO"
+      "aula": "221",
+      "docente": ""
     },
     {
       "classe": "4D",
@@ -237,10 +171,76 @@
       "docente": "ROCCAMO (5B)"
     },
     {
+      "classe": "1N",
+      "ora": "3",
+      "aula": "102",
+      "docente": "CHAMBERLAIN (3N)"
+    },
+    {
+      "classe": "1G",
+      "ora": "3",
+      "aula": "013",
+      "docente": "BARTOLI"
+    },
+    {
+      "classe": "5L",
+      "ora": "3",
+      "aula": "ECDL",
+      "docente": "PETRONE"
+    },
+    {
+      "classe": "3D",
+      "ora": "3",
+      "aula": "202",
+      "docente": "MOSCARELLI"
+    },
+    {
       "classe": "1B",
       "ora": "3",
       "aula": "213",
       "docente": "RAO (5B)"
+    },
+    {
+      "classe": "4B",
+      "ora": "3/4",
+      "aula": "113",
+      "docente": "BERNABEI"
+    },
+    {
+      "classe": "5A",
+      "ora": "4",
+      "aula": "213",
+      "docente": "BARTOLI"
+    },
+    {
+      "classe": "1B",
+      "ora": "4",
+      "aula": "108",
+      "docente": "DE CARLI"
+    },
+    {
+      "classe": "3B",
+      "ora": "4",
+      "aula": "128",
+      "docente": "DE LUCA (3N)"
+    },
+    {
+      "classe": "STUDIO ASSISTITO",
+      "ora": "4",
+      "aula": "122",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "2G",
+      "ora": "4",
+      "aula": "013",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "1A",
+      "ora": "5",
+      "aula": "213",
+      "docente": "LASERRA"
     }
   ],
   "cambi_aula": [
@@ -254,6 +254,24 @@
       "ora": "4/6",
       "classe": "5I",
       "aula": "A.M.",
+      "docente": ""
+    },
+    {
+      "ora": "4-5",
+      "classe": "2A",
+      "aula": "105",
+      "docente": ""
+    },
+    {
+      "ora": "6",
+      "classe": "3I",
+      "aula": "105",
+      "docente": ""
+    },
+    {
+      "ora": "4/5",
+      "classe": "2F",
+      "aula": "121",
       "docente": ""
     }
   ]
