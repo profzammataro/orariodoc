@@ -42,7 +42,7 @@
       "ingresso": "",
       "uscita": "13.05",
       "sostituzione": "BERNABEI ant. in 3/4hDE SIMONE ant. in 5h",
-      "aula": "113223"
+      "aula": "113CHI"
     },
     {
       "classe": "3B",
@@ -138,23 +138,30 @@
     {
       "classe": "5M",
       "ingresso": "9.10",
-      "uscita": "",
+      "uscita": "13.05",
       "sostituzione": "LATTANZI post. in 2h",
       "aula": "218"
+    },
+    {
+      "classe": "5A",
+      "ingresso": "",
+      "uscita": "11.00",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
     {
-      "classe": "5A",
-      "ora": "4",
-      "aula": "213",
-      "docente": "GALATI"
+      "classe": "3C",
+      "ora": "5",
+      "aula": "119",
+      "docente": "ZAMMATARO"
     },
     {
-      "classe": "5B",
-      "ora": "3",
-      "aula": "218",
-      "docente": "BARTOLI"
+      "classe": "3D",
+      "ora": "5",
+      "aula": "226",
+      "docente": "GAGLIARDI"
     },
     {
       "classe": "4I",
@@ -163,16 +170,22 @@
       "docente": "BARTOLI"
     },
     {
-      "classe": "3C",
-      "ora": "3",
-      "aula": "107",
-      "docente": "GIAMMEI"
+      "classe": "5L",
+      "ora": "4",
+      "aula": "218",
+      "docente": "RIZZO"
     },
     {
-      "classe": "5F",
-      "ora": "3",
-      "aula": "105",
-      "docente": "MOSCARELLI"
+      "classe": "5G",
+      "ora": "4",
+      "aula": "111",
+      "docente": "GALATI"
+    },
+    {
+      "classe": "4D",
+      "ora": "4",
+      "aula": "226",
+      "docente": "GAGLIARDI"
     },
     {
       "classe": "5F",
@@ -181,23 +194,72 @@
       "docente": "BARTOCCI"
     },
     {
-      "classe": "5L",
-      "ora": "4",
-      "aula": "218",
-      "docente": "RIZZO"
-    },
-    {
       "classe": "1A",
       "ora": "3",
       "aula": "119",
       "docente": "ROCCAMO"
     },
     {
+      "classe": "5F",
+      "ora": "3",
+      "aula": "105",
+      "docente": "MOSCARELLI"
+    },
+    {
       "classe": "3C",
-      "ora": "5",
-      "aula": "119",
-      "docente": "ZAMMATARO"
+      "ora": "3",
+      "aula": "107",
+      "docente": "GIAMMEI"
+    },
+    {
+      "classe": "3A",
+      "ora": "3",
+      "aula": "111",
+      "docente": "DI CAMPLI"
+    },
+    {
+      "classe": "5B",
+      "ora": "3",
+      "aula": "218",
+      "docente": "BARTOLI"
+    },
+    {
+      "classe": "4D",
+      "ora": "3",
+      "aula": "226",
+      "docente": "TESONE (REC)"
+    },
+    {
+      "classe": "4L",
+      "ora": "2",
+      "aula": "222",
+      "docente": "ROMANO"
     }
   ],
-  "cambi_aula": []
+  "cambi_aula": [
+    {
+      "ora": "2",
+      "classe": "5A",
+      "aula": "205",
+      "docente": ""
+    },
+    {
+      "ora": "4",
+      "classe": "2A",
+      "aula": "130",
+      "docente": ""
+    },
+    {
+      "ora": "5",
+      "classe": "2A",
+      "aula": "139",
+      "docente": ""
+    },
+    {
+      "ora": "2",
+      "classe": "2N",
+      "aula": "LNX",
+      "docente": "MOSCARELLI"
+    }
+  ]
 }
