@@ -353,6 +353,12 @@
       "ora": "5",
       "aula": "119",
       "docente": "LASERRA"
+    },
+    {
+      "classe": "1L",
+      "ora": "5",
+      "aula": "202",
+      "docente": "CASTALDO (TUTTA)"
     }
   ],
   "cambi_aula": []
