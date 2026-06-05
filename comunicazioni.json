@@ -3,21 +3,70 @@
   "giorno_settimana": 4,
   "ingressi_uscite": [
     {
-      "classe": "2G",
-      "ingresso": "",
-      "uscita": "11.00",
+      "classe": "1H",
+      "ingresso": "11.00",
+      "uscita": "",
+      "sostituzione": "IACOVACCI POST 4h",
+      "aula": "107"
+    },
+    {
+      "classe": "3C",
+      "ingresso": "11.00",
+      "uscita": "",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "4G",
-      "ingresso": "",
-      "uscita": "13.05",
+      "classe": "2D",
+      "ingresso": "10.10",
+      "uscita": "",
       "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3G",
+      "ingresso": "10.10",
+      "uscita": "",
+      "sostituzione": "BABUDRI POST 3h",
+      "aula": "116"
+    },
+    {
+      "classe": "3L",
+      "ingresso": "10.10",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3L",
+      "ingresso": "10.10",
+      "uscita": "",
+      "sostituzione": "LATTANZI post  3h",
+      "aula": "107"
+    },
+    {
+      "classe": "4C",
+      "ingresso": "10.10",
+      "uscita": "",
+      "sostituzione": "CAGNETTA post 4h",
       "aula": ""
     },
     {
       "classe": "1B",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1D",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3I",
       "ingresso": "9.10",
       "uscita": "",
       "sostituzione": "",
@@ -31,83 +80,6 @@
       "aula": "113"
     },
     {
-      "classe": "1D",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "4D",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "2H",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "1G",
-      "ingresso": "",
-      "uscita": "11.00",
-      "sostituzione": "POLIDORI ANT 3h",
-      "aula": ""
-    },
-    {
-      "classe": "2G",
-      "ingresso": "",
-      "uscita": "12.10",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "5F",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "3L",
-      "ingresso": "10.10",
-      "uscita": "12.10",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "5C",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "2C",
-      "ingresso": "",
-      "uscita": "11.00",
-      "sostituzione": "RICCI ant 3h",
-      "aula": "120"
-    },
-    {
-      "classe": "3G",
-      "ingresso": "10.10",
-      "uscita": "",
-      "sostituzione": "BABUDRI POST 3h",
-      "aula": "127"
-    },
-    {
-      "classe": "4C",
-      "ingresso": "10.10",
-      "uscita": "",
-      "sostituzione": "CAGNETTA post 4h",
-      "aula": ""
-    },
-    {
       "classe": "5A",
       "ingresso": "9.10",
       "uscita": "",
@@ -115,8 +87,8 @@
       "aula": ""
     },
     {
-      "classe": "3C",
-      "ingresso": "11.00",
+      "classe": "5C",
+      "ingresso": "9.10",
       "uscita": "",
       "sostituzione": "",
       "aula": ""
@@ -129,13 +101,6 @@
       "aula": ""
     },
     {
-      "classe": "1H",
-      "ingresso": "11.00",
-      "uscita": "",
-      "sostituzione": "IACOVACCI POST 4h",
-      "aula": "107"
-    },
-    {
       "classe": "1C",
       "ingresso": "",
       "uscita": "12.10",
@@ -143,17 +108,10 @@
       "aula": ""
     },
     {
-      "classe": "3I",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "4L",
+      "classe": "1G",
       "ingresso": "",
-      "uscita": "10.10",
-      "sostituzione": "",
+      "uscita": "11.00",
+      "sostituzione": "POLIDORI ANT 3h",
       "aula": ""
     },
     {
@@ -164,18 +122,60 @@
       "aula": ""
     },
     {
-      "classe": "4I",
+      "classe": "2C",
+      "ingresso": "",
+      "uscita": "11.00",
+      "sostituzione": "RICCI ant 3h",
+      "aula": "120"
+    },
+    {
+      "classe": "2C",
+      "ingresso": "",
+      "uscita": "11.00",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2G",
+      "ingresso": "",
+      "uscita": "11.00",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2G",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2H",
       "ingresso": "",
       "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "3L",
-      "ingresso": "10.10",
-      "uscita": "",
-      "sostituzione": "LATTANZI post  3h",
+      "classe": "3G",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4A",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "DI CAMPLI ant 5h",
       "aula": "107"
+    },
+    {
+      "classe": "4D",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
     },
     {
       "classe": "4E",
@@ -192,30 +192,23 @@
       "aula": ""
     },
     {
-      "classe": "3C",
-      "ingresso": "11.00",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "3G",
+      "classe": "4G",
       "ingresso": "",
-      "uscita": "12.10",
+      "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "2D",
-      "ingresso": "10.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "2C",
+      "classe": "4I",
       "ingresso": "",
-      "uscita": "11.00",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4L",
+      "ingresso": "",
+      "uscita": "10.10",
       "sostituzione": "",
       "aula": ""
     },
@@ -225,14 +218,33 @@
       "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "5F",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
     {
-      "classe": "3B",
-      "ora": "5",
-      "aula": "113",
-      "docente": "MOSCARELLI"
+      "classe": "ST ASS",
+      "ora": "2",
+      "aula": "107",
+      "docente": "CAMILLERI"
+    },
+    {
+      "classe": "ST ASS",
+      "ora": "4",
+      "aula": "101",
+      "docente": ""
+    },
+    {
+      "classe": "5E",
+      "ora": "3",
+      "aula": "218",
+      "docente": "GASPARINI"
     },
     {
       "classe": "5D",
@@ -241,64 +253,46 @@
       "docente": "GRANIERO"
     },
     {
-      "classe": "2D",
-      "ora": "3",
-      "aula": "208",
-      "docente": "GRANIERO"
+      "classe": "5C",
+      "ora": "4",
+      "aula": "223",
+      "docente": "ROMANO (4L)"
     },
     {
-      "classe": "2A",
+      "classe": "4L",
       "ora": "2",
-      "aula": "",
-      "docente": ""
+      "aula": "205",
+      "docente": "ROMANO"
     },
     {
       "classe": "4H",
       "ora": "4",
-      "aula": "",
-      "docente": "SPALLIERO"
+      "aula": "207",
+      "docente": ""
+    },
+    {
+      "classe": "4C",
+      "ora": "3",
+      "aula": "204",
+      "docente": "D'ANGELO"
     },
     {
       "classe": "4A",
       "ora": "5",
-      "aula": "",
-      "docente": "ZAMMATARO (REC)"
-    },
-    {
-      "classe": "1G",
-      "ora": "2",
-      "aula": "118",
-      "docente": "CHAMBERLAIN"
-    },
-    {
-      "classe": "ST ASS",
-      "ora": "3",
-      "aula": "101",
-      "docente": "TORELLI"
-    },
-    {
-      "classe": "1L",
-      "ora": "3",
-      "aula": "014",
-      "docente": "BARTOLI"
-    },
-    {
-      "classe": "2C",
-      "ora": "2",
-      "aula": "120",
-      "docente": "GAGLIARDI"
-    },
-    {
-      "classe": "1F",
-      "ora": "4",
-      "aula": "129",
-      "docente": "BARTOLI"
-    },
-    {
-      "classe": "ST ASS",
-      "ora": "2",
       "aula": "107",
-      "docente": "CAMILLERI"
+      "docente": "DI CAMPLI"
+    },
+    {
+      "classe": "3H",
+      "ora": "5",
+      "aula": "LNX",
+      "docente": "FRATTARELLI"
+    },
+    {
+      "classe": "3B",
+      "ora": "5",
+      "aula": "113",
+      "docente": "MOSCARELLI"
     },
     {
       "classe": "3A",
@@ -307,46 +301,58 @@
       "docente": "GAGLIARDI"
     },
     {
+      "classe": "2E",
+      "ora": "3",
+      "aula": "127",
+      "docente": "ROMANO"
+    },
+    {
+      "classe": "2D",
+      "ora": "3",
+      "aula": "208",
+      "docente": "GRANIERO"
+    },
+    {
+      "classe": "2C",
+      "ora": "2",
+      "aula": "120",
+      "docente": "GAGLIARDI"
+    },
+    {
+      "classe": "2A",
+      "ora": "2",
+      "aula": "204",
+      "docente": "DI CAMPLI"
+    },
+    {
+      "classe": "2A",
+      "ora": "5",
+      "aula": "112",
+      "docente": "ZAMMATARO (rec)"
+    },
+    {
+      "classe": "1L",
+      "ora": "3",
+      "aula": "014",
+      "docente": "CHAMBELAIN (5L)"
+    },
+    {
+      "classe": "1G",
+      "ora": "2",
+      "aula": "118",
+      "docente": "CHAMBERLAIN"
+    },
+    {
+      "classe": "1F",
+      "ora": "4",
+      "aula": "129",
+      "docente": "TORELLI"
+    },
+    {
       "classe": "1A",
       "ora": "5",
       "aula": "119",
       "docente": "LASERRA"
-    },
-    {
-      "classe": "4L",
-      "ora": "2",
-      "aula": "",
-      "docente": ""
-    },
-    {
-      "classe": "5E",
-      "ora": "3",
-      "aula": "218",
-      "docente": "CHAMBERLAIN (5L=)"
-    },
-    {
-      "classe": "2E",
-      "ora": "3",
-      "aula": "116",
-      "docente": "ROMANO"
-    },
-    {
-      "classe": "3H",
-      "ora": "5",
-      "aula": "",
-      "docente": "FRATTARELLI"
-    },
-    {
-      "classe": "5C",
-      "ora": "4",
-      "aula": "223",
-      "docente": "ROMANO (4L)"
-    },
-    {
-      "classe": "4C",
-      "ora": "3",
-      "aula": "204",
-      "docente": "D'ANGELO"
     }
   ],
   "cambi_aula": []
