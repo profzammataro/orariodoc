@@ -1,7 +1,15 @@
 {
-  "data": "09/09/2026",
+  "data": "10/09/2026",
   "giorno_settimana": -1,
-  "ingressi_uscite": [],
+  "ingressi_uscite": [
+    {
+      "classe": "prova 1",
+      "ingresso": "x",
+      "uscita": "x",
+      "sostituzione": "x",
+      "aula": "x"
+    }
+  ],
   "sostituzioni": [],
   "cambi_aula": []
 }
