@@ -8,6 +8,13 @@
       "uscita": "x",
       "sostituzione": "x",
       "aula": "x"
+    },
+    {
+      "classe": "1Z",
+      "ingresso": "9.00",
+      "uscita": "10.00",
+      "sostituzione": "pippo",
+      "aula": "paperino"
     }
   ],
   "sostituzioni": [],
