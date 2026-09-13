@@ -1,5 +1,5 @@
 {
-  "data": "12/09/2026",
+  "data": "13/09/2026",
   "giorno_settimana": -1,
   "ingressi_uscite": [
     {
@@ -17,6 +17,13 @@
       "aula": "paperino"
     }
   ],
-  "sostituzioni": [],
+  "sostituzioni": [
+    {
+      "classe": "1H",
+      "ora": "2",
+      "aula": "Accoglienza classe 1H",
+      "docente": "IACOVACCI- CAGNETTA"
+    }
+  ],
   "cambi_aula": []
 }
