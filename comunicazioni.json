@@ -1,29 +1,87 @@
 {
-  "data": "13/09/2026",
-  "giorno_settimana": -1,
-  "ingressi_uscite": [
-    {
-      "classe": "prova 1",
-      "ingresso": "x",
-      "uscita": "x",
-      "sostituzione": "x",
-      "aula": "x"
-    },
-    {
-      "classe": "1Z",
-      "ingresso": "9.00",
-      "uscita": "10.00",
-      "sostituzione": "pippo",
-      "aula": "paperino"
-    }
-  ],
+  "data": "15/09/2026",
+  "giorno_settimana": 1,
+  "ingressi_uscite": [],
   "sostituzioni": [
     {
-      "classe": "1H",
+      "classe": "1I",
+      "ora": "1",
+      "aula": "205",
+      "docente": "CASTALDO"
+    },
+    {
+      "classe": "2I",
       "ora": "2",
-      "aula": "Accoglienza classe 1H",
-      "docente": "IACOVACCI- CAGNETTA"
+      "aula": "205",
+      "docente": "TORELLI"
+    },
+    {
+      "classe": "1H",
+      "ora": "3",
+      "aula": "205",
+      "docente": "DONNADIO"
+    },
+    {
+      "classe": "4L",
+      "ora": "4",
+      "aula": "214",
+      "docente": "CHIRICHIELLO"
+    },
+    {
+      "classe": "3H",
+      "ora": "1",
+      "aula": "111",
+      "docente": "DONINELLI"
+    },
+    {
+      "classe": "2H",
+      "ora": "2",
+      "aula": "111",
+      "docente": "PELUSO"
+    },
+    {
+      "classe": "5H",
+      "ora": "3",
+      "aula": "113",
+      "docente": "FIOCCOLA"
+    },
+    {
+      "classe": "1H",
+      "ora": "4",
+      "aula": "213",
+      "docente": "MELLANI"
+    },
+    {
+      "classe": "2G",
+      "ora": "1",
+      "aula": "118",
+      "docente": ""
+    },
+    {
+      "classe": "5D",
+      "ora": "2",
+      "aula": "222",
+      "docente": "GUZZO"
+    },
+    {
+      "classe": "5D",
+      "ora": "3",
+      "aula": "222",
+      "docente": "GIANNOTTI"
     }
   ],
-  "cambi_aula": []
+  "cambi_aula": [
+    {
+      "ora": "3",
+      "classe": "3F",
+      "aula": "013",
+      "docente": "CIULLA"
+    },
+    {
+      "ora": "3",
+      "classe": "5I",
+      "aula": "125",
+      "docente": "PARPAGLIONI"
+    }
+  ]
 }
