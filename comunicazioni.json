@@ -55,7 +55,7 @@
       "classe": "2G",
       "ora": "1",
       "aula": "118",
-      "docente": ""
+      "docente": "ZAMMATARO"
     },
     {
       "classe": "5D",
@@ -82,6 +82,24 @@
       "classe": "5I",
       "aula": "125",
       "docente": "PARPAGLIONI"
+    },
+    {
+      "ora": "1",
+      "classe": "2I",
+      "aula": "014",
+      "docente": "PIERVERGILI"
+    },
+    {
+      "ora": "2",
+      "classe": "3I",
+      "aula": "014",
+      "docente": "PIERVERGILI"
+    },
+    {
+      "ora": "3",
+      "classe": "1A",
+      "aula": "014",
+      "docente": "PIERVERGILI"
     }
   ]
 }
