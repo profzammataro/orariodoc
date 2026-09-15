@@ -1,141 +1,141 @@
 {
-  "data": "15/09/2026",
-  "giorno_settimana": 1,
+  "data": "16/09/2026",
+  "giorno_settimana": 2,
   "ingressi_uscite": [],
   "sostituzioni": [
     {
-      "classe": "1I",
+      "classe": "1M",
       "ora": "1",
       "aula": "205",
-      "docente": "CASTALDO"
+      "docente": "GALATI"
     },
     {
-      "classe": "2I",
-      "ora": "2",
-      "aula": "205",
-      "docente": "TORELLI"
-    },
-    {
-      "classe": "1H",
-      "ora": "3",
-      "aula": "205",
-      "docente": "DONNADIO"
-    },
-    {
-      "classe": "4L",
-      "ora": "4",
-      "aula": "214",
-      "docente": "CHIRICHIELLO"
-    },
-    {
-      "classe": "3H",
+      "classe": "5H",
       "ora": "1",
       "aula": "111",
-      "docente": "DONINELLI"
+      "docente": "FIOCCOLA"
     },
     {
-      "classe": "2H",
+      "classe": "3C",
+      "ora": "1",
+      "aula": "104",
+      "docente": "ZAMMATARO"
+    },
+    {
+      "classe": "1I",
+      "ora": "2",
+      "aula": "205",
+      "docente": "SMAREGLIA"
+    },
+    {
+      "classe": "3N",
+      "ora": "2",
+      "aula": "213",
+      "docente": "MOSCARELLI"
+    },
+    {
+      "classe": "5H",
       "ora": "2",
       "aula": "111",
       "docente": "PELUSO"
     },
     {
-      "classe": "5H",
-      "ora": "3",
-      "aula": "113",
-      "docente": "FIOCCOLA"
-    },
-    {
-      "classe": "1H",
-      "ora": "4",
-      "aula": "213",
-      "docente": "MELLANI"
-    },
-    {
-      "classe": "2G",
-      "ora": "1",
-      "aula": "118",
+      "classe": "3C",
+      "ora": "2",
+      "aula": "104",
       "docente": "ZAMMATARO"
     },
     {
-      "classe": "5D",
-      "ora": "2",
-      "aula": "222",
-      "docente": "GUZZO"
-    },
-    {
-      "classe": "5D",
-      "ora": "3",
-      "aula": "222",
-      "docente": "GIANNOTTI"
-    },
-    {
-      "classe": "4E",
-      "ora": "2",
-      "aula": "107",
-      "docente": "CHIARABINI"
-    },
-    {
       "classe": "3I",
-      "ora": "3",
+      "ora": "2",
       "aula": "102",
-      "docente": "LATTANZI"
+      "docente": "FATTORUSO"
     },
     {
-      "classe": "3F",
-      "ora": "1",
-      "aula": "212",
-      "docente": "PALUMBO"
+      "classe": "3N",
+      "ora": "3",
+      "aula": "213",
+      "docente": "BALDI"
+    },
+    {
+      "classe": "4I",
+      "ora": "4",
+      "aula": "205",
+      "docente": "DE LUCA"
+    },
+    {
+      "classe": "2A",
+      "ora": "4",
+      "aula": "117",
+      "docente": "PLASMATI"
+    },
+    {
+      "classe": "3H",
+      "ora": "4",
+      "aula": "126",
+      "docente": "FATTORUSO"
     }
   ],
   "cambi_aula": [
     {
-      "ora": "3",
+      "ora": "1",
       "classe": "3F",
       "aula": "013",
       "docente": "CIULLA"
     },
     {
-      "ora": "3",
-      "classe": "5I",
-      "aula": "125",
-      "docente": "PARPAGLIONI"
-    },
-    {
       "ora": "1",
-      "classe": "2I",
-      "aula": "014",
-      "docente": "PIERVERGILI"
+      "classe": "1C",
+      "aula": "125",
+      "docente": "D'ANGELO"
     },
     {
       "ora": "2",
-      "classe": "3I",
+      "classe": "3F",
+      "aula": "013",
+      "docente": "CIULLA"
+    },
+    {
+      "ora": "2",
+      "classe": "1C",
+      "aula": "125",
+      "docente": "D'ANGELO"
+    },
+    {
+      "ora": "2",
+      "classe": "3G",
       "aula": "014",
       "docente": "PIERVERGILI"
     },
     {
       "ora": "3",
-      "classe": "1A",
-      "aula": "014",
-      "docente": "PIERVERGILI"
-    },
-    {
-      "ora": "2",
-      "classe": "2C",
-      "aula": "211",
-      "docente": ""
+      "classe": "4B",
+      "aula": "013",
+      "docente": "CIULLA"
     },
     {
       "ora": "3",
-      "classe": "2H",
-      "aula": "120",
-      "docente": ""
+      "classe": "1E",
+      "aula": "110",
+      "docente": "CANTAGALLO"
+    },
+    {
+      "ora": "3",
+      "classe": "2D",
+      "aula": "111",
+      "docente": "PELUSO"
+    },
+    {
+      "ora": "3",
+      "classe": "1D",
+      "aula": "014",
+      "docente": "PIERVERGILI"
     },
     {
       "ora": "4",
-      "classe": "4H",
-      "aula": "217",
-      "docente": ""
+      "classe": "4F",
+      "aula": "013",
+      "docente": "CIULLA"
     }
   ]
 }
