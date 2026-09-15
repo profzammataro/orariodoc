@@ -68,6 +68,24 @@
       "ora": "3",
       "aula": "222",
       "docente": "GIANNOTTI"
+    },
+    {
+      "classe": "4E",
+      "ora": "2",
+      "aula": "107",
+      "docente": "CHIARABINI"
+    },
+    {
+      "classe": "3I",
+      "ora": "3",
+      "aula": "102",
+      "docente": "LATTANZI"
+    },
+    {
+      "classe": "3F",
+      "ora": "1",
+      "aula": "212",
+      "docente": "PALUMBO"
     }
   ],
   "cambi_aula": [
@@ -100,6 +118,24 @@
       "classe": "1A",
       "aula": "014",
       "docente": "PIERVERGILI"
+    },
+    {
+      "ora": "2",
+      "classe": "2C",
+      "aula": "211",
+      "docente": ""
+    },
+    {
+      "ora": "3",
+      "classe": "2H",
+      "aula": "120",
+      "docente": ""
+    },
+    {
+      "ora": "4",
+      "classe": "4H",
+      "aula": "217",
+      "docente": ""
     }
   ]
 }
