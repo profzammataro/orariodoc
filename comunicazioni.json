@@ -4,6 +4,102 @@
   "ingressi_uscite": [],
   "sostituzioni": [
     {
+      "classe": "1G",
+      "ora": "4",
+      "aula": "112",
+      "docente": "VASMARA"
+    },
+    {
+      "classe": "1I",
+      "ora": "4",
+      "aula": "205",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "5G",
+      "ora": "4",
+      "aula": "117",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "2N",
+      "ora": "4",
+      "aula": "102",
+      "docente": "MASTRIPIERI"
+    },
+    {
+      "classe": "4C",
+      "ora": "4",
+      "aula": "202",
+      "docente": "SERPICO"
+    },
+    {
+      "classe": "1D",
+      "ora": "4",
+      "aula": "105",
+      "docente": "TASSETTI"
+    },
+    {
+      "classe": "1A",
+      "ora": "3",
+      "aula": "112",
+      "docente": "ERBAGGIO"
+    },
+    {
+      "classe": "4I",
+      "ora": "3",
+      "aula": "208",
+      "docente": "SESTITO"
+    },
+    {
+      "classe": "1D",
+      "ora": "3",
+      "aula": "105",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "4I",
+      "ora": "2",
+      "aula": "112",
+      "docente": "SESTITO"
+    },
+    {
+      "classe": "4N",
+      "ora": "2",
+      "aula": "214",
+      "docente": "GIAMMEI"
+    },
+    {
+      "classe": "4G",
+      "ora": "2",
+      "aula": "117",
+      "docente": "DAMIANI"
+    },
+    {
+      "classe": "1M",
+      "ora": "2",
+      "aula": "208",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "2A",
+      "ora": "2",
+      "aula": "119",
+      "docente": "ZAMMATARO"
+    },
+    {
+      "classe": "3F",
+      "ora": "2",
+      "aula": "105",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "3I",
+      "ora": "2",
+      "aula": "102",
+      "docente": "DE LUCA"
+    },
+    {
       "classe": "2i",
       "ora": "1",
       "aula": "205",
@@ -31,109 +127,13 @@
       "classe": "3I",
       "ora": "1",
       "aula": "102",
-      "docente": "FATTORUSO"
+      "docente": "ERBAGGIO"
     },
     {
       "classe": "2B",
       "ora": "1",
       "aula": "125",
       "docente": "GALLEAZZI"
-    },
-    {
-      "classe": "1A",
-      "ora": "3",
-      "aula": "112",
-      "docente": "ERBAGGIO"
-    },
-    {
-      "classe": "1G",
-      "ora": "4",
-      "aula": "112",
-      "docente": "VASMARA"
-    },
-    {
-      "classe": "4I",
-      "ora": "2",
-      "aula": "112",
-      "docente": "SESTITO"
-    },
-    {
-      "classe": "1I",
-      "ora": "4",
-      "aula": "205",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "4N",
-      "ora": "2",
-      "aula": "214",
-      "docente": "GIAMMEI"
-    },
-    {
-      "classe": "4G",
-      "ora": "2",
-      "aula": "117",
-      "docente": "DAMIANI"
-    },
-    {
-      "classe": "5G",
-      "ora": "4",
-      "aula": "117",
-      "docente": "FORCELLINO"
-    },
-    {
-      "classe": "1M",
-      "ora": "2",
-      "aula": "208",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "4I",
-      "ora": "3",
-      "aula": "208",
-      "docente": "SESTITO"
-    },
-    {
-      "classe": "2N",
-      "ora": "4",
-      "aula": "102",
-      "docente": "MASTRIPIERI"
-    },
-    {
-      "classe": "2A",
-      "ora": "2",
-      "aula": "119",
-      "docente": "ZAMMATARO"
-    },
-    {
-      "classe": "4C",
-      "ora": "4",
-      "aula": "202",
-      "docente": "SERPICO"
-    },
-    {
-      "classe": "3F",
-      "ora": "2",
-      "aula": "105",
-      "docente": "FORCELLINO"
-    },
-    {
-      "classe": "1D",
-      "ora": "3",
-      "aula": "105",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "1D",
-      "ora": "4",
-      "aula": "105",
-      "docente": "TASSETTI"
-    },
-    {
-      "classe": "3I",
-      "ora": "2",
-      "aula": "102",
-      "docente": "DE LUCA"
     }
   ],
   "cambi_aula": [
