@@ -44,6 +44,30 @@
       "ora": "1",
       "aula": "104",
       "docente": "GABRIOTTI"
+    },
+    {
+      "classe": "2B",
+      "ora": "1",
+      "aula": "201",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "5E",
+      "ora": "2",
+      "aula": "201",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "5B",
+      "ora": "3",
+      "aula": "201",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "1E",
+      "ora": "4",
+      "aula": "201",
+      "docente": "MARTINELLI"
     }
   ],
   "cambi_aula": [
