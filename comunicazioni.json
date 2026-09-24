@@ -97,10 +97,16 @@
       "classe": "2B",
       "ora": "1",
       "aula": "201",
-      "docente": "GALLO"
+      "docente": "PIERVERGILI"
     },
     {
       "classe": "1E",
+      "ora": "1",
+      "aula": "113",
+      "docente": "TORELLI (DA ORARIO)"
+    },
+    {
+      "classe": "1F",
       "ora": "1",
       "aula": "215",
       "docente": "D'ANGELO"
