@@ -16,10 +16,22 @@
       "docente": "SERPICO"
     },
     {
+      "classe": "2C",
+      "ora": "4",
+      "aula": "220",
+      "docente": "FORCELLINO"
+    },
+    {
       "classe": "1A",
       "ora": "3",
       "aula": "217",
       "docente": "CANTAGALLO"
+    },
+    {
+      "classe": "2B",
+      "ora": "3",
+      "aula": "118",
+      "docente": "DI DONNA"
     },
     {
       "classe": "2F",
@@ -28,28 +40,22 @@
       "docente": "FATTORUSO"
     },
     {
-      "classe": "2B",
-      "ora": "3",
-      "aula": "118",
-      "docente": "POLITO"
+      "classe": "3H",
+      "ora": "2",
+      "aula": "111",
+      "docente": "GALATI"
     },
     {
       "classe": "3I",
       "ora": "2",
       "aula": "102",
-      "docente": "MOSER"
+      "docente": "DE LUCA"
     },
     {
       "classe": "3C",
       "ora": "2",
       "aula": "227",
       "docente": "FATTORUSO"
-    },
-    {
-      "classe": "1E",
-      "ora": "2",
-      "aula": "201",
-      "docente": "ZAMMATARO"
     },
     {
       "classe": "2F",
@@ -64,10 +70,22 @@
       "docente": "GIAMMEI"
     },
     {
+      "classe": "4C",
+      "ora": "2",
+      "aula": "219",
+      "docente": "MOSER"
+    },
+    {
       "classe": "3D",
       "ora": "2",
       "aula": "108",
       "docente": "SPALLIERO"
+    },
+    {
+      "classe": "1E",
+      "ora": "2",
+      "aula": "201",
+      "docente": "ZAMMATARO"
     },
     {
       "classe": "3I",
@@ -76,16 +94,10 @@
       "docente": "ERBAGGIO"
     },
     {
-      "classe": "2B",
+      "classe": "4C",
       "ora": "1",
-      "aula": "125",
-      "docente": "GALLEAZZI"
-    },
-    {
-      "classe": "4B",
-      "ora": "1",
-      "aula": "201",
-      "docente": "FREDDO"
+      "aula": "219",
+      "docente": "FASANO"
     },
     {
       "classe": "1F",
@@ -94,16 +106,28 @@
       "docente": "FORTE"
     },
     {
-      "classe": "4L",
+      "classe": "4B",
       "ora": "1",
-      "aula": "214",
-      "docente": "PETRONE"
+      "aula": "201",
+      "docente": "FREDDO"
     },
     {
       "classe": "2D",
       "ora": "1",
       "aula": "111",
       "docente": "GABRIOTTI"
+    },
+    {
+      "classe": "2B",
+      "ora": "1",
+      "aula": "125",
+      "docente": "GALLEAZZI"
+    },
+    {
+      "classe": "4L",
+      "ora": "1",
+      "aula": "214",
+      "docente": "PETRONE"
     }
   ],
   "cambi_aula": [
