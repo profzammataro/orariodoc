@@ -16,6 +16,18 @@
       "docente": "FORCELLINO"
     },
     {
+      "classe": "4L",
+      "ora": "4",
+      "aula": "214",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "2C",
+      "ora": "4",
+      "aula": "013",
+      "docente": "VASMARA"
+    },
+    {
       "classe": "4E",
       "ora": "3",
       "aula": "127",
@@ -26,6 +38,12 @@
       "ora": "3",
       "aula": "222",
       "docente": "FRANCESCHELLI"
+    },
+    {
+      "classe": "5H",
+      "ora": "3",
+      "aula": "113",
+      "docente": "GONZALEZ"
     },
     {
       "classe": "5I",
@@ -40,6 +58,24 @@
       "docente": "ROMANO"
     },
     {
+      "classe": "5G",
+      "ora": "2",
+      "aula": "223",
+      "docente": "LAUDANI"
+    },
+    {
+      "classe": "2H",
+      "ora": "2",
+      "aula": "111",
+      "docente": "GONZALEZ"
+    },
+    {
+      "classe": "1E",
+      "ora": "2",
+      "aula": "013",
+      "docente": "TORELLI"
+    },
+    {
       "classe": "4E",
       "ora": "1",
       "aula": "225",
@@ -49,6 +85,30 @@
       "classe": "2G",
       "ora": "1",
       "aula": "118",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "5E",
+      "ora": "1",
+      "aula": "222",
+      "docente": "CHIARABINI"
+    },
+    {
+      "classe": "3H",
+      "ora": "1",
+      "aula": "111",
+      "docente": "GONZALEZ"
+    },
+    {
+      "classe": "1C",
+      "ora": "1",
+      "aula": "013",
+      "docente": "SPOLETI"
+    },
+    {
+      "classe": "5G",
+      "ora": "3",
+      "aula": "116",
       "docente": "FATTORUSO"
     }
   ],
