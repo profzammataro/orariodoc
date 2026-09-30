@@ -1,189 +1,189 @@
 {
-  "data": "30/09/2026",
-  "giorno_settimana": 2,
+  "data": "01/10/2026",
+  "giorno_settimana": 3,
   "ingressi_uscite": [],
   "sostituzioni": [
     {
-      "classe": "1C",
-      "ora": "4",
-      "aula": "219",
-      "docente": "GONZALEZ"
+      "classe": "4C",
+      "ora": "2",
+      "aula": "211",
+      "docente": "MOSCARELLI"
     },
     {
-      "classe": "5L",
+      "classe": "5A",
+      "ora": "3",
+      "aula": "212",
+      "docente": "MOSER"
+    },
+    {
+      "classe": "3B",
+      "ora": "1",
+      "aula": "226",
+      "docente": "GUZZO"
+    },
+    {
+      "classe": "4C",
+      "ora": "3",
+      "aula": "223",
+      "docente": "ZAMMATARO"
+    },
+    {
+      "classe": "4C",
       "ora": "4",
+      "aula": "223",
+      "docente": "TORELLI"
+    },
+    {
+      "classe": "1E",
+      "ora": "1",
+      "aula": "113",
+      "docente": "D'ANGELO"
+    },
+    {
+      "classe": "2I",
+      "ora": "2",
+      "aula": "113",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "2H",
+      "ora": "3",
+      "aula": "113",
+      "docente": "FASANO"
+    },
+    {
+      "classe": "3F",
+      "ora": "1",
+      "aula": "105",
+      "docente": "PEZZILLO"
+    },
+    {
+      "classe": "3F",
+      "ora": "2",
+      "aula": "105",
+      "docente": "DONINELLI"
+    },
+    {
+      "classe": "2F",
+      "ora": "1",
+      "aula": "212",
+      "docente": "MASTRIPIERI"
+    },
+    {
+      "classe": "5F",
+      "ora": "2",
+      "aula": "212",
+      "docente": "BOVA"
+    },
+    {
+      "classe": "1D",
+      "ora": "1/2",
+      "aula": "118",
+      "docente": "REGA"
+    },
+    {
+      "classe": "4E",
+      "ora": "3",
       "aula": "104",
       "docente": "BARTOCCI"
     },
     {
-      "classe": "1D",
+      "classe": "2E",
       "ora": "4",
-      "aula": "105",
-      "docente": "FATTORUSO"
+      "aula": "210",
+      "docente": "REPOLE"
+    },
+    {
+      "classe": "1C",
+      "ora": "1",
+      "aula": "114",
+      "docente": "BARBATO"
+    },
+    {
+      "classe": "2F",
+      "ora": "3",
+      "aula": "129",
+      "docente": "FREDDO"
+    },
+    {
+      "classe": "3G",
+      "ora": "2",
+      "aula": "227",
+      "docente": "SAJEVA"
     },
     {
       "classe": "4G",
-      "ora": "4",
+      "ora": "3",
       "aula": "222",
       "docente": "GALATI"
     },
     {
-      "classe": "2A",
+      "classe": "5B",
+      "ora": "1",
+      "aula": "211",
+      "docente": "GALLO"
+    },
+    {
+      "classe": "1B",
+      "ora": "1",
+      "aula": "120",
+      "docente": "PARPAGLIONI"
+    },
+    {
+      "classe": "1G",
       "ora": "4",
-      "aula": "221",
-      "docente": "MARTINELLI"
+      "aula": "013",
+      "docente": "FATTORUSO"
     },
     {
-      "classe": "1C",
-      "ora": "3",
-      "aula": "219",
-      "docente": "ZAMMATARO"
-    },
-    {
-      "classe": "5L",
-      "ora": "3",
-      "aula": "104",
-      "docente": "SEQUI"
-    },
-    {
-      "classe": "1F",
-      "ora": "3",
-      "aula": "118",
-      "docente": "FREDDO"
-    },
-    {
-      "classe": "1E",
-      "ora": "3",
-      "aula": "110",
-      "docente": "BISCONTI"
-    },
-    {
-      "classe": "3N",
-      "ora": "3",
-      "aula": "213",
-      "docente": "DI STASI"
-    },
-    {
-      "classe": "2I",
-      "ora": "3",
-      "aula": "113",
-      "docente": "SMAREGLIA"
-    },
-    {
-      "classe": "4G",
-      "ora": "3",
+      "classe": "5D",
+      "ora": "1",
       "aula": "222",
-      "docente": "SERPICO"
-    },
-    {
-      "classe": "3F",
-      "ora": "3",
-      "aula": "105",
-      "docente": "ZILLI"
-    },
-    {
-      "classe": "1F",
-      "ora": "2",
-      "aula": "220",
-      "docente": "MARONE"
-    },
-    {
-      "classe": "2F",
-      "ora": "2",
-      "aula": "129",
-      "docente": "ZANICHELLI"
-    },
-    {
-      "classe": "3N",
-      "ora": "2",
-      "aula": "213",
-      "docente": "BALDI"
-    },
-    {
-      "classe": "1E",
-      "ora": "2",
-      "aula": "113",
-      "docente": "DE RUVO"
-    },
-    {
-      "classe": "4E",
-      "ora": "2",
-      "aula": "221",
-      "docente": "FASANO"
-    },
-    {
-      "classe": "3C",
-      "ora": "2",
-      "aula": "104",
-      "docente": "GALLEAZZI"
-    },
-    {
-      "classe": "3E",
-      "ora": "2",
-      "aula": "208",
-      "docente": "ZILLI"
-    },
-    {
-      "classe": "1F",
-      "ora": "1",
-      "aula": "220",
-      "docente": "GUZZO"
-    },
-    {
-      "classe": "3E",
-      "ora": "1",
-      "aula": "208",
-      "docente": "ZAMMATARO"
-    },
-    {
-      "classe": "2F",
-      "ora": "1",
-      "aula": "129",
-      "docente": "VASMARA"
-    },
-    {
-      "classe": "4E",
-      "ora": "1",
-      "aula": "221",
       "docente": "DONINELLI"
     },
     {
-      "classe": "5E",
-      "ora": "1",
-      "aula": "222",
+      "classe": "4I",
+      "ora": "4",
+      "aula": "111",
       "docente": "GONZALEZ"
     },
     {
-      "classe": "4G",
-      "ora": "2",
-      "aula": "212",
-      "docente": "SAJEVA"
+      "classe": "4N",
+      "ora": "3",
+      "aula": "214",
+      "docente": "DE LUCA"
+    },
+    {
+      "classe": "2N",
+      "ora": "4",
+      "aula": "213",
+      "docente": "GALLO"
     }
   ],
   "cambi_aula": [
     {
-      "ora": "1/2",
-      "classe": "3F",
+      "ora": "1",
+      "classe": "2N",
       "aula": "013",
-      "docente": ""
+      "docente": "CIULLA"
+    },
+    {
+      "ora": "2/3",
+      "classe": "4F",
+      "aula": "013",
+      "docente": "CIULLA"
+    },
+    {
+      "ora": "2",
+      "classe": "1C",
+      "aula": "207",
+      "docente": "D'ANGELO"
     },
     {
       "ora": "3",
-      "classe": "4B",
-      "aula": "013",
-      "docente": ""
-    },
-    {
-      "ora": "4",
-      "classe": "4F",
-      "aula": "013",
-      "docente": ""
-    },
-    {
-      "ora": "1/2",
-      "classe": "1C",
-      "aula": "125",
-      "docente": ""
+      "classe": "2C",
+      "aula": "105",
+      "docente": "D'ANGELO"
     }
   ]
 }
