@@ -1,0 +1,41 @@
+name: Aggiorna Comunicazioni Scolastiche
+
+on:
+  schedule:
+    # Ogni 5 min — 7:00–9:00 CEST (5:00–7:00 UTC) ← FASCIA CRITICA mattina
+    - cron: '*/5 5-6 * * 1-5'
+
+    # Ogni 10 min — 9:00–14:40 CEST (7:00–12:40 UTC)
+    - cron: '*/10 7-12 * * 1-5'
+
+    # Ogni 30 min — 15:00–22:30 CEST (13:00–20:30 UTC)
+    - cron: '0,30 13-20 * * 1-5'
+
+    # 23:00 CEST = 21:00 UTC (ultimo slot serale)
+    - cron: '0 21 * * 1-5'
+
+  workflow_dispatch:
+
+jobs:
+  scraper:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Installa Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installa dipendenze
+        run: pip install requests beautifulsoup4 cryptography
+
+      - name: Esegui scraper
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: python scraper.py
