@@ -4,40 +4,16 @@
   "ingressi_uscite": [],
   "sostituzioni": [
     {
-      "classe": "3E",
-      "ora": "1",
-      "aula": "208",
-      "docente": ""
-    },
-    {
-      "classe": "3E",
-      "ora": "2",
-      "aula": "208",
-      "docente": "ZILLI"
+      "classe": "1C",
+      "ora": "4",
+      "aula": "219",
+      "docente": "GONZALEZ"
     },
     {
       "classe": "5L",
-      "ora": "3/4",
+      "ora": "4",
       "aula": "104",
-      "docente": "ROMANO"
-    },
-    {
-      "classe": "1E",
-      "ora": "2",
-      "aula": "113",
-      "docente": "DE RUVO"
-    },
-    {
-      "classe": "2I",
-      "ora": "3",
-      "aula": "113",
-      "docente": "SMAREGLIA"
-    },
-    {
-      "classe": "3F",
-      "ora": "3",
-      "aula": "105",
-      "docente": "ZILLI"
+      "docente": "BARTOCCI"
     },
     {
       "classe": "1D",
@@ -46,34 +22,34 @@
       "docente": "FATTORUSO"
     },
     {
-      "classe": "5E",
-      "ora": "1",
-      "aula": "222",
-      "docente": "GONZALEZ"
-    },
-    {
-      "classe": "4G",
-      "ora": "3",
-      "aula": "222",
-      "docente": "ZAMMATARO"
-    },
-    {
       "classe": "4G",
       "ora": "4",
       "aula": "222",
-      "docente": "GONZALEZ"
-    },
-    {
-      "classe": "4E",
-      "ora": "1",
-      "aula": "221",
       "docente": "GALATI"
     },
     {
-      "classe": "4E",
-      "ora": "2",
+      "classe": "2A",
+      "ora": "4",
       "aula": "221",
-      "docente": "FASANO"
+      "docente": "MARTINELLI"
+    },
+    {
+      "classe": "1C",
+      "ora": "3",
+      "aula": "219",
+      "docente": "ZAMMATARO"
+    },
+    {
+      "classe": "5L",
+      "ora": "3",
+      "aula": "104",
+      "docente": "SEQUI"
+    },
+    {
+      "classe": "1F",
+      "ora": "3",
+      "aula": "118",
+      "docente": "FREDDO"
     },
     {
       "classe": "1E",
@@ -83,15 +59,57 @@
     },
     {
       "classe": "3N",
+      "ora": "3",
+      "aula": "213",
+      "docente": "DI STASI"
+    },
+    {
+      "classe": "2I",
+      "ora": "3",
+      "aula": "113",
+      "docente": "SMAREGLIA"
+    },
+    {
+      "classe": "4G",
+      "ora": "3",
+      "aula": "222",
+      "docente": "SERPICO"
+    },
+    {
+      "classe": "3F",
+      "ora": "3",
+      "aula": "105",
+      "docente": "ZILLI"
+    },
+    {
+      "classe": "1F",
+      "ora": "2",
+      "aula": "220",
+      "docente": "MARONE"
+    },
+    {
+      "classe": "2F",
+      "ora": "2",
+      "aula": "129",
+      "docente": "ZANICHELLI"
+    },
+    {
+      "classe": "3N",
       "ora": "2",
       "aula": "213",
       "docente": "BALDI"
     },
     {
-      "classe": "3N",
-      "ora": "3",
-      "aula": "213",
-      "docente": "DI STASI"
+      "classe": "1E",
+      "ora": "2",
+      "aula": "113",
+      "docente": "DE RUVO"
+    },
+    {
+      "classe": "4E",
+      "ora": "2",
+      "aula": "221",
+      "docente": "FASANO"
     },
     {
       "classe": "3C",
@@ -100,10 +118,46 @@
       "docente": "GALLEAZZI"
     },
     {
-      "classe": "2A",
-      "ora": "4",
+      "classe": "3E",
+      "ora": "2",
+      "aula": "208",
+      "docente": "ZILLI"
+    },
+    {
+      "classe": "1F",
+      "ora": "1",
+      "aula": "220",
+      "docente": "GUZZO"
+    },
+    {
+      "classe": "3E",
+      "ora": "1",
+      "aula": "208",
+      "docente": "ZAMMATARO"
+    },
+    {
+      "classe": "2F",
+      "ora": "1",
+      "aula": "129",
+      "docente": "VASMARA"
+    },
+    {
+      "classe": "4E",
+      "ora": "1",
       "aula": "221",
-      "docente": "MARTINELLI"
+      "docente": "DONINELLI"
+    },
+    {
+      "classe": "5E",
+      "ora": "1",
+      "aula": "222",
+      "docente": "GONZALEZ"
+    },
+    {
+      "classe": "4G",
+      "ora": "2",
+      "aula": "212",
+      "docente": "SAJEVA"
     }
   ],
   "cambi_aula": [
