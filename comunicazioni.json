@@ -1,118 +1,102 @@
 {
-  "data": "02/10/2026",
-  "giorno_settimana": 4,
-  "ingressi_uscite": [],
+  "data": "05/10/2026",
+  "giorno_settimana": 0,
+  "ingressi_uscite": [
+    {
+      "classe": "4N",
+      "ingresso": "10.10",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    }
+  ],
   "sostituzioni": [
     {
-      "classe": "3G",
-      "ora": "4",
-      "aula": "110",
-      "docente": "DE LUCA (4N)"
-    },
-    {
-      "classe": "5B",
-      "ora": "4",
-      "aula": "217",
-      "docente": "CAGNETTA (4H)"
-    },
-    {
-      "classe": "2A",
-      "ora": "4",
-      "aula": "114",
-      "docente": "BISCONTI"
-    },
-    {
-      "classe": "1G",
-      "ora": "4",
-      "aula": "013",
-      "docente": "LATINI"
-    },
-    {
-      "classe": "5E",
-      "ora": "4",
-      "aula": "210",
-      "docente": "DI DONNA"
+      "classe": "3F",
+      "ora": "2",
+      "aula": "CHI",
+      "docente": "AZZARITA"
     },
     {
       "classe": "3G",
       "ora": "3",
-      "aula": "110",
-      "docente": "VECCHIOTTI (4A)"
+      "aula": "207",
+      "docente": "FATTORUSO"
     },
     {
-      "classe": "2G",
-      "ora": "3",
-      "aula": "214",
-      "docente": "MAMPIERI"
+      "classe": "5G",
+      "ora": "5",
+      "aula": "207",
+      "docente": "FATTORUSO"
     },
     {
-      "classe": "4E",
-      "ora": "3",
-      "aula": "227",
-      "docente": "GALLEAZZI (4N)"
-    },
-    {
-      "classe": "4E",
-      "ora": "3",
-      "aula": "227",
-      "docente": "ROCCAMO (4H)"
-    },
-    {
-      "classe": "2A",
-      "ora": "3",
+      "classe": "4N",
+      "ora": "5",
       "aula": "114",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "4B",
+      "ora": "5",
+      "aula": "223",
       "docente": "SCACCIA"
-    },
-    {
-      "classe": "1A",
-      "ora": "3",
-      "aula": "013",
-      "docente": "ERBAGGIO"
-    },
-    {
-      "classe": "2B",
-      "ora": "3",
-      "aula": "118",
-      "docente": "TURCHI"
-    },
-    {
-      "classe": "3B",
-      "ora": "2",
-      "aula": "113",
-      "docente": "CICCONE"
-    },
-    {
-      "classe": "3D",
-      "ora": "2",
-      "aula": "108",
-      "docente": "SESTITO"
-    },
-    {
-      "classe": "5B",
-      "ora": "1",
-      "aula": "113",
-      "docente": "GABRIOTTI"
-    },
-    {
-      "classe": "4L",
-      "ora": "1",
-      "aula": "214",
-      "docente": "TIBALDI"
-    },
-    {
-      "classe": "2B",
-      "ora": "1",
-      "aula": "125",
-      "docente": "ERBAGGIO"
-    },
-    {
-      "classe": "2D",
-      "ora": "1",
-      "aula": "111",
-      "docente": "TORELLI"
     }
   ],
   "cambi_aula": [
+    {
+      "ora": "5",
+      "classe": "4I",
+      "aula": "014",
+      "docente": "PIERVERGILI"
+    },
+    {
+      "ora": "1",
+      "classe": "4I",
+      "aula": "111",
+      "docente": "CASTALDO"
+    },
+    {
+      "ora": "3",
+      "classe": "1E",
+      "aula": "121",
+      "docente": "CASTALDO"
+    },
+    {
+      "ora": "4",
+      "classe": "3G",
+      "aula": "214",
+      "docente": "CASTALDO"
+    },
+    {
+      "ora": "5",
+      "classe": "4E",
+      "aula": "214",
+      "docente": "CASTALDO"
+    },
+    {
+      "ora": "1",
+      "classe": "2C",
+      "aula": "225",
+      "docente": "LUNETTA"
+    },
+    {
+      "ora": "2",
+      "classe": "5C",
+      "aula": "225",
+      "docente": "LUNETTA"
+    },
+    {
+      "ora": "2",
+      "classe": "1A",
+      "aula": "212",
+      "docente": "MELLANI"
+    },
+    {
+      "ora": "3",
+      "classe": "2F",
+      "aula": "130",
+      "docente": "MELLANI"
+    },
     {
       "ora": "1",
       "classe": "3F",
@@ -120,27 +104,51 @@
       "docente": "CIULLA"
     },
     {
-      "ora": "2",
+      "ora": "3",
       "classe": "2N",
       "aula": "013",
       "docente": "CIULLA"
     },
     {
+      "ora": "4",
+      "classe": "4B",
+      "aula": "013",
+      "docente": "CIULLA"
+    },
+    {
+      "ora": "5/6",
+      "classe": "4F",
+      "aula": "013",
+      "docente": "CIULLA"
+    },
+    {
       "ora": "1",
-      "classe": "2B",
+      "classe": "1E",
       "aula": "125",
       "docente": ""
     },
     {
-      "ora": "2",
-      "classe": "1H",
+      "ora": "3",
+      "classe": "2C",
       "aula": "120",
       "docente": ""
     },
     {
-      "ora": "1",
-      "classe": "2N",
-      "aula": "CHI",
+      "ora": "4",
+      "classe": "1C",
+      "aula": "211",
+      "docente": ""
+    },
+    {
+      "ora": "5",
+      "classe": "2B",
+      "aula": "211",
+      "docente": ""
+    },
+    {
+      "ora": "6",
+      "classe": "1B",
+      "aula": "207",
       "docente": ""
     }
   ]
