@@ -1,20 +1,27 @@
 {
-  "data": "06/10/2026",
-  "giorno_settimana": 1,
+  "data": "07/10/2026",
+  "giorno_settimana": 2,
   "ingressi_uscite": [
     {
-      "classe": "5D",
-      "ingresso": "9.10",
-      "uscita": "",
+      "classe": "2L",
+      "ingresso": "",
+      "uscita": "11.00",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "4D",
+      "classe": "1D",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1G",
       "ingresso": "9.10",
       "uscita": "",
-      "sostituzione": "TORTI post. in 2h",
-      "aula": "112"
+      "sostituzione": "",
+      "aula": ""
     },
     {
       "classe": "5A",
@@ -24,135 +31,105 @@
       "aula": ""
     },
     {
-      "classe": "3C",
+      "classe": "1C",
       "ingresso": "9.10",
       "uscita": "",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "2F",
-      "ingresso": "",
-      "uscita": "12.10",
+      "classe": "5F",
+      "ingresso": "9.10",
+      "uscita": "",
       "sostituzione": "",
       "aula": ""
     }
   ],
   "sostituzioni": [
     {
-      "classe": "4D",
-      "ora": "3",
-      "aula": "112",
-      "docente": "SCACCIA"
-    },
-    {
-      "classe": "3D",
+      "classe": "3G",
       "ora": "4",
-      "aula": "111",
-      "docente": "TIBALDI"
+      "aula": "125",
+      "docente": "LAUDANI"
     },
     {
-      "classe": "3D",
-      "ora": "5",
-      "aula": "111",
-      "docente": "FORCELLINO"
+      "classe": "3N",
+      "ora": "3",
+      "aula": "121",
+      "docente": "MARONE"
     },
     {
-      "classe": "5G",
+      "classe": "3N",
+      "ora": "4",
+      "aula": "121",
+      "docente": "CORIGLIANO"
+    },
+    {
+      "classe": "4F",
       "ora": "5",
-      "aula": "116",
-      "docente": "GALLO"
+      "aula": "104",
+      "docente": "DONNADIO (2F)"
+    },
+    {
+      "classe": "3C",
+      "ora": "2",
+      "aula": "121",
+      "docente": "GONZALEZ"
+    },
+    {
+      "classe": "1F",
+      "ora": "4",
+      "aula": "113",
+      "docente": "MARONE"
     },
     {
       "classe": "1F",
       "ora": "2",
-      "aula": "122",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "1F",
-      "ora": "3",
-      "aula": "122",
-      "docente": "GALLO"
+      "aula": "101",
+      "docente": "FORTE"
     }
   ],
   "cambi_aula": [
     {
-      "ora": "1/2",
-      "classe": "4B",
-      "aula": "013",
-      "docente": ""
-    },
-    {
       "ora": "3",
-      "classe": "2N",
-      "aula": "013",
+      "classe": "1F",
+      "aula": "107",
       "docente": ""
     },
     {
       "ora": "4",
-      "classe": "3F",
-      "aula": "013",
-      "docente": ""
-    },
-    {
-      "ora": "1",
-      "classe": "2B",
-      "aula": "117",
-      "docente": ""
-    },
-    {
-      "ora": "2",
-      "classe": "1A",
-      "aula": "117",
-      "docente": ""
-    },
-    {
-      "ora": "3",
-      "classe": "2G",
-      "aula": "120",
-      "docente": ""
-    },
-    {
-      "ora": "4",
-      "classe": "1G",
-      "aula": "125",
-      "docente": ""
-    },
-    {
-      "ora": "2",
-      "classe": "3H",
-      "aula": "110",
-      "docente": ""
-    },
-    {
-      "ora": "4",
-      "classe": "5H",
-      "aula": "202",
+      "classe": "5F",
+      "aula": "102",
       "docente": ""
     },
     {
       "ora": "5",
-      "classe": "3F",
-      "aula": "204",
-      "docente": ""
-    },
-    {
-      "ora": "3",
-      "classe": "3D",
-      "aula": "114",
-      "docente": ""
-    },
-    {
-      "ora": "4",
-      "classe": "4C",
-      "aula": "127",
+      "classe": "4F",
+      "aula": "104",
       "docente": ""
     },
     {
       "ora": "2",
-      "classe": "5L",
-      "aula": "108",
+      "classe": "4D",
+      "aula": "116",
+      "docente": ""
+    },
+    {
+      "ora": "2",
+      "classe": "2G",
+      "aula": "204",
+      "docente": ""
+    },
+    {
+      "ora": "4",
+      "classe": "5E",
+      "aula": "205",
+      "docente": ""
+    },
+    {
+      "ora": "9.10 -12.10",
+      "classe": "2G - 2D - 2F",
+      "aula": "BIBLIOTECA",
       "docente": ""
     }
   ]
