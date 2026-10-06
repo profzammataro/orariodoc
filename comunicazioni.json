@@ -131,6 +131,48 @@
       "classe": "2G - 2D - 2F",
       "aula": "BIBLIOTECA",
       "docente": ""
+    },
+    {
+      "ora": "1-2",
+      "classe": "3F",
+      "aula": "013",
+      "docente": ""
+    },
+    {
+      "ora": "5",
+      "classe": "4B",
+      "aula": "013",
+      "docente": ""
+    },
+    {
+      "ora": "6",
+      "classe": "4F",
+      "aula": "013",
+      "docente": ""
+    },
+    {
+      "ora": "1",
+      "classe": "2L",
+      "aula": "125",
+      "docente": ""
+    },
+    {
+      "ora": "2",
+      "classe": "2D",
+      "aula": "125",
+      "docente": ""
+    },
+    {
+      "ora": "5",
+      "classe": "1G",
+      "aula": "120",
+      "docente": ""
+    },
+    {
+      "ora": "6",
+      "classe": "1B",
+      "aula": "119",
+      "docente": ""
     }
   ]
 }
