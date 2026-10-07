@@ -3,21 +3,28 @@
   "giorno_settimana": 2,
   "ingressi_uscite": [
     {
-      "classe": "2L",
-      "ingresso": "",
-      "uscita": "11.00",
+      "classe": "5F",
+      "ingresso": "9.10",
+      "uscita": "",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "1D",
-      "ingresso": "",
+      "classe": "2G - 2D - 2F",
+      "ingresso": "9.10",
       "uscita": "12.10",
       "sostituzione": "",
-      "aula": ""
+      "aula": "biblioteca"
     },
     {
       "classe": "1G",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1C",
       "ingresso": "9.10",
       "uscita": "",
       "sostituzione": "",
@@ -31,25 +38,18 @@
       "aula": ""
     },
     {
-      "classe": "1C",
-      "ingresso": "9.10",
-      "uscita": "",
+      "classe": "2L",
+      "ingresso": "",
+      "uscita": "11.00",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "5F",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "2G - 2D - 2F",
-      "ingresso": "9.10",
+      "classe": "1D",
+      "ingresso": "",
       "uscita": "12.10",
       "sostituzione": "",
-      "aula": "biblioteca"
+      "aula": ""
     }
   ],
   "sostituzioni": [
@@ -94,6 +94,24 @@
       "ora": "2",
       "aula": "101",
       "docente": "FORTE"
+    },
+    {
+      "classe": "2G -2D -2F",
+      "ora": "2",
+      "aula": "BIBLIOTECA",
+      "docente": "AZZARITA"
+    },
+    {
+      "classe": "2G -2D -2F",
+      "ora": "3",
+      "aula": "BIBLIOTECA",
+      "docente": "GUZZO"
+    },
+    {
+      "classe": "2G -2D -2F",
+      "ora": "4",
+      "aula": "BIBLIOTECA",
+      "docente": "PETRUCCI"
     }
   ],
   "cambi_aula": [
