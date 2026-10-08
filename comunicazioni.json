@@ -64,9 +64,42 @@
       "uscita": "12.10",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "1F",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4D",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1G",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
+    {
+      "classe": "1D",
+      "ora": "4",
+      "aula": "LINUX",
+      "docente": "PETRUCCI"
+    },
+    {
+      "classe": "1C",
+      "ora": "2",
+      "aula": "LINUX",
+      "docente": "VIVA (2G)"
+    },
     {
       "classe": "3I",
       "ora": "1",
@@ -119,7 +152,7 @@
       "classe": "5D",
       "ora": "2",
       "aula": "210",
-      "docente": "VIVA (2G)"
+      "docente": "FIOCCOLA"
     },
     {
       "classe": "2C",
@@ -355,6 +388,66 @@
       "ora": "2",
       "classe": "3F",
       "aula": "101",
+      "docente": ""
+    },
+    {
+      "ora": "3",
+      "classe": "4I",
+      "aula": "014",
+      "docente": ""
+    },
+    {
+      "ora": "4",
+      "classe": "1C",
+      "aula": "214",
+      "docente": ""
+    },
+    {
+      "ora": "4",
+      "classe": "1A",
+      "aula": "212",
+      "docente": ""
+    },
+    {
+      "ora": "4",
+      "classe": "4E",
+      "aula": "014",
+      "docente": ""
+    },
+    {
+      "ora": "5",
+      "classe": "3D",
+      "aula": "220",
+      "docente": ""
+    },
+    {
+      "ora": "4",
+      "classe": "4E",
+      "aula": "014",
+      "docente": ""
+    },
+    {
+      "ora": "5",
+      "classe": "3D",
+      "aula": "220",
+      "docente": ""
+    },
+    {
+      "ora": "6",
+      "classe": "4C",
+      "aula": "220",
+      "docente": ""
+    },
+    {
+      "ora": "6",
+      "classe": "3E",
+      "aula": "014",
+      "docente": ""
+    },
+    {
+      "ora": "5",
+      "classe": "2I",
+      "aula": "108",
       "docente": ""
     },
     {
