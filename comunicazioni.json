@@ -57,26 +57,39 @@
       "uscita": "11.00",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "1D",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
     {
-      "classe": "5C",
-      "ora": "4",
-      "aula": "213",
-      "docente": "PETRUCCI"
+      "classe": "3I",
+      "ora": "1",
+      "aula": "227",
+      "docente": "LUNETTA (2D)"
     },
     {
-      "classe": "3E",
+      "classe": "1F",
+      "ora": "1",
+      "aula": "122",
+      "docente": "MARONE"
+    },
+    {
+      "classe": "1L",
+      "ora": "1",
+      "aula": "108",
+      "docente": "VIVA (2G)"
+    },
+    {
+      "classe": "2G -2D -2F",
       "ora": "2",
-      "aula": "221",
-      "docente": "GONZALEZ"
-    },
-    {
-      "classe": "3E",
-      "ora": "3",
-      "aula": "221",
-      "docente": "ERBAGGIO"
+      "aula": "BIBLIOTECA",
+      "docente": ""
     },
     {
       "classe": "5H",
@@ -85,52 +98,40 @@
       "docente": "DE RUVO"
     },
     {
-      "classe": "5H",
-      "ora": "3",
-      "aula": "127",
-      "docente": "SPALLIERO"
-    },
-    {
-      "classe": "5G",
-      "ora": "4",
-      "aula": "122",
-      "docente": "FORCELLINO"
-    },
-    {
-      "classe": "1L",
-      "ora": "1",
-      "aula": "108",
-      "docente": "GUIDA"
-    },
-    {
-      "classe": "2G -2D -2F",
+      "classe": "5F",
       "ora": "2",
-      "aula": "BIBLIOTECA",
-      "docente": "PELUSO (2D)"
+      "aula": "106",
+      "docente": "FERRARA"
     },
     {
-      "classe": "2G -2D -2F",
-      "ora": "3",
-      "aula": "BIBLIOTECA",
-      "docente": ""
-    },
-    {
-      "classe": "2G -2D -2F",
-      "ora": "4",
-      "aula": "BIBLIOTECA",
+      "classe": "3E",
+      "ora": "2",
+      "aula": "221",
       "docente": "GONZALEZ"
     },
     {
-      "classe": "1F",
-      "ora": "3/4",
-      "aula": "108",
-      "docente": "FORTE"
+      "classe": "3I",
+      "ora": "2",
+      "aula": "227",
+      "docente": "PELUSO (2D)"
     },
     {
       "classe": "5D",
       "ora": "2",
       "aula": "210",
-      "docente": "ROMANO"
+      "docente": "VIVA (2G)"
+    },
+    {
+      "classe": "2C",
+      "ora": "2-3",
+      "aula": "110",
+      "docente": "POCCI"
+    },
+    {
+      "classe": "2G -2D -2F",
+      "ora": "3",
+      "aula": "BIBLIOTECA",
+      "docente": "FORCELLINO"
     },
     {
       "classe": "4D",
@@ -139,34 +140,16 @@
       "docente": "CASCONE"
     },
     {
-      "classe": "1D",
-      "ora": "5",
-      "aula": "207",
-      "docente": "REGA"
+      "classe": "5C",
+      "ora": "3",
+      "aula": "227",
+      "docente": "CASTRONUOVO"
     },
     {
-      "classe": "4D",
-      "ora": "4",
-      "aula": "118",
-      "docente": ""
-    },
-    {
-      "classe": "3N",
-      "ora": "5",
-      "aula": "121",
-      "docente": "ZANICHELLI (2F)"
-    },
-    {
-      "classe": "3N",
-      "ora": "6",
-      "aula": "121",
-      "docente": "SPALLIERO"
-    },
-    {
-      "classe": "5F",
-      "ora": "2",
-      "aula": "106",
-      "docente": "FERRARA"
+      "classe": "3E",
+      "ora": "3",
+      "aula": "221",
+      "docente": "ERBAGGIO"
     },
     {
       "classe": "5F",
@@ -175,10 +158,76 @@
       "docente": "GUZZO (2D)"
     },
     {
+      "classe": "5H",
+      "ora": "3",
+      "aula": "127",
+      "docente": "SPALLIERO"
+    },
+    {
+      "classe": "1F",
+      "ora": "3/4",
+      "aula": "108",
+      "docente": "FORTE"
+    },
+    {
       "classe": "4F",
       "ora": "4",
       "aula": "106",
       "docente": "BALDI (2D)"
+    },
+    {
+      "classe": "4D",
+      "ora": "4",
+      "aula": "118",
+      "docente": "DE RUVO (2F)"
+    },
+    {
+      "classe": "5G",
+      "ora": "4",
+      "aula": "122",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "2G -2D -2F",
+      "ora": "4",
+      "aula": "BIBLIOTECA",
+      "docente": "GONZALEZ"
+    },
+    {
+      "classe": "5C",
+      "ora": "4",
+      "aula": "213",
+      "docente": "PETRUCCI"
+    },
+    {
+      "classe": "3C",
+      "ora": "5",
+      "aula": "104",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "5I",
+      "ora": "5",
+      "aula": "226",
+      "docente": "MOSCARELLI"
+    },
+    {
+      "classe": "3N",
+      "ora": "5",
+      "aula": "121",
+      "docente": "ZANICHELLI (2F)"
+    },
+    {
+      "classe": "4E",
+      "ora": "6",
+      "aula": "227",
+      "docente": "CASTRONUOVO"
+    },
+    {
+      "classe": "3N",
+      "ora": "6",
+      "aula": "121",
+      "docente": "SPALLIERO"
     }
   ],
   "cambi_aula": [
@@ -259,6 +308,60 @@
       "classe": "2B",
       "aula": "112",
       "docente": "LUNETTA"
+    },
+    {
+      "ora": "1",
+      "classe": "1I",
+      "aula": "101",
+      "docente": "PIERVERGILI"
+    },
+    {
+      "ora": "1",
+      "classe": "1H",
+      "aula": "014",
+      "docente": "IORIO"
+    },
+    {
+      "ora": "1",
+      "classe": "4G",
+      "aula": "224",
+      "docente": "POLIDORI"
+    },
+    {
+      "ora": "1",
+      "classe": "1H",
+      "aula": "014",
+      "docente": ""
+    },
+    {
+      "ora": "1",
+      "classe": "1I",
+      "aula": "101",
+      "docente": ""
+    },
+    {
+      "ora": "1",
+      "classe": "4G",
+      "aula": "224",
+      "docente": ""
+    },
+    {
+      "ora": "2",
+      "classe": "2H",
+      "aula": "014",
+      "docente": ""
+    },
+    {
+      "ora": "2",
+      "classe": "3F",
+      "aula": "101",
+      "docente": ""
+    },
+    {
+      "ora": "2",
+      "classe": "2H",
+      "aula": "014",
+      "docente": ""
     }
   ]
 }
