@@ -13,7 +13,7 @@
       "classe": "5G",
       "ingresso": "",
       "uscita": "12.10",
-      "sostituzione": "PUSIC",
+      "sostituzione": "PUSIC ant. in 4h",
       "aula": "127"
     },
     {
@@ -55,7 +55,7 @@
       "classe": "1F",
       "ingresso": "",
       "uscita": "11.00",
-      "sostituzione": "DE RUVO",
+      "sostituzione": "DE RUVO ant. in 3h",
       "aula": "108"
     },
     {
@@ -69,8 +69,8 @@
       "classe": "3N",
       "ingresso": "10.10",
       "uscita": "",
-      "sostituzione": "",
-      "aula": ""
+      "sostituzione": "MOSCARELLI post. in3h",
+      "aula": "121"
     },
     {
       "classe": "1A",
