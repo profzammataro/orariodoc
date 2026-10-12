@@ -1,7 +1,230 @@
 {
-  "data": "12/10/2026",
-  "giorno_settimana": 0,
-  "ingressi_uscite": [],
-  "sostituzioni": [],
+  "data": "13/10/2026",
+  "giorno_settimana": 1,
+  "ingressi_uscite": [
+    {
+      "classe": "5G",
+      "ingresso": "9.10",
+      "uscita": "13.05",
+      "sostituzione": "POLIDORI ant. in 2h",
+      "aula": ""
+    },
+    {
+      "classe": "1I",
+      "ingresso": "",
+      "uscita": "11.00",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4G",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1M",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2N",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2H",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3F",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1D",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4L",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2D",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2N+2E+2I+2B",
+      "ingresso": "9.10",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    }
+  ],
+  "sostituzioni": [
+    {
+      "classe": "5D",
+      "ora": "6",
+      "aula": "220",
+      "docente": "FRANCESCHELLI"
+    },
+    {
+      "classe": "4E",
+      "ora": "5/6",
+      "aula": "127",
+      "docente": "ABENANTE"
+    },
+    {
+      "classe": "4H",
+      "ora": "5",
+      "aula": "217",
+      "docente": "POLITO (2B)"
+    },
+    {
+      "classe": "5A",
+      "ora": "5",
+      "aula": "223",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "3B",
+      "ora": "5",
+      "aula": "201",
+      "docente": "CASTONUOVO (5C)"
+    },
+    {
+      "classe": "1E",
+      "ora": "4",
+      "aula": "120",
+      "docente": "D'ANGELO (2E)"
+    },
+    {
+      "classe": "4L",
+      "ora": "4",
+      "aula": "126",
+      "docente": "VASMARA (2I)"
+    },
+    {
+      "classe": "2H",
+      "ora": "4",
+      "aula": "113",
+      "docente": "TIBALDI"
+    },
+    {
+      "classe": "2N+2E+2I+2B",
+      "ora": "4",
+      "aula": "BIBLIOTECA",
+      "docente": "VECCHIOTTI"
+    },
+    {
+      "classe": "3N",
+      "ora": "3",
+      "aula": "221",
+      "docente": "ANITORI (2I)"
+    },
+    {
+      "classe": "2H",
+      "ora": "3",
+      "aula": "113",
+      "docente": "LOMBARDO (2B)"
+    },
+    {
+      "classe": "3H",
+      "ora": "3",
+      "aula": "217",
+      "docente": "SCACCIA"
+    },
+    {
+      "classe": "3F",
+      "ora": "3",
+      "aula": "105",
+      "docente": "BRANDONISIO (2B)"
+    },
+    {
+      "classe": "2D",
+      "ora": "3",
+      "aula": "219",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "2N+2E+2I+2B",
+      "ora": "3",
+      "aula": "BIBLIOTECA",
+      "docente": "SEQUI (5C)"
+    },
+    {
+      "classe": "1B",
+      "ora": "2/3",
+      "aula": "116",
+      "docente": "ROCCAMO"
+    },
+    {
+      "classe": "5I",
+      "ora": "2",
+      "aula": "120",
+      "docente": "RAO (2I)"
+    },
+    {
+      "classe": "4N",
+      "ora": "2",
+      "aula": "129",
+      "docente": "FERRARA (2N)"
+    },
+    {
+      "classe": "1H",
+      "ora": "2",
+      "aula": "217",
+      "docente": "GIANNOTTI"
+    },
+    {
+      "classe": "4F",
+      "ora": "2",
+      "aula": "212",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "3H (IRC)",
+      "ora": "2",
+      "aula": "228",
+      "docente": "ZAMMATARO"
+    },
+    {
+      "classe": "2N+2E+2I+2B",
+      "ora": "2",
+      "aula": "BIBLIOTECA",
+      "docente": "MOSER (5C)"
+    },
+    {
+      "classe": "1C",
+      "ora": "1/2",
+      "aula": "219",
+      "docente": "BARBATO"
+    },
+    {
+      "classe": "1B",
+      "ora": "1",
+      "aula": "120",
+      "docente": "ROCCAMO"
+    }
+  ],
   "cambi_aula": []
 }
