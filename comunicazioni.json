@@ -145,33 +145,15 @@
   ],
   "sostituzioni": [
     {
-      "classe": "4G",
-      "ora": "3",
-      "aula": "117",
-      "docente": "LA SERRA (2A)"
-    },
-    {
-      "classe": "1H",
+      "classe": "2G (IRC)",
       "ora": "2",
-      "aula": "119",
-      "docente": "CATALLI (2A)"
-    },
-    {
-      "classe": "1M",
-      "ora": "3",
-      "aula": "119",
-      "docente": "D'ANGELO (2C)"
-    },
-    {
-      "classe": "1M",
-      "ora": "4",
-      "aula": "119",
-      "docente": "TOCCI (2C)"
+      "aula": "228",
+      "docente": "FATTORUSO"
     },
     {
       "classe": "5C",
-      "ora": "6",
-      "aula": "117",
+      "ora": "5",
+      "aula": "227",
       "docente": "CASTRONUOVO"
     },
     {
@@ -187,10 +169,76 @@
       "docente": "PELUSO (2H)"
     },
     {
+      "classe": "3B",
+      "ora": "4",
+      "aula": "214",
+      "docente": "VASMARA (2I)"
+    },
+    {
+      "classe": "4A",
+      "ora": "2",
+      "aula": "207",
+      "docente": "BISCONTI (2A)"
+    },
+    {
+      "classe": "4E",
+      "ora": "4",
+      "aula": "127",
+      "docente": "POMPEI (2A)"
+    },
+    {
+      "classe": "4E",
+      "ora": "3",
+      "aula": "127",
+      "docente": "CASCONE"
+    },
+    {
+      "classe": "2A+2B+2C+2E+2H+2I+2L+2N",
+      "ora": "234",
+      "aula": "125101101",
+      "docente": "ZAMMATAROPLASMATI (2A)FATTORUSO"
+    },
+    {
+      "classe": "5A",
+      "ora": "3",
+      "aula": "125",
+      "docente": "ZAMMATARO"
+    },
+    {
       "classe": "5I",
       "ora": "4",
       "aula": "120",
       "docente": "GALLEAZZI (2C)"
+    },
+    {
+      "classe": "1M",
+      "ora": "4",
+      "aula": "119",
+      "docente": "POCCI (2C)"
+    },
+    {
+      "classe": "1M",
+      "ora": "3",
+      "aula": "119",
+      "docente": "D'ANGELO (2C)"
+    },
+    {
+      "classe": "1H",
+      "ora": "2",
+      "aula": "119",
+      "docente": "CATALLI (2A)"
+    },
+    {
+      "classe": "4G",
+      "ora": "3",
+      "aula": "117",
+      "docente": "LA SERRA (2A)"
+    },
+    {
+      "classe": "5C",
+      "ora": "6",
+      "aula": "117",
+      "docente": "CASTRONUOVO"
     },
     {
       "classe": "1B",
@@ -201,7 +249,7 @@
     {
       "classe": "1L",
       "ora": "3",
-      "aula": "",
+      "aula": "108",
       "docente": "LAUDANI"
     },
     {
@@ -211,40 +259,10 @@
       "docente": "FATTORUSO"
     },
     {
-      "classe": "4E",
-      "ora": "3",
-      "aula": "127",
-      "docente": "CASCONE"
-    },
-    {
-      "classe": "4E",
-      "ora": "4",
-      "aula": "127",
-      "docente": "POMPEI (2A)"
-    },
-    {
       "classe": "STUDIO ASSISTITO",
       "ora": "4",
       "aula": "102",
       "docente": "LAUDANI"
-    },
-    {
-      "classe": "4A",
-      "ora": "2",
-      "aula": "207",
-      "docente": "BISCONTI (2A)"
-    },
-    {
-      "classe": "5A",
-      "ora": "3",
-      "aula": "125",
-      "docente": "ZAMMATARO"
-    },
-    {
-      "classe": "3H",
-      "ora": "4",
-      "aula": "013",
-      "docente": "LA SERRA (2A)"
     },
     {
       "classe": "3G",
@@ -253,22 +271,10 @@
       "docente": "POLITO (2B)"
     },
     {
-      "classe": "3B",
+      "classe": "3H",
       "ora": "4",
-      "aula": "214",
-      "docente": "VASMARA (2I)"
-    },
-    {
-      "classe": "5C",
-      "ora": "5",
-      "aula": "227",
-      "docente": "CASTRONUOVO"
-    },
-    {
-      "classe": "2A+2B+2C+2E+2H+2I+2L",
-      "ora": "234",
-      "aula": "125101101",
-      "docente": "ZAMMATAROPLASMATI (2A)FATTORUSO"
+      "aula": "013",
+      "docente": "LA SERRA (2A)"
     }
   ],
   "cambi_aula": [
