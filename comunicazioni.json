@@ -113,6 +113,13 @@
       "uscita": "13.05",
       "sostituzione": "PUSIC ant in 5",
       "aula": "127"
+    },
+    {
+      "classe": "4E",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "Posticipa Chiarabini in 3 ora",
+      "aula": "222"
     }
   ],
   "sostituzioni": [
@@ -228,7 +235,7 @@
       "classe": "4E",
       "ora": "3",
       "aula": "222",
-      "docente": "TORELLI (2H)"
+      "docente": "Chiarabini posticipa"
     },
     {
       "classe": "2F",
