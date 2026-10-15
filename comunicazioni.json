@@ -54,46 +54,10 @@
   ],
   "sostituzioni": [
     {
-      "classe": "5H",
-      "ora": "2",
-      "aula": "127",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "5H",
-      "ora": "3",
-      "aula": "127",
-      "docente": "CASCONE"
-    },
-    {
-      "classe": "5G",
-      "ora": "4",
-      "aula": "101",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "3H",
-      "ora": "2",
-      "aula": "129",
-      "docente": "FERRARA"
-    },
-    {
-      "classe": "4H",
-      "ora": "4",
-      "aula": "122",
-      "docente": "MARTIRADONNA"
-    },
-    {
       "classe": "4H",
       "ora": "5",
       "aula": "101",
       "docente": "MOSCARELLI"
-    },
-    {
-      "classe": "1C",
-      "ora": "4",
-      "aula": "119",
-      "docente": "BARBATO (2C)"
     },
     {
       "classe": "3D",
@@ -102,22 +66,10 @@
       "docente": "FORTE"
     },
     {
-      "classe": "1L",
-      "ora": "2",
-      "aula": "218",
-      "docente": "GUIDA"
-    },
-    {
-      "classe": "1L",
-      "ora": "3",
-      "aula": "218",
-      "docente": "POCCI (2C)"
-    },
-    {
-      "classe": "4B",
-      "ora": "3",
-      "aula": "213",
-      "docente": "SPOLETI (2C)"
+      "classe": "4H",
+      "ora": "4",
+      "aula": "122",
+      "docente": "MARTIRADONNA"
     },
     {
       "classe": "5B",
@@ -126,10 +78,58 @@
       "docente": "GUZZO (2L)"
     },
     {
+      "classe": "5G",
+      "ora": "4",
+      "aula": "101",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "1C",
+      "ora": "4",
+      "aula": "119",
+      "docente": "CATALLI (2A)"
+    },
+    {
+      "classe": "4B",
+      "ora": "3",
+      "aula": "213",
+      "docente": "SPOLETI (2C)"
+    },
+    {
+      "classe": "1L",
+      "ora": "3",
+      "aula": "218",
+      "docente": "SORACI (2C)"
+    },
+    {
+      "classe": "5H",
+      "ora": "3",
+      "aula": "127",
+      "docente": "CASCONE"
+    },
+    {
       "classe": "2A+2C+2H+2L",
       "ora": "234",
-      "aula": "BIBLIOTECA",
-      "docente": "LA SERRA (2A)CATALLI (2A)PETRUCCI"
+      "aula": "110",
+      "docente": "SPOLETI (2C)CATALLI (2A)PETRUCCI"
+    },
+    {
+      "classe": "1L",
+      "ora": "2",
+      "aula": "218",
+      "docente": "GUIDA"
+    },
+    {
+      "classe": "3H",
+      "ora": "2",
+      "aula": "129",
+      "docente": "FERRARA"
+    },
+    {
+      "classe": "5H",
+      "ora": "2",
+      "aula": "127",
+      "docente": "FATTORUSO"
     }
   ],
   "cambi_aula": [
