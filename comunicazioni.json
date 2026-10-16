@@ -1,62 +1,34 @@
 {
-  "data": "16/10/2026",
-  "giorno_settimana": 4,
+  "data": "19/10/2026",
+  "giorno_settimana": 0,
   "ingressi_uscite": [
     {
+      "classe": "4A",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "PLASMATI ant. in 4h",
+      "aula": "112"
+    },
+    {
+      "classe": "3A",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5E",
+      "ingresso": "10.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
       "classe": "1I",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "5H",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "3H",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "3L",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "5I",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "1B",
       "ingresso": "",
       "uscita": "12.10",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "2I",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "VASMARA ant in 4",
-      "aula": "225"
-    },
-    {
-      "classe": "2G",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
+      "sostituzione": "PETRIGNANI ant. in 3h",
+      "aula": "218"
     },
     {
       "classe": "3B",
@@ -66,44 +38,9 @@
       "aula": ""
     },
     {
-      "classe": "2D",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "5D",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "4D",
+      "classe": "4G",
       "ingresso": "",
-      "uscita": "12.10",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "4B",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "3F",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "1F",
-      "ingresso": "",
-      "uscita": "12.10",
+      "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
     },
@@ -111,150 +48,42 @@
       "classe": "5G",
       "ingresso": "",
       "uscita": "13.05",
-      "sostituzione": "PUSIC ant in 5",
-      "aula": "127"
-    },
-    {
-      "classe": "4E",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "Posticipa Chiarabini in 3 ora",
-      "aula": "222"
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
     {
-      "classe": "4G",
+      "classe": "4A",
       "ora": "3",
-      "aula": "119",
-      "docente": "FATTORUSO"
+      "aula": "112",
+      "docente": "FORCELLINO"
     },
     {
-      "classe": "5G",
-      "ora": "4",
-      "aula": "127",
-      "docente": "MOSCARELLI"
-    },
-    {
-      "classe": "1L",
-      "ora": "2",
-      "aula": "119",
-      "docente": "GUIDA"
-    },
-    {
-      "classe": "4N",
-      "ora": "3",
-      "aula": "201",
-      "docente": "SPOLETI"
-    },
-    {
-      "classe": "5L",
-      "ora": "4",
-      "aula": "211",
-      "docente": "GUZZO (2L)"
-    },
-    {
-      "classe": "3I",
-      "ora": "2",
-      "aula": "221",
-      "docente": "MARTONE (1H)"
-    },
-    {
-      "classe": "4I",
-      "ora": "3",
-      "aula": "221",
-      "docente": "SABATINO (1H)"
-    },
-    {
-      "classe": "3H",
-      "ora": "4",
-      "aula": "219",
-      "docente": "CAMILLERI (2C)"
-    },
-    {
-      "classe": "4H",
-      "ora": "2",
-      "aula": "101",
-      "docente": "D'AUSILIO"
-    },
-    {
-      "classe": "4H",
-      "ora": "3",
-      "aula": "101",
-      "docente": "ANITORI (1H)"
-    },
-    {
-      "classe": "3G",
-      "ora": "4",
-      "aula": "101",
-      "docente": "ZAMMATARO"
-    },
-    {
-      "classe": "3G",
+      "classe": "5A",
       "ora": "5",
-      "aula": "101",
-      "docente": "GUZZO (2L)"
-    },
-    {
-      "classe": "1B",
-      "ora": "2",
-      "aula": "213",
-      "docente": "ROCCAMO"
-    },
-    {
-      "classe": "2B",
-      "ora": "5",
-      "aula": "211",
-      "docente": "PETRUCCI"
-    },
-    {
-      "classe": "3C",
-      "ora": "3",
-      "aula": "013",
-      "docente": "D'ANGELO (2C)"
-    },
-    {
-      "classe": "4L",
-      "ora": "3",
-      "aula": "218",
-      "docente": "TURCHI (2L)"
-    },
-    {
-      "classe": "4L",
-      "ora": "4",
-      "aula": "218",
-      "docente": "PETRUCCI"
-    },
-    {
-      "classe": "4N",
-      "ora": "2",
-      "aula": "225",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "4E",
-      "ora": "3",
-      "aula": "222",
-      "docente": "Chiarabini posticipa"
-    },
-    {
-      "classe": "2F",
-      "ora": "2",
-      "aula": "211",
-      "docente": "D'AIELLO"
-    },
-    {
-      "classe": "2A+2H+2C+2L",
-      "ora": "234",
-      "aula": "208110110",
-      "docente": "PLASMATI (2A)POCCI (2C)MELLANI (1H)"
+      "aula": "111",
+      "docente": ""
     },
     {
       "classe": "5C",
-      "ora": "1",
-      "aula": "220",
-      "docente": "FATTORUSO"
+      "ora": "4/5",
+      "aula": "104",
+      "docente": "BARTOCCI"
+    },
+    {
+      "classe": "2I",
+      "ora": "4",
+      "aula": "130",
+      "docente": "PETRUCCI"
     }
   ],
-  "cambi_aula": []
+  "cambi_aula": [
+    {
+      "ora": "3",
+      "classe": "1B",
+      "aula": "CHIMICA",
+      "docente": ""
+    }
+  ]
 }
