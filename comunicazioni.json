@@ -133,7 +133,7 @@
       "classe": "5G",
       "ora": "4",
       "aula": "127",
-      "docente": "PETRUCCI (2A)"
+      "docente": "MOSCARELLI"
     },
     {
       "classe": "1L",
@@ -223,7 +223,7 @@
       "classe": "4L",
       "ora": "4",
       "aula": "218",
-      "docente": "MOSCARELLI"
+      "docente": "PETRUCCI"
     },
     {
       "classe": "4N",
@@ -247,7 +247,13 @@
       "classe": "2A+2H+2C+2L",
       "ora": "234",
       "aula": "208110110",
-      "docente": "PLASMATI (2A)TURCHI (2L)MELLANI (1H)"
+      "docente": "PLASMATI (2A)POCCI (2C)MELLANI (1H)"
+    },
+    {
+      "classe": "5C",
+      "ora": "1",
+      "aula": "220",
+      "docente": "FATTORUSO"
     }
   ],
   "cambi_aula": []
