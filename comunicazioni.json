@@ -140,6 +140,12 @@
       "classe": "1B",
       "aula": "CHIMICA",
       "docente": ""
+    },
+    {
+      "ora": "1",
+      "classe": "4C",
+      "aula": "111",
+      "docente": ""
     }
   ]
 }
