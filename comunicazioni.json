@@ -57,6 +57,13 @@
       "uscita": "",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "3C",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
@@ -70,7 +77,7 @@
       "classe": "5A",
       "ora": "5",
       "aula": "111",
-      "docente": ""
+      "docente": "SCACCIA"
     },
     {
       "classe": "5C",
@@ -83,6 +90,48 @@
       "ora": "4",
       "aula": "130",
       "docente": "PETRUCCI"
+    },
+    {
+      "classe": "3D",
+      "ora": "5",
+      "aula": "204",
+      "docente": "FORTE"
+    },
+    {
+      "classe": "5F",
+      "ora": "3",
+      "aula": "212",
+      "docente": "MALLONI"
+    },
+    {
+      "classe": "4I - IRC",
+      "ora": "1",
+      "aula": "228",
+      "docente": "CASCONE"
+    },
+    {
+      "classe": "3E- IRC",
+      "ora": "2",
+      "aula": "227",
+      "docente": "MALLONI"
+    },
+    {
+      "classe": "1E",
+      "ora": "3",
+      "aula": "121",
+      "docente": "CAMILLERI (TUTTA)"
+    },
+    {
+      "classe": "3G",
+      "ora": "4",
+      "aula": "204",
+      "docente": "TORELLI (TUTTA)"
+    },
+    {
+      "classe": "4E",
+      "ora": "5",
+      "aula": "113",
+      "docente": "BABUDRI (TUTTA)"
     }
   ],
   "cambi_aula": [
