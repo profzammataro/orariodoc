@@ -29,44 +29,33 @@
       "uscita": "",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "4H",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "TURCHI ant 5h",
+      "aula": "217"
     }
   ],
   "sostituzioni": [
     {
-      "classe": "1H",
+      "classe": "5L IRC",
       "ora": "2",
-      "aula": "217",
-      "docente": "GALLO"
+      "aula": "128",
+      "docente": "GIANNOTTI"
+    },
+    {
+      "classe": "5C",
+      "ora": "3",
+      "aula": "204",
+      "docente": "BARTOCCI"
     },
     {
       "classe": "3H",
       "ora": "3",
       "aula": "217",
       "docente": "GALLO"
-    },
-    {
-      "classe": "4H",
-      "ora": "4",
-      "aula": "217",
-      "docente": "GALLO"
-    },
-    {
-      "classe": "1C",
-      "ora": "1 E 2",
-      "aula": "219",
-      "docente": "BARBATO"
-    },
-    {
-      "classe": "2D",
-      "ora": "3",
-      "aula": "219",
-      "docente": "LAUDANI"
-    },
-    {
-      "classe": "2D",
-      "ora": "4",
-      "aula": "219",
-      "docente": "VECCHIOTTI"
     },
     {
       "classe": "3D",
@@ -81,16 +70,34 @@
       "docente": "ZAMMATARO"
     },
     {
-      "classe": "5C",
+      "classe": "2D",
       "ora": "3",
-      "aula": "204",
-      "docente": "BARTOCCI"
+      "aula": "219",
+      "docente": "LAUDANI"
+    },
+    {
+      "classe": "2D",
+      "ora": "4",
+      "aula": "219",
+      "docente": "VECCHIOTTI"
+    },
+    {
+      "classe": "1H",
+      "ora": "2",
+      "aula": "217",
+      "docente": "GALLO"
+    },
+    {
+      "classe": "1C",
+      "ora": "1 E 2",
+      "aula": "219",
+      "docente": "BARBATO"
     },
     {
       "classe": "1C",
       "ora": "4",
       "aula": "204",
-      "docente": "TIBALDI"
+      "docente": "SORACI"
     }
   ],
   "cambi_aula": [
