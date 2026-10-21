@@ -18,21 +18,21 @@
   ],
   "cambi_aula": [
     {
-      "ora": "1",
-      "classe": "4H",
-      "aula": "201",
+      "ora": "4/5",
+      "classe": "2C",
+      "aula": "215",
+      "docente": "GALLEAZZI"
+    },
+    {
+      "ora": "4",
+      "classe": "4A",
+      "aula": "223",
       "docente": ""
     },
     {
-      "ora": "1",
-      "classe": "1E",
-      "aula": "CHI",
-      "docente": ""
-    },
-    {
-      "ora": "2",
-      "classe": "4I",
-      "aula": "204",
+      "ora": "4",
+      "classe": "3I",
+      "aula": "212",
       "docente": ""
     },
     {
@@ -42,27 +42,21 @@
       "docente": ""
     },
     {
-      "ora": "4",
-      "classe": "4A",
-      "aula": "223",
+      "ora": "2",
+      "classe": "4I",
+      "aula": "204",
       "docente": ""
     },
     {
-      "ora": "5/6",
-      "classe": "4C",
-      "aula": "122",
+      "ora": "1",
+      "classe": "4H",
+      "aula": "201",
       "docente": ""
     },
     {
-      "ora": "4/5",
-      "classe": "2C",
-      "aula": "215",
-      "docente": "GALLEAZZI"
-    },
-    {
-      "ora": "4",
-      "classe": "3I",
-      "aula": "212",
+      "ora": "1",
+      "classe": "1E",
+      "aula": "CHI",
       "docente": ""
     }
   ]
