@@ -1,75 +1,132 @@
 {
-  "data": "21/10/2026",
-  "giorno_settimana": 2,
-  "ingressi_uscite": [],
+  "data": "22/10/2026",
+  "giorno_settimana": 3,
+  "ingressi_uscite": [
+    {
+      "classe": "2L",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2N",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4I",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1H",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2H",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "CERCIELLO ant in 5",
+      "aula": "201"
+    },
+    {
+      "classe": "1A",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2A",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3F",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    }
+  ],
   "sostituzioni": [
     {
-      "classe": "4E",
+      "classe": "3G",
+      "ora": "5",
+      "aula": "213",
+      "docente": "GALLO"
+    },
+    {
+      "classe": "1M",
+      "ora": "3",
+      "aula": "105",
+      "docente": "POCCI"
+    },
+    {
+      "classe": "1M",
       "ora": "4",
-      "aula": "127",
-      "docente": "ABENANTE"
+      "aula": "FIS",
+      "docente": "POCCI"
     },
     {
       "classe": "2N",
       "ora": "5",
-      "aula": "126",
-      "docente": "LAUDANI"
+      "aula": "102",
+      "docente": "MOSCARELLI"
     },
     {
-      "classe": "3N",
-      "ora": "3",
-      "aula": "121",
-      "docente": "LAUDANI"
+      "classe": "5C",
+      "ora": "4",
+      "aula": "213",
+      "docente": "GALLO"
     },
     {
-      "classe": "2B",
+      "classe": "1B",
       "ora": "3",
-      "aula": "LAB FISICA",
-      "docente": "CASCONE"
+      "aula": "013",
+      "docente": "BRANDOMISIO"
+    },
+    {
+      "classe": "1G",
+      "ora": "4",
+      "aula": "013",
+      "docente": "PETRUCCI"
+    },
+    {
+      "classe": "1D",
+      "ora": "2",
+      "aula": "105",
+      "docente": "DE RUVO"
+    },
+    {
+      "classe": "1D",
+      "ora": "3",
+      "aula": "FIS",
+      "docente": "GRANIERO"
     }
   ],
   "cambi_aula": [
     {
-      "ora": "4/5",
-      "classe": "2C",
-      "aula": "215",
-      "docente": "GALLEAZZI"
-    },
-    {
-      "ora": "4",
-      "classe": "4A",
-      "aula": "223",
-      "docente": ""
-    },
-    {
-      "ora": "4",
-      "classe": "3I",
+      "ora": "3/4",
+      "classe": "2F",
       "aula": "212",
-      "docente": ""
+      "docente": "LATINI/DE RUVO"
     },
     {
       "ora": "3",
-      "classe": "3I",
-      "aula": "220",
-      "docente": ""
-    },
-    {
-      "ora": "2",
-      "classe": "4I",
-      "aula": "204",
-      "docente": ""
-    },
-    {
-      "ora": "1",
-      "classe": "4H",
-      "aula": "201",
-      "docente": ""
-    },
-    {
-      "ora": "1",
-      "classe": "1E",
-      "aula": "CHI",
-      "docente": ""
+      "classe": "St. Ass. (1C-3L)",
+      "aula": "129",
+      "docente": "CICCONE"
     }
   ]
 }
