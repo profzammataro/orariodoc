@@ -14,6 +14,18 @@
       "ora": "5",
       "aula": "126",
       "docente": "LAUDANI"
+    },
+    {
+      "classe": "3N",
+      "ora": "3",
+      "aula": "121",
+      "docente": "LAUDANI"
+    },
+    {
+      "classe": "2B",
+      "ora": "3",
+      "aula": "LAB FISICA",
+      "docente": "CASCONE"
     }
   ],
   "cambi_aula": [
