@@ -34,7 +34,7 @@
       "classe": "2H",
       "ingresso": "",
       "uscita": "13.05",
-      "sostituzione": "CERCIELLO ant in 5",
+      "sostituzione": "CERCIELLO ant. in 5h",
       "aula": "201"
     },
     {
@@ -57,6 +57,20 @@
       "uscita": "",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "4C",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1C",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "SPOLETI ant. in 4h",
+      "aula": "110"
     }
   ],
   "sostituzioni": [
@@ -64,19 +78,13 @@
       "classe": "3G",
       "ora": "5",
       "aula": "213",
-      "docente": "GALLO"
+      "docente": "FORCELLINO"
     },
     {
-      "classe": "1M",
-      "ora": "3",
-      "aula": "105",
-      "docente": "POCCI"
-    },
-    {
-      "classe": "1M",
-      "ora": "4",
-      "aula": "FIS",
-      "docente": "POCCI"
+      "classe": "3D",
+      "ora": "5",
+      "aula": "113",
+      "docente": "FORTE"
     },
     {
       "classe": "2N",
@@ -88,7 +96,31 @@
       "classe": "5C",
       "ora": "4",
       "aula": "213",
-      "docente": "GALLO"
+      "docente": "MELLANI (REC)"
+    },
+    {
+      "classe": "1M",
+      "ora": "4",
+      "aula": "FIS",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "1G",
+      "ora": "4",
+      "aula": "013",
+      "docente": "MARTINELLI (REC)"
+    },
+    {
+      "classe": "1M",
+      "ora": "3",
+      "aula": "105",
+      "docente": "CASCONE"
+    },
+    {
+      "classe": "1D",
+      "ora": "3",
+      "aula": "FIS",
+      "docente": "GRANIERO"
     },
     {
       "classe": "1B",
@@ -97,10 +129,10 @@
       "docente": "BRANDOMISIO"
     },
     {
-      "classe": "1G",
-      "ora": "4",
+      "classe": "2H",
+      "ora": "2",
       "aula": "013",
-      "docente": ""
+      "docente": "FERRARA"
     },
     {
       "classe": "1D",
@@ -109,10 +141,16 @@
       "docente": "DE RUVO"
     },
     {
-      "classe": "1D",
-      "ora": "3",
-      "aula": "FIS",
-      "docente": "GRANIERO"
+      "classe": "2H",
+      "ora": "2",
+      "aula": "013",
+      "docente": "FERRARA"
+    },
+    {
+      "classe": "1H",
+      "ora": "1",
+      "aula": "013",
+      "docente": "IARDINO"
     }
   ],
   "cambi_aula": [
