@@ -1,170 +1,98 @@
 {
-  "data": "22/10/2026",
-  "giorno_settimana": 3,
+  "data": "23/10/2026",
+  "giorno_settimana": 4,
   "ingressi_uscite": [
     {
-      "classe": "2L",
+      "classe": "4B",
       "ingresso": "",
       "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "2N",
+      "classe": "3A",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "CHIRICHIELLO post. in 2h",
+      "aula": "210"
+    },
+    {
+      "classe": "5A",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4A",
       "ingresso": "9.10",
       "uscita": "",
       "sostituzione": "",
       "aula": ""
-    },
-    {
-      "classe": "4I",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "1H",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "2H",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "CERCIELLO ant. in 5h",
-      "aula": "201"
-    },
-    {
-      "classe": "1A",
-      "ingresso": "",
-      "uscita": "12.10",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "2A",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "3F",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "4C",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "1C",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "SPOLETI ant. in 4h",
-      "aula": "110"
     }
   ],
   "sostituzioni": [
     {
-      "classe": "3G",
+      "classe": "2B",
+      "ora": "5",
+      "aula": "211",
+      "docente": "PUSIC"
+    },
+    {
+      "classe": "4C",
+      "ora": "4",
+      "aula": "213",
+      "docente": "ZAMMATARO"
+    },
+    {
+      "classe": "4A",
       "ora": "5",
       "aula": "213",
+      "docente": "ZAMMATARO"
+    },
+    {
+      "classe": "5A",
+      "ora": "2",
+      "aula": "202",
       "docente": "FORCELLINO"
     },
     {
-      "classe": "3D",
-      "ora": "5",
-      "aula": "113",
-      "docente": "FORTE"
+      "classe": "5I",
+      "ora": "3",
+      "aula": "202",
+      "docente": "SPOLETI"
     },
     {
-      "classe": "2N",
-      "ora": "5",
-      "aula": "102",
+      "classe": "3A",
+      "ora": "4",
+      "aula": "201",
       "docente": "MOSCARELLI"
     },
     {
-      "classe": "5C",
-      "ora": "4",
-      "aula": "213",
-      "docente": "MELLANI (REC)"
+      "classe": "1A",
+      "ora": "5",
+      "aula": "202",
+      "docente": "PETRUCCI"
     },
     {
-      "classe": "1M",
-      "ora": "4",
-      "aula": "FIS",
-      "docente": "FORCELLINO"
-    },
-    {
-      "classe": "1G",
-      "ora": "4",
-      "aula": "013",
-      "docente": "MARTINELLI (REC)"
-    },
-    {
-      "classe": "1M",
-      "ora": "3",
-      "aula": "105",
-      "docente": "CASCONE"
-    },
-    {
-      "classe": "1D",
-      "ora": "3",
-      "aula": "FIS",
-      "docente": "GRANIERO"
-    },
-    {
-      "classe": "1B",
-      "ora": "3",
-      "aula": "013",
-      "docente": "BRANDOMISIO"
-    },
-    {
-      "classe": "2H",
-      "ora": "2",
-      "aula": "013",
-      "docente": "FERRARA"
-    },
-    {
-      "classe": "1D",
-      "ora": "2",
-      "aula": "105",
-      "docente": "DE RUVO"
-    },
-    {
-      "classe": "2H",
-      "ora": "2",
-      "aula": "013",
-      "docente": "FERRARA"
-    },
-    {
-      "classe": "1H",
-      "ora": "1",
-      "aula": "013",
-      "docente": "IARDINO"
+      "classe": "2B",
+      "ora": "1/2",
+      "aula": "114",
+      "docente": "BRANDONISIO"
     }
   ],
   "cambi_aula": [
     {
-      "ora": "3/4",
-      "classe": "2F",
-      "aula": "212",
-      "docente": "LATINI/DE RUVO"
+      "ora": "2",
+      "classe": "3C",
+      "aula": "201",
+      "docente": ""
     },
     {
-      "ora": "3",
-      "classe": "St. Ass. (1C-3L)",
-      "aula": "129",
-      "docente": "CICCONE"
+      "ora": "2",
+      "classe": "3B",
+      "aula": "CHI",
+      "docente": ""
     }
   ]
 }
