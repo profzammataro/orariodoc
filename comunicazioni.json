@@ -1,6 +1,6 @@
 {
-  "data": "23/10/2026",
-  "giorno_settimana": 4,
+  "data": "26/10/2026",
+  "giorno_settimana": 0,
   "ingressi_uscite": [
     {
       "classe": "4B",
@@ -10,113 +10,51 @@
       "aula": ""
     },
     {
-      "classe": "3A",
+      "classe": "3B",
       "ingresso": "9.10",
       "uscita": "",
-      "sostituzione": "CHIRICHIELLO post. in 2h",
-      "aula": "210"
-    },
-    {
-      "classe": "5A",
-      "ingresso": "",
-      "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "4A",
-      "ingresso": "9.10",
-      "uscita": "",
+      "classe": "2H",
+      "ingresso": "",
+      "uscita": "12.10",
       "sostituzione": "",
       "aula": ""
     }
   ],
   "sostituzioni": [
     {
-      "classe": "2B",
-      "ora": "5",
-      "aula": "211",
-      "docente": "PUSIC"
-    },
-    {
-      "classe": "4C",
-      "ora": "4",
-      "aula": "213",
-      "docente": "ZAMMATARO"
-    },
-    {
-      "classe": "4A",
-      "ora": "5",
-      "aula": "213",
-      "docente": "ZAMMATARO"
-    },
-    {
-      "classe": "5A",
-      "ora": "2",
-      "aula": "202",
-      "docente": "FORCELLINO"
-    },
-    {
-      "classe": "5L",
+      "classe": "1B",
       "ora": "3",
-      "aula": "207",
-      "docente": "SPOLETI"
+      "aula": "201",
+      "docente": "MALLONI"
     },
     {
-      "classe": "3A",
+      "classe": "5E",
       "ora": "4",
       "aula": "201",
-      "docente": "MOSCARELLI"
-    },
-    {
-      "classe": "1A",
-      "ora": "5",
-      "aula": "202",
       "docente": "PETRUCCI"
     },
     {
-      "classe": "2B",
-      "ora": "1/2",
-      "aula": "114",
-      "docente": "BRANDONISIO"
+      "classe": "5B",
+      "ora": "5",
+      "aula": "201",
+      "docente": "SCACCIA"
     },
     {
-      "classe": "2D",
-      "ora": "1",
-      "aula": "219",
-      "docente": "FORCELLINO"
-    },
-    {
-      "classe": "2C",
-      "ora": "2",
-      "aula": "014",
-      "docente": "POCCI"
-    },
-    {
-      "classe": "3C",
-      "ora": "3",
-      "aula": "105",
-      "docente": "FORCELLINO"
-    },
-    {
-      "classe": "3H",
+      "classe": "5D",
       "ora": "4",
-      "aula": "214",
-      "docente": "AZZARITA"
+      "aula": "206",
+      "docente": "MALLONI"
+    },
+    {
+      "classe": "5H",
+      "ora": "6",
+      "aula": "206",
+      "docente": "SPALLIERO"
     }
   ],
-  "cambi_aula": [
-    {
-      "ora": "2",
-      "classe": "3C",
-      "aula": "201",
-      "docente": ""
-    },
-    {
-      "ora": "2",
-      "classe": "3B",
-      "aula": "CHI",
-      "docente": ""
-    }
-  ]
+  "cambi_aula": []
 }
