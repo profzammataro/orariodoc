@@ -79,6 +79,30 @@
       "ora": "1/2",
       "aula": "114",
       "docente": "BRANDONISIO"
+    },
+    {
+      "classe": "2D",
+      "ora": "1",
+      "aula": "219",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "2C",
+      "ora": "2",
+      "aula": "014",
+      "docente": "POCCI"
+    },
+    {
+      "classe": "3C",
+      "ora": "3",
+      "aula": "105",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "3H",
+      "ora": "4",
+      "aula": "214",
+      "docente": "AZZARITA"
     }
   ],
   "cambi_aula": [
