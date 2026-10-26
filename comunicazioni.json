@@ -29,14 +29,34 @@
       "uscita": "",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "5H",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5A",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
     {
-      "classe": "1B",
-      "ora": "3",
+      "classe": "5B",
+      "ora": "5",
       "aula": "201",
-      "docente": "MALLONI"
+      "docente": "SCACCIA"
+    },
+    {
+      "classe": "4H",
+      "ora": "5",
+      "aula": "214",
+      "docente": "FORCELLINO"
     },
     {
       "classe": "5E",
@@ -45,23 +65,54 @@
       "docente": "PETRUCCI"
     },
     {
-      "classe": "5B",
-      "ora": "5",
-      "aula": "201",
-      "docente": "SCACCIA"
-    },
-    {
       "classe": "5D",
       "ora": "4",
       "aula": "206",
       "docente": "MALLONI"
     },
     {
+      "classe": "1B",
+      "ora": "3",
+      "aula": "201",
+      "docente": "MALLONI"
+    },
+    {
+      "classe": "2H",
+      "ora": "3",
+      "aula": "218",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "1H",
+      "ora": "2",
+      "aula": "217",
+      "docente": "FORCELLINO"
+    },
+    {
       "classe": "5H",
-      "ora": "6",
-      "aula": "206",
-      "docente": "SPALLIERO"
+      "ora": "2",
+      "aula": "224",
+      "docente": "AZZARITA"
+    },
+    {
+      "classe": "2A",
+      "ora": "1",
+      "aula": "219",
+      "docente": "CASCONE"
     }
   ],
-  "cambi_aula": []
+  "cambi_aula": [
+    {
+      "ora": "5",
+      "classe": "1M",
+      "aula": "202",
+      "docente": ""
+    },
+    {
+      "ora": "5",
+      "classe": "4C",
+      "aula": "CHI",
+      "docente": ""
+    }
+  ]
 }
