@@ -19,9 +19,16 @@
     {
       "classe": "5H",
       "ingresso": "",
-      "uscita": "13.05",
+      "uscita": "12.10",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "4H",
+      "ingresso": "",
+      "uscita": "13.05 ANTICIPA TURCHI",
+      "sostituzione": "",
+      "aula": "205"
     }
   ],
   "sostituzioni": [
@@ -50,12 +57,6 @@
       "docente": "AZZARITA"
     },
     {
-      "classe": "5H",
-      "ora": "5",
-      "aula": "204",
-      "docente": "GALLO"
-    },
-    {
       "classe": "1D",
       "ora": "3",
       "aula": "210",
@@ -77,7 +78,7 @@
       "classe": "3H",
       "ora": "3",
       "aula": "217",
-      "docente": "LAUDANI"
+      "docente": "SCACCIA"
     },
     {
       "classe": "4H",
