@@ -15,6 +15,13 @@
       "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "5H",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
@@ -53,6 +60,30 @@
       "ora": "3",
       "aula": "210",
       "docente": "LAUDANI"
+    },
+    {
+      "classe": "2H",
+      "ora": "1",
+      "aula": "217",
+      "docente": "AZZARITA"
+    },
+    {
+      "classe": "1H",
+      "ora": "2",
+      "aula": "217",
+      "docente": "ZAMMATARO"
+    },
+    {
+      "classe": "3H",
+      "ora": "3",
+      "aula": "217",
+      "docente": "LAUDANI"
+    },
+    {
+      "classe": "4H",
+      "ora": "5",
+      "aula": "217",
+      "docente": "ROCCAMO"
     }
   ],
   "cambi_aula": [
