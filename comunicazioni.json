@@ -31,18 +31,18 @@
       "aula": ""
     },
     {
-      "classe": "4H",
-      "ingresso": "",
-      "uscita": "11.00",
+      "classe": "1A",
+      "ingresso": "10.10",
+      "uscita": "",
       "sostituzione": "",
       "aula": ""
     },
     {
       "classe": "2H",
       "ingresso": "",
-      "uscita": "11.00",
-      "sostituzione": "CERCIELLO ant in 3h",
-      "aula": "119"
+      "uscita": "13.05",
+      "sostituzione": "CERCIELLO ant in 5h",
+      "aula": "201"
     },
     {
       "classe": "2E",
@@ -155,6 +155,34 @@
       "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "2F",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "3E",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1G",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "ZAMMATARO ant. 3h",
+      "aula": "102"
+    },
+    {
+      "classe": "2L",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
@@ -181,12 +209,6 @@
       "ora": "3",
       "aula": "120",
       "docente": "ABENANTE (4E)"
-    },
-    {
-      "classe": "3H",
-      "ora": "2",
-      "aula": "129",
-      "docente": "FATTORUSO"
     },
     {
       "classe": "5F",
@@ -231,28 +253,22 @@
       "docente": "CASCONE (4E)"
     },
     {
-      "classe": "1G",
-      "ora": "3",
-      "aula": "102",
-      "docente": "ERBAGGIO"
-    },
-    {
       "classe": "1I",
       "ora": "2",
       "aula": "211",
-      "docente": "GIANNOTTI (5I)"
+      "docente": ""
     },
     {
       "classe": "3I",
       "ora": "3",
       "aula": "211",
-      "docente": "DAMIANI (3G)"
+      "docente": ""
     },
     {
       "classe": "5H",
       "ora": "2",
       "aula": "127",
-      "docente": "MAMPIERI (3G)"
+      "docente": ""
     },
     {
       "classe": "5H",
@@ -301,6 +317,12 @@
       "ora": "5",
       "aula": "130",
       "docente": "FRANCESCHELLI"
+    },
+    {
+      "classe": "3L",
+      "ora": "2",
+      "aula": "014",
+      "docente": ""
     }
   ],
   "cambi_aula": [
