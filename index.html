@@ -1110,8 +1110,20 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
             const absInfo   = getClassAbsenceInfo(key, ora, giorno);
             const subInfo   = getClassSubstituteInfo(key, ora, giorno);
             const shiftInfo = getShiftInfo(key, ora, giorno, "class");
-            if (absInfo && subInfo) {
-              // Sia cambio aula che uscita/ingresso nella stessa ora
+            // shiftInfo ha priorità su absInfo: se c'è un docente che anticipa/posticipa
+            // in quell'ora, la classe è presente e la lezione si tiene
+            if (shiftInfo) {
+              const tipoLabel = shiftInfo.tipo === 'ant' ? '⬆️ anticipo' : '⬇️ posticipo';
+              const aulaShift = shiftInfo.aula ? `<span class="room">aula ${shiftInfo.aula}</span>` : '';
+              // Mostra il nome del docente che anticipa/posticipa
+              const docenteShift = shiftInfo.cognome
+                ? `<span class="teacher">${shiftInfo.cognome}</span>` : '';
+              const extra = `<div class="lesson-info" style="margin-top:4px;">
+                ${docenteShift}${aulaShift}
+              </div>`;
+              html += `<td class="shift-cell"><span class="shift-badge">🟣 ${tipoLabel}</span>${extra}</td>`;
+            } else if (absInfo && subInfo) {
+              // Sia uscita/ingresso che sostituzione nella stessa ora
               const label = absInfo.tipo === 'ingresso'
                 ? `🔴 entra ${absInfo.orario}`
                 : `🔴 esce ${absInfo.orario}`;
@@ -1132,14 +1144,6 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
                 <span class="room">aula ${subInfo.aula || "—"}</span>
               </div>`;
               html += `<td class="modified-cell"><span class="modified-badge">⚠️ modifica</span>${extra}</td>`;
-            } else if (shiftInfo) {
-              // Cambio ora (anticipo/posticipo lezione) → viola
-              const tipoLabel = shiftInfo.tipo === 'ant' ? '⬆️ anticipo' : '⬇️ posticipo';
-              const aulaShift = shiftInfo.aula ? `<span class="room">aula ${shiftInfo.aula}</span>` : '';
-              const extra = `<div class="lesson-info" style="margin-top:4px;">
-                ${formattedCell}${aulaShift}
-              </div>`;
-              html += `<td class="shift-cell"><span class="shift-badge">🟣 ${tipoLabel}</span>${extra}</td>`;
             } else {
               html += `<td>${formattedCell}</td>`;
             }
@@ -1464,10 +1468,12 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
       const ora = oraIndex + 1; // slot 1-based
 
       // Regex robusta: cognome può contenere spazi, trattini e apostrofi
-      // Formato: "COGNOME COMPOSTO ant|post in Xh"
-      // Usa lookahead per separare token anche quando scritti attaccati (es. "SERPICOant in 3h")
-      // Strategia: cerca "(MAIUSCOLE[ MAIUSCOLE]*) (ant|post) in (N)h"
-      const shiftRe = /([A-Z][A-Z\-' ]*?[A-Z])\s*(ant|post)\s+in\s+(\d+)h/gi;
+      // Formati supportati:
+      //   "SERPICO ant in 3h"      → ant + in + Nh
+      //   "ZAMMATARO ant. 3h"      → ant + punto + Nh  (senza "in")
+      //   "DE RUVO post in 3h"     → cognome composto
+      //   "SERPICOant in 3hAGR..."  → attaccati senza spazio
+      const shiftRe = /([A-Z][A-Z\-' ]*?[A-Z])\s*(ant|post)[.\s]+(?:in\s+)?(\d+)h/gi;
 
       for (const row of comunicazioniData.ingressi_uscite) {
         // Filtra per classe (mode=class) o non filtra per classe (mode=teacher)
