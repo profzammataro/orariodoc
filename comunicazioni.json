@@ -82,8 +82,8 @@
     {
       "classe": "5A",
       "ingresso": "",
-      "uscita": "12.10",
-      "sostituzione": "SERPICO ant in 3hAGRAMANTI ant in 4h",
+      "uscita": "11.00",
+      "sostituzione": "SERPICO ant in 3h",
       "aula": "223"
     },
     {
@@ -181,6 +181,13 @@
       "classe": "2L",
       "ingresso": "9.10",
       "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4H",
+      "ingresso": "",
+      "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
     },
