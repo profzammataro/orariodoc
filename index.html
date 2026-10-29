@@ -1135,9 +1135,10 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
             } else if (shiftInfo) {
               // Cambio ora (anticipo/posticipo lezione) → viola
               const tipoLabel = shiftInfo.tipo === 'ant' ? '⬆️ anticipo' : '⬇️ posticipo';
-              const extra = formattedCell
-                ? `<div class="lesson-info" style="margin-top:4px;">${formattedCell}</div>`
-                : '';
+              const aulaShift = shiftInfo.aula ? `<span class="room">aula ${shiftInfo.aula}</span>` : '';
+              const extra = `<div class="lesson-info" style="margin-top:4px;">
+                ${formattedCell}${aulaShift}
+              </div>`;
               html += `<td class="shift-cell"><span class="shift-badge">🟣 ${tipoLabel}</span>${extra}</td>`;
             } else {
               html += `<td>${formattedCell}</td>`;
@@ -1168,9 +1169,11 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
             } else if (shiftInfo) {
               // Cambio ora (anticipo/posticipo lezione) → viola
               const tipoLabel = shiftInfo.tipo === 'ant' ? '⬆️ anticipo' : '⬇️ posticipo';
-              const extra = formattedCell
-                ? `<div class="lesson-info" style="margin-top:4px;">${formattedCell}</div>`
-                : '';
+              const classeShift = shiftInfo.classe ? `<span class="subject">${shiftInfo.classe}</span>` : '';
+              const aulaShift   = shiftInfo.aula   ? `<span class="room">aula ${shiftInfo.aula}</span>` : '';
+              const extra = `<div class="lesson-info" style="margin-top:4px;">
+                ${classeShift}${aulaShift}
+              </div>`;
               html += `<td class="shift-cell"><span class="shift-badge">🟣 ${tipoLabel}</span>${extra}</td>`;
             } else {
               html += `<td>${formattedCell}</td>`;
@@ -1460,38 +1463,40 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
 
       const ora = oraIndex + 1; // slot 1-based
 
-      // Regex robusta: trova tutti i token "COGNOME ant|post in Xh" anche senza spazi
-      const shiftRe = /([A-Z][A-Z\-']+)\s*(ant|post)\s+in\s+(\d+)h/gi;
+      // Regex robusta: cognome può contenere spazi, trattini e apostrofi
+      // Formato: "COGNOME COMPOSTO ant|post in Xh"
+      // Usa lookahead per separare token anche quando scritti attaccati (es. "SERPICOant in 3h")
+      // Strategia: cerca "(MAIUSCOLE[ MAIUSCOLE]*) (ant|post) in (N)h"
+      const shiftRe = /([A-Z][A-Z\-' ]*?[A-Z])\s*(ant|post)\s+in\s+(\d+)h/gi;
 
       for (const row of comunicazioniData.ingressi_uscite) {
         // Filtra per classe (mode=class) o non filtra per classe (mode=teacher)
         if (mode === "class") {
           if (!row.classe || !row.classe.toUpperCase().includes(key.toUpperCase())) continue;
         }
-        const testoSost = row.sostituzione || "";
+        const testoSost = (row.sostituzione || "").trim();
         if (!testoSost || testoSost === "—") continue;
 
         let match;
         shiftRe.lastIndex = 0;
         while ((match = shiftRe.exec(testoSost)) !== null) {
-          const cognome = match[1].toUpperCase();
-          const tipo    = match[2].toLowerCase(); // "ant" o "post"
-          const oraShift = parseInt(match[3]);    // numero ora
+          const cognome  = match[1].trim().toUpperCase();
+          const tipo     = match[2].toLowerCase(); // "ant" o "post"
+          const oraShift = parseInt(match[3]);     // numero ora
 
           if (mode === "teacher") {
-            // Per modalità docente: il cognome deve corrispondere al docente cercato
-            if (!cognome.includes(key.toUpperCase())) continue;
+            // Per modalità docente: il cognome del docente cercato deve essere contenuto nel match
+            // Gestisce sia "DE RUVO" (spazio) che "SERPICO" (semplice)
+            const keyUp = key.toUpperCase();
+            if (!cognome.includes(keyUp) && !keyUp.includes(cognome)) continue;
           }
-          // La cella è "spostata" se è l'ora di origine (quella che viene tolta/anticipata)
-          // ant in Xh → la lezione viene anticipata all'ora X (la sua ora originale viene liberata)
-          // post in Xh → la lezione viene posticipata all'ora X (la sua ora originale viene liberata)
-          // In entrambi i casi evidenziamo l'ora X come "cambio ora"
           if (oraShift === ora) {
             return {
               tipo,
               oraShift,
               cognome,
-              classe: row.classe || null
+              classe: row.classe || null,
+              aula:   row.aula   || null   // aula del cambio ora (campo aula nella riga)
             };
           }
         }
