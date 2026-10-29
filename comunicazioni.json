@@ -173,7 +173,7 @@
     {
       "classe": "1G",
       "ingresso": "",
-      "uscita": "12.10",
+      "uscita": "11.00",
       "sostituzione": "ZAMMATARO ant. 3h",
       "aula": "102"
     },
@@ -185,37 +185,44 @@
       "aula": ""
     },
     {
-      "classe": "5I",
-      "ingresso": "10.10",
-      "uscita": "",
+      "classe": "2F",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2A",
+      "ingresso": "",
+      "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
     }
   ],
   "sostituzioni": [
     {
+      "classe": "4A",
+      "ora": "5",
+      "aula": "223",
+      "docente": "FIOCCOLA"
+    },
+    {
+      "classe": "3L",
+      "ora": "5",
+      "aula": "130",
+      "docente": "FRANCESCHELLI"
+    },
+    {
       "classe": "5B",
       "ora": "4",
       "aula": "211",
-      "docente": "BISCONTI (5I)"
+      "docente": "PETRUCCI"
     },
     {
       "classe": "3B",
       "ora": "4",
       "aula": "218",
-      "docente": "PETRUCCI"
-    },
-    {
-      "classe": "2B",
-      "ora": "2",
-      "aula": "120",
-      "docente": "BRANDONISIO"
-    },
-    {
-      "classe": "2B",
-      "ora": "3",
-      "aula": "120",
-      "docente": "ABENANTE (4E)"
+      "docente": "BISCONTI (5I)"
     },
     {
       "classe": "5F",
@@ -224,10 +231,76 @@
       "docente": "MARTINELLI (ECC)"
     },
     {
-      "classe": "4A",
-      "ora": "5",
-      "aula": "223",
-      "docente": "MOSCARELLI"
+      "classe": "5G",
+      "ora": "4",
+      "aula": "122",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "4I",
+      "ora": "4",
+      "aula": "205",
+      "docente": "BUSA"
+    },
+    {
+      "classe": "3L",
+      "ora": "4",
+      "aula": "130",
+      "docente": "FRANCESCHELLI"
+    },
+    {
+      "classe": "2B",
+      "ora": "3",
+      "aula": "120",
+      "docente": "ABENANTE (4E)"
+    },
+    {
+      "classe": "1D",
+      "ora": "3",
+      "aula": "FIS",
+      "docente": "CASCONE"
+    },
+    {
+      "classe": "2I",
+      "ora": "3",
+      "aula": "113",
+      "docente": "CASTALDO (ECC)"
+    },
+    {
+      "classe": "3I",
+      "ora": "3",
+      "aula": "211",
+      "docente": "BARBATO (ECC)"
+    },
+    {
+      "classe": "5H",
+      "ora": "3",
+      "aula": "127",
+      "docente": "SPALLIERO"
+    },
+    {
+      "classe": "1I",
+      "ora": "3",
+      "aula": "205",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "1H",
+      "ora": "3",
+      "aula": "ECDL",
+      "docente": "MARTONE"
+    },
+    {
+      "classe": "1A",
+      "ora": "3",
+      "aula": "118",
+      "docente": "REGA (ECC)"
+    },
+    {
+      "classe": "2B",
+      "ora": "2",
+      "aula": "120",
+      "docente": "BRANDONISIO"
     },
     {
       "classe": "4G",
@@ -242,18 +315,6 @@
       "docente": "REGA"
     },
     {
-      "classe": "1D",
-      "ora": "3",
-      "aula": "FIS",
-      "docente": "CASCONE"
-    },
-    {
-      "classe": "2I",
-      "ora": "3",
-      "aula": "113",
-      "docente": "GALLO"
-    },
-    {
       "classe": "2H",
       "ora": "2",
       "aula": "107",
@@ -263,73 +324,37 @@
       "classe": "1I",
       "ora": "2",
       "aula": "211",
-      "docente": ""
-    },
-    {
-      "classe": "3I",
-      "ora": "3",
-      "aula": "211",
-      "docente": ""
+      "docente": "DE RUVO"
     },
     {
       "classe": "5H",
       "ora": "2",
-      "aula": "127",
+      "aula": "102",
       "docente": ""
-    },
-    {
-      "classe": "5H",
-      "ora": "3",
-      "aula": "127",
-      "docente": "SPALLIERO"
-    },
-    {
-      "classe": "5G",
-      "ora": "4",
-      "aula": "122",
-      "docente": "GALLO"
-    },
-    {
-      "classe": "1I",
-      "ora": "3",
-      "aula": "205",
-      "docente": ""
-    },
-    {
-      "classe": "4I",
-      "ora": "4",
-      "aula": "205",
-      "docente": "BUSA"
-    },
-    {
-      "classe": "1H",
-      "ora": "3",
-      "aula": "ECDL",
-      "docente": "MARTONE"
-    },
-    {
-      "classe": "1A",
-      "ora": "3",
-      "aula": "118",
-      "docente": ""
-    },
-    {
-      "classe": "3L",
-      "ora": "4",
-      "aula": "130",
-      "docente": "FRANCESCHELLI"
-    },
-    {
-      "classe": "3L",
-      "ora": "5",
-      "aula": "130",
-      "docente": "FRANCESCHELLI"
     },
     {
       "classe": "3L",
       "ora": "2",
       "aula": "014",
-      "docente": ""
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "2I",
+      "ora": "3",
+      "aula": "113",
+      "docente": "IARDINO"
+    },
+    {
+      "classe": "1B",
+      "ora": "3",
+      "aula": "013",
+      "docente": "AGRAMANTI"
+    },
+    {
+      "classe": "1A",
+      "ora": "5",
+      "aula": "013",
+      "docente": "MOSCARELLI"
     }
   ],
   "cambi_aula": [
