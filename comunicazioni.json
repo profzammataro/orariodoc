@@ -47,7 +47,7 @@
     {
       "classe": "3F",
       "ingresso": "",
-      "uscita": "12.10",
+      "uscita": "11.00",
       "sostituzione": "",
       "aula": ""
     },
@@ -62,7 +62,7 @@
       "classe": "5D tutta",
       "ingresso": "",
       "uscita": "13.05",
-      "sostituzione": "GUZZO ant 3h",
+      "sostituzione": "ROMANO ant 3h",
       "aula": "114"
     },
     {
@@ -106,6 +106,34 @@
       "uscita": "12.10",
       "sostituzione": "ERBAGGIO ant 2h",
       "aula": "114"
+    },
+    {
+      "classe": "2L",
+      "ingresso": "",
+      "uscita": "11.00",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4G",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1G",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5E",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "MOSCARELLI ant. 3h",
+      "aula": "127"
     }
   ],
   "sostituzioni": [
@@ -119,7 +147,7 @@
       "classe": "1H",
       "ora": "3",
       "aula": "205",
-      "docente": ""
+      "docente": "SPOLETI"
     },
     {
       "classe": "4I",
@@ -154,13 +182,13 @@
     {
       "classe": "2A",
       "ora": "3",
-      "aula": "",
+      "aula": "105",
       "docente": "FORCELLINO"
     },
     {
       "classe": "3H",
       "ora": "4",
-      "aula": "",
+      "aula": "204",
       "docente": "GALLEAZZI (4N)"
     },
     {
@@ -185,13 +213,55 @@
       "classe": "5F",
       "ora": "4",
       "aula": "014",
-      "docente": "AZZARITA"
+      "docente": "CATALLI"
     },
     {
       "classe": "2E",
       "ora": "5",
       "aula": "014",
-      "docente": "AZZARITA"
+      "docente": "PETRUCCI"
+    },
+    {
+      "classe": "3D",
+      "ora": "2",
+      "aula": "120",
+      "docente": "GRANIERO"
+    },
+    {
+      "classe": "2G",
+      "ora": "2",
+      "aula": "207",
+      "docente": "CATALLI"
+    },
+    {
+      "classe": "3G",
+      "ora": "3",
+      "aula": "206",
+      "docente": "GASPARINI (ECC)"
+    },
+    {
+      "classe": "1H",
+      "ora": "1/2",
+      "aula": "208",
+      "docente": "MARTONE"
+    },
+    {
+      "classe": "5E",
+      "ora": "2",
+      "aula": "207",
+      "docente": "CATALLI"
+    },
+    {
+      "classe": "5E",
+      "ora": "3",
+      "aula": "127",
+      "docente": "MOSCARELLI"
+    },
+    {
+      "classe": "2I",
+      "ora": "5",
+      "aula": "130",
+      "docente": "PUSIC"
     }
   ],
   "cambi_aula": [
