@@ -1,76 +1,53 @@
 {
-  "data": "02/11/2026",
-  "giorno_settimana": 0,
+  "data": "03/11/2026",
+  "giorno_settimana": 1,
   "ingressi_uscite": [
     {
-      "classe": "2C",
+      "classe": "1F",
       "ingresso": "9.10",
       "uscita": "",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "5G",
+      "classe": "5H",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4A",
       "ingresso": "",
       "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "4N",
+      "classe": "2H",
       "ingresso": "9.10",
-      "uscita": "12.10",
+      "uscita": "",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "3H",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
+      "classe": "4H",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "TURCHI ant in 4h",
       "aula": ""
     }
   ],
   "sostituzioni": [
     {
-      "classe": "5C (TUTTA)",
+      "classe": "2E",
       "ora": "2",
       "aula": "",
-      "docente": "ROMANO"
+      "docente": "LAUDANI"
     },
     {
-      "classe": "1D (TUTTA)",
+      "classe": "3A",
       "ora": "3",
-      "aula": "105",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "1G",
-      "ora": "3",
-      "aula": "212",
-      "docente": "MALLONI"
-    },
-    {
-      "classe": "1M",
-      "ora": "4",
-      "aula": "212",
-      "docente": "GUIDA"
-    },
-    {
-      "classe": "4G",
-      "ora": "5",
-      "aula": "212",
-      "docente": "SCACCIA"
-    },
-    {
-      "classe": "4N",
-      "ora": "2",
-      "aula": "225",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "4B",
-      "ora": "5",
       "aula": "",
       "docente": "FATTORUSO"
     },
@@ -78,7 +55,13 @@
       "classe": "1H",
       "ora": "2",
       "aula": "217",
-      "docente": "MALLONI"
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "3H",
+      "ora": "3",
+      "aula": "217",
+      "docente": "ZAMMATARO"
     }
   ],
   "cambi_aula": []
