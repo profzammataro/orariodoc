@@ -94,6 +94,134 @@
       "aula": ""
     }
   ],
-  "sostituzioni": [],
-  "cambi_aula": []
+  "sostituzioni": [
+    {
+      "classe": "1I",
+      "ora": "4",
+      "aula": "211",
+      "docente": "SCACCIA"
+    },
+    {
+      "classe": "4B",
+      "ora": "2",
+      "aula": "110",
+      "docente": "AZZARITA"
+    },
+    {
+      "classe": "5L",
+      "ora": "3",
+      "aula": "222",
+      "docente": "LAUDANI"
+    },
+    {
+      "classe": "1L",
+      "ora": "2",
+      "aula": "118",
+      "docente": "SORACI"
+    },
+    {
+      "classe": "1D",
+      "ora": "4",
+      "aula": "117",
+      "docente": "PALUMBO (3I)"
+    },
+    {
+      "classe": "2B",
+      "ora": "4/5",
+      "aula": "114",
+      "docente": "POLITO"
+    },
+    {
+      "classe": "1G",
+      "ora": "5",
+      "aula": "013",
+      "docente": "ZAMMATARO (2A)"
+    },
+    {
+      "classe": "4H",
+      "ora": "2",
+      "aula": "223",
+      "docente": "ROCCAMO"
+    },
+    {
+      "classe": "5H",
+      "ora": "4/5",
+      "aula": "222",
+      "docente": "SPALLIERO"
+    },
+    {
+      "classe": "4H",
+      "ora": "4",
+      "aula": "",
+      "docente": "ROCCAMO"
+    },
+    {
+      "classe": "5B",
+      "ora": "3",
+      "aula": "201",
+      "docente": "ZAMMATARO"
+    },
+    {
+      "classe": "4B",
+      "ora": "4",
+      "aula": "201",
+      "docente": "VECCHIOTTI"
+    },
+    {
+      "classe": "5E",
+      "ora": "5",
+      "aula": "201",
+      "docente": "CATALLI"
+    },
+    {
+      "classe": "1D",
+      "ora": "2",
+      "aula": "221",
+      "docente": "ABENANTE"
+    },
+    {
+      "classe": "1F",
+      "ora": "2",
+      "aula": "101",
+      "docente": "FORTE"
+    },
+    {
+      "classe": "5A",
+      "ora": "3",
+      "aula": "AM",
+      "docente": "AGRAMANTI"
+    },
+    {
+      "classe": "3H",
+      "ora": "2",
+      "aula": "217",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "5C",
+      "ora": "4",
+      "aula": "217",
+      "docente": "CASTRONUOVO"
+    }
+  ],
+  "cambi_aula": [
+    {
+      "ora": "5",
+      "classe": "4D",
+      "aula": "204",
+      "docente": ""
+    },
+    {
+      "ora": "5",
+      "classe": "1D",
+      "aula": "120",
+      "docente": ""
+    },
+    {
+      "ora": "4",
+      "classe": "2C",
+      "aula": "215",
+      "docente": ""
+    }
+  ]
 }
