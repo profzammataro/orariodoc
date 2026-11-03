@@ -1,68 +1,99 @@
 {
-  "data": "03/11/2026",
-  "giorno_settimana": 1,
+  "data": "04/11/2026",
+  "giorno_settimana": 2,
   "ingressi_uscite": [
     {
-      "classe": "1F",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "5H",
+      "classe": "4N",
       "ingresso": "",
       "uscita": "12.10",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "4A",
+      "classe": "4B",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "RAO ant. in 3h",
+      "aula": "110"
+    },
+    {
+      "classe": "3B",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "GABRIOTTI ant. in 5h",
+      "aula": "106"
+    },
+    {
+      "classe": "3A",
+      "ingresso": "9.10",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1B",
       "ingresso": "",
       "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "2H",
-      "ingresso": "9.10",
+      "classe": "4A",
+      "ingresso": "10.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5A",
+      "ingresso": "10.10",
       "uscita": "",
       "sostituzione": "",
       "aula": ""
     },
     {
       "classe": "4H",
+      "ingresso": "9.10",
+      "uscita": "13.05",
+      "sostituzione": "TURCHI post. in 3h",
+      "aula": ""
+    },
+    {
+      "classe": "1E",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4C",
       "ingresso": "",
       "uscita": "12.10",
-      "sostituzione": "TURCHI ant in 4h",
+      "sostituzione": "",
       "aula": ""
-    }
-  ],
-  "sostituzioni": [
-    {
-      "classe": "2E",
-      "ora": "2",
-      "aula": "",
-      "docente": "LAUDANI"
-    },
-    {
-      "classe": "3A",
-      "ora": "3",
-      "aula": "",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "1H",
-      "ora": "2",
-      "aula": "217",
-      "docente": "FATTORUSO"
     },
     {
       "classe": "3H",
-      "ora": "3",
-      "aula": "217",
-      "docente": "ZAMMATARO"
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "CERCIELLO ant. in 4h",
+      "aula": "212"
+    },
+    {
+      "classe": "1H",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5H",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
+  "sostituzioni": [],
   "cambi_aula": []
 }
