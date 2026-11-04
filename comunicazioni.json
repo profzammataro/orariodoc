@@ -1,121 +1,44 @@
 {
-  "data": "04/11/2026",
-  "giorno_settimana": 2,
+  "data": "05/11/2026",
+  "giorno_settimana": 3,
   "ingressi_uscite": [
-    {
-      "classe": "4N",
-      "ingresso": "",
-      "uscita": "12.10",
-      "sostituzione": "",
-      "aula": ""
-    },
     {
       "classe": "4B",
       "ingresso": "",
       "uscita": "13.05",
-      "sostituzione": "RAO ant. in 3h",
-      "aula": "110"
+      "sostituzione": "",
+      "aula": ""
     },
     {
-      "classe": "3B",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "GABRIOTTI ant. in 5h",
-      "aula": "106"
+      "classe": "2F",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
     },
     {
-      "classe": "3A",
+      "classe": "4F",
       "ingresso": "9.10",
       "uscita": "12.10",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "1B",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "4A",
-      "ingresso": "10.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "5A",
-      "ingresso": "10.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "4H",
-      "ingresso": "9.10",
-      "uscita": "13.05",
-      "sostituzione": "TURCHI post. in 3h",
-      "aula": ""
-    },
-    {
-      "classe": "1E",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "4C",
-      "ingresso": "",
-      "uscita": "12.10",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "3H",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "CERCIELLO ant. in 4h",
-      "aula": "212"
-    },
-    {
-      "classe": "1H",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "5H",
-      "ingresso": "9.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "1I",
-      "ingresso": "",
-      "uscita": "12.10",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "1L",
-      "ingresso": "",
-      "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
     },
     {
       "classe": "2H",
       "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "CERCIELLO ant. 5h",
+      "aula": "201"
+    },
+    {
+      "classe": "1L",
+      "ingresso": "",
       "uscita": "12.10",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "5H",
+      "classe": "3I",
       "ingresso": "",
       "uscita": "13.05",
       "sostituzione": "",
@@ -124,154 +47,88 @@
   ],
   "sostituzioni": [
     {
-      "classe": "1I",
-      "ora": "4",
-      "aula": "211",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "4B",
-      "ora": "2",
-      "aula": "110",
-      "docente": "AZZARITA"
-    },
-    {
       "classe": "5L",
-      "ora": "3",
-      "aula": "222",
-      "docente": "LAUDANI"
-    },
-    {
-      "classe": "1L",
-      "ora": "2",
-      "aula": "118",
-      "docente": "SORACI"
-    },
-    {
-      "classe": "1D",
-      "ora": "4",
-      "aula": "117",
-      "docente": "PALUMBO (3I)"
-    },
-    {
-      "classe": "2B",
-      "ora": "4/5",
-      "aula": "114",
-      "docente": "POLITO"
-    },
-    {
-      "classe": "1G",
       "ora": "5",
-      "aula": "013",
-      "docente": "ZAMMATARO (2A)"
-    },
-    {
-      "classe": "4H",
-      "ora": "2",
-      "aula": "223",
-      "docente": "ROCCAMO"
-    },
-    {
-      "classe": "5H",
-      "ora": "4/5",
-      "aula": "222",
-      "docente": "SPALLIERO"
-    },
-    {
-      "classe": "4H",
-      "ora": "4",
-      "aula": "122",
-      "docente": "ROCCAMO"
+      "aula": "126",
+      "docente": "TASSETTI"
     },
     {
       "classe": "5B",
-      "ora": "3",
-      "aula": "201",
-      "docente": "ZAMMATARO"
-    },
-    {
-      "classe": "4B",
-      "ora": "4",
-      "aula": "201",
-      "docente": "VECCHIOTTI"
-    },
-    {
-      "classe": "5E",
       "ora": "5",
-      "aula": "201",
-      "docente": "GALATI"
-    },
-    {
-      "classe": "1D",
-      "ora": "2",
-      "aula": "221",
-      "docente": "ABENANTE"
+      "aula": "110",
+      "docente": "GALLO"
     },
     {
       "classe": "1F",
-      "ora": "2",
-      "aula": "101",
-      "docente": "FORTE"
+      "ora": "5",
+      "aula": "212",
+      "docente": "MARONE"
     },
     {
       "classe": "5A",
-      "ora": "3",
+      "ora": "5",
+      "aula": "111",
+      "docente": "SERPICO"
+    },
+    {
+      "classe": "3A",
+      "ora": "5",
       "aula": "AM",
-      "docente": "AGRAMANTI"
+      "docente": "MOSCARELLI"
     },
     {
       "classe": "3H",
-      "ora": "2",
-      "aula": "217",
+      "ora": "5",
+      "aula": "225",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "4F",
+      "ora": "4",
+      "aula": "106",
+      "docente": "PETRUCCI"
+    },
+    {
+      "classe": "2F",
+      "ora": "4",
+      "aula": "212",
       "docente": "FATTORUSO"
+    },
+    {
+      "classe": "5D",
+      "ora": "4",
+      "aula": "222",
+      "docente": "ROMANO"
+    },
+    {
+      "classe": "2N",
+      "ora": "4",
+      "aula": "215",
+      "docente": "GALLO"
     },
     {
       "classe": "5C",
       "ora": "4",
-      "aula": "217",
-      "docente": "CASTRONUOVO"
-    },
-    {
-      "classe": "2G",
-      "ora": "2",
-      "aula": "228",
-      "docente": "ZAMMATARO"
-    },
-    {
-      "classe": "5E (TUTTA)",
-      "ora": "4",
-      "aula": "102",
-      "docente": "MORETTI"
-    },
-    {
-      "classe": "1E",
-      "ora": "3",
-      "aula": "219",
-      "docente": "CASCONE"
-    },
-    {
-      "classe": "5L",
-      "ora": "5",
-      "aula": "214",
-      "docente": "FERRARA"
-    },
-    {
-      "classe": "2D",
-      "ora": "1",
-      "aula": "208",
-      "docente": "FORCELLINO"
-    },
-    {
-      "classe": "2H",
-      "ora": "2",
-      "aula": "CHI",
-      "docente": "DE RUVO (5F)"
-    },
-    {
-      "classe": "5D",
-      "ora": "3",
-      "aula": "206",
+      "aula": "213",
       "docente": "REPOLE (5F)"
+    },
+    {
+      "classe": "3F",
+      "ora": "3",
+      "aula": "225",
+      "docente": "GALLO"
+    },
+    {
+      "classe": "1F",
+      "ora": "2",
+      "aula": "205",
+      "docente": "FORTE"
+    },
+    {
+      "classe": "3L",
+      "ora": "1",
+      "aula": "205",
+      "docente": "MARTONE"
     }
   ],
   "cambi_aula": [
