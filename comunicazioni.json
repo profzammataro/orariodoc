@@ -43,6 +43,13 @@
       "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "3H",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "GALLEAZZI ant 5h",
+      "aula": "225"
     }
   ],
   "sostituzioni": [
@@ -75,12 +82,6 @@
       "ora": "5",
       "aula": "AM",
       "docente": "MOSCARELLI"
-    },
-    {
-      "classe": "3H",
-      "ora": "5",
-      "aula": "225",
-      "docente": "FORCELLINO"
     },
     {
       "classe": "4F",
@@ -133,33 +134,51 @@
   ],
   "cambi_aula": [
     {
+      "ora": "3",
+      "classe": "3A",
+      "aula": "AM",
+      "docente": ""
+    },
+    {
+      "ora": "4",
+      "classe": "3A",
+      "aula": "AM",
+      "docente": ""
+    },
+    {
       "ora": "5",
-      "classe": "4D",
+      "classe": "3A",
+      "aula": "AM",
+      "docente": ""
+    },
+    {
+      "ora": "3",
+      "classe": "4I",
       "aula": "204",
       "docente": ""
     },
     {
+      "ora": "3",
+      "classe": "4A",
+      "aula": "111",
+      "docente": ""
+    },
+    {
+      "ora": "4",
+      "classe": "4A",
+      "aula": "111",
+      "docente": ""
+    },
+    {
       "ora": "5",
-      "classe": "1D",
-      "aula": "120",
+      "classe": "5A",
+      "aula": "111",
       "docente": ""
     },
     {
-      "ora": "4",
-      "classe": "2C",
-      "aula": "215",
-      "docente": ""
-    },
-    {
-      "ora": "1",
-      "classe": "4I",
-      "aula": "227",
-      "docente": ""
-    },
-    {
-      "ora": "4",
-      "classe": "2D",
-      "aula": "225",
+      "ora": "5",
+      "classe": "5E",
+      "aula": "CHI",
       "docente": ""
     }
   ]
