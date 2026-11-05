@@ -40,7 +40,7 @@
     {
       "classe": "3I",
       "ingresso": "",
-      "uscita": "13.05",
+      "uscita": "12.10",
       "sostituzione": "",
       "aula": ""
     },
@@ -50,6 +50,48 @@
       "uscita": "13.05",
       "sostituzione": "GALLEAZZI ant 5h",
       "aula": "225"
+    },
+    {
+      "classe": "1H",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5G",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5D",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "CICCONE ant 4h",
+      "aula": "222"
+    },
+    {
+      "classe": "4G",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2A",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "1A",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
@@ -99,7 +141,7 @@
       "classe": "5D",
       "ora": "4",
       "aula": "222",
-      "docente": "ROMANO"
+      "docente": "ROMANO CICCONE"
     },
     {
       "classe": "2N",
@@ -111,7 +153,7 @@
       "classe": "5C",
       "ora": "4",
       "aula": "213",
-      "docente": "REPOLE (5F)"
+      "docente": "MARTINELLI (REC)"
     },
     {
       "classe": "3F",
@@ -130,6 +172,66 @@
       "ora": "1",
       "aula": "205",
       "docente": "MARTONE"
+    },
+    {
+      "classe": "2L (IRC)",
+      "ora": "2",
+      "aula": "228",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "2I (IRC)",
+      "ora": "4",
+      "aula": "128",
+      "docente": "REPOLE (5F)"
+    },
+    {
+      "classe": "5H",
+      "ora": "1",
+      "aula": "206",
+      "docente": "D'AUSILIO"
+    },
+    {
+      "classe": "2D",
+      "ora": "2",
+      "aula": "206",
+      "docente": "FERRARA"
+    },
+    {
+      "classe": "5D",
+      "ora": "3",
+      "aula": "206",
+      "docente": "FRANCESCHELLI"
+    },
+    {
+      "classe": "1B",
+      "ora": "3",
+      "aula": "013",
+      "docente": "ROCCAMO"
+    },
+    {
+      "classe": "1G",
+      "ora": "4",
+      "aula": "013",
+      "docente": ""
+    },
+    {
+      "classe": "5E",
+      "ora": "2",
+      "aula": "222",
+      "docente": "GUIDA"
+    },
+    {
+      "classe": "3G",
+      "ora": "3",
+      "aula": "226",
+      "docente": "ERBAGGIO"
+    },
+    {
+      "classe": "3G",
+      "ora": "4",
+      "aula": "226",
+      "docente": ""
     }
   ],
   "cambi_aula": [
