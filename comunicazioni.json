@@ -61,52 +61,10 @@
   ],
   "sostituzioni": [
     {
-      "classe": "5L",
-      "ora": "3",
-      "aula": "202",
-      "docente": "CHIARABINI"
-    },
-    {
-      "classe": "4D",
-      "ora": "4",
-      "aula": "202",
-      "docente": "CICCONE"
-    },
-    {
       "classe": "1D",
       "ora": "5",
       "aula": "215",
       "docente": "PETRONE"
-    },
-    {
-      "classe": "4D",
-      "ora": "1",
-      "aula": "112",
-      "docente": "TASSETTI"
-    },
-    {
-      "classe": "1D",
-      "ora": "2",
-      "aula": "118",
-      "docente": "TASSETTI"
-    },
-    {
-      "classe": "4B",
-      "ora": "3",
-      "aula": "110",
-      "docente": "SPOLETI"
-    },
-    {
-      "classe": "4B",
-      "ora": "4",
-      "aula": "110",
-      "docente": "MOSCARELLI"
-    },
-    {
-      "classe": "5A",
-      "ora": "3",
-      "aula": "122",
-      "docente": "AGRAMANTI"
     },
     {
       "classe": "3B",
@@ -115,28 +73,22 @@
       "docente": "PUSIC"
     },
     {
-      "classe": "1G",
-      "ora": "2",
-      "aula": "105",
-      "docente": "FATTORUSO"
+      "classe": "4D",
+      "ora": "4",
+      "aula": "202",
+      "docente": "CICCONE"
+    },
+    {
+      "classe": "4B",
+      "ora": "4",
+      "aula": "110",
+      "docente": "MOSCARELLI"
     },
     {
       "classe": "4G",
       "ora": "4",
       "aula": "121",
-      "docente": "BABUDRI (ECC)"
-    },
-    {
-      "classe": "2H",
-      "ora": "2",
-      "aula": "217",
-      "docente": "CHIARABINI (REC)"
-    },
-    {
-      "classe": "5C",
-      "ora": "3",
-      "aula": "217",
-      "docente": "FATTORUSO"
+      "docente": "ZAMMATARO"
     },
     {
       "classe": "5H",
@@ -146,15 +98,69 @@
     },
     {
       "classe": "4L",
+      "ora": "4",
+      "aula": "218",
+      "docente": "AZZARITA"
+    },
+    {
+      "classe": "5L",
+      "ora": "3",
+      "aula": "202",
+      "docente": "CHIARABINI"
+    },
+    {
+      "classe": "4B",
+      "ora": "3",
+      "aula": "110",
+      "docente": "SPOLETI"
+    },
+    {
+      "classe": "5A",
+      "ora": "3",
+      "aula": "122",
+      "docente": "AGRAMANTI"
+    },
+    {
+      "classe": "5C",
+      "ora": "3",
+      "aula": "217",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "4L",
       "ora": "3",
       "aula": "218",
       "docente": "DE RUVO"
     },
     {
-      "classe": "4L",
-      "ora": "4",
-      "aula": "218",
-      "docente": "AZZARITA"
+      "classe": "1D",
+      "ora": "2",
+      "aula": "118",
+      "docente": "TASSETTI"
+    },
+    {
+      "classe": "1G",
+      "ora": "2",
+      "aula": "228",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "2H",
+      "ora": "2",
+      "aula": "217",
+      "docente": "CHIARABINI (REC)"
+    },
+    {
+      "classe": "4G",
+      "ora": "2",
+      "aula": "222",
+      "docente": "ZAMMATARO (REC)"
+    },
+    {
+      "classe": "4D",
+      "ora": "1",
+      "aula": "112",
+      "docente": "TASSETTI"
     }
   ],
   "cambi_aula": [
@@ -163,6 +169,90 @@
       "classe": "2F",
       "aula": "214",
       "docente": "BOVA"
+    },
+    {
+      "ora": "3",
+      "classe": "2A",
+      "aula": "105",
+      "docente": "IORIO"
+    },
+    {
+      "ora": "4",
+      "classe": "3H",
+      "aula": "105",
+      "docente": "IORIO"
+    },
+    {
+      "ora": "1",
+      "classe": "2D",
+      "aula": "224",
+      "docente": "MORETTI"
+    },
+    {
+      "ora": "2",
+      "classe": "2C",
+      "aula": "224",
+      "docente": "MORETTI"
+    },
+    {
+      "ora": "3",
+      "classe": "3C",
+      "aula": "224",
+      "docente": "MORETTI"
+    },
+    {
+      "ora": "1",
+      "classe": "3L",
+      "aula": "014",
+      "docente": "PEZZILLO"
+    },
+    {
+      "ora": "2",
+      "classe": "1L",
+      "aula": "PALESTRA",
+      "docente": "PEZZILLO"
+    },
+    {
+      "ora": "3",
+      "classe": "4N",
+      "aula": "014",
+      "docente": "PEZZILLO"
+    },
+    {
+      "ora": "4",
+      "classe": "5L",
+      "aula": "014",
+      "docente": "PEZZILLO"
+    },
+    {
+      "ora": "1",
+      "classe": "3I",
+      "aula": "PALESTRA",
+      "docente": "PIERVIRGILI"
+    },
+    {
+      "ora": "2",
+      "classe": "5I",
+      "aula": "105",
+      "docente": "PIERVIRGILI"
+    },
+    {
+      "ora": "4",
+      "classe": "1G",
+      "aula": "224",
+      "docente": "POLIDORI"
+    },
+    {
+      "ora": "5",
+      "classe": "2G",
+      "aula": "224",
+      "docente": "POLIDORI"
+    },
+    {
+      "ora": "6",
+      "classe": "3B",
+      "aula": "PALESTRA",
+      "docente": "POLIDORI"
     }
   ]
 }
