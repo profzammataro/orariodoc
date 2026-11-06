@@ -57,6 +57,13 @@
       "uscita": "",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "1A",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "ZAMMATARO ant. 5h",
+      "aula": "202"
     }
   ],
   "sostituzioni": [
@@ -161,6 +168,18 @@
       "ora": "1",
       "aula": "112",
       "docente": "TASSETTI"
+    },
+    {
+      "classe": "2F",
+      "ora": "4",
+      "aula": "214",
+      "docente": "IARDINO"
+    },
+    {
+      "classe": "3A",
+      "ora": "4",
+      "aula": "201",
+      "docente": ""
     }
   ],
   "cambi_aula": [
